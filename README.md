@@ -2,13 +2,11 @@
 
 
 # 즐겨찾기
-
-## 코딩
-- [대충 살아가는 게임개발자](https://chulin28ho.tistory.com/)
-- [기계인간 님](https://johngrib.github.io/)
-- [홍 민희 님](https://hongminhee.org/)
-- [Deepnight Games](https://deepnight.net/)
-
-## 게이밍
-- [Elder Scrolls V: Skyrim](https://codemach.exonomicon.net/Elder_Scrolls_V_Skyrim]
-- [Street Fighter V](https://codemach.exonomicon.net/Street_Fighter_V)
+- 코딩
+  - [대충 살아가는 게임개발자](https://chulin28ho.tistory.com/)
+  - [기계인간 님](https://johngrib.github.io/)
+  - [홍 민희 님](https://hongminhee.org/)
+  - [Deepnight Games](https://deepnight.net/)
+- 게이밍
+  - [Elder Scrolls V: Skyrim](https://codemach.exonomicon.net/Elder_Scrolls_V_Skyrim)
+  - [Street Fighter V](https://codemach.exonomicon.net/Street_Fighter_V)

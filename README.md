@@ -1,4 +1,4 @@
-[옥수박](https://exonomicon)은 [책읽기](https://reading.exonomicon.net)와 [게임하기](https://gaming.exonomicon.net)를 좋아하는 [게임제작자](https://coding.exonomicon.net)이다.
+> [옥수박](https://exonomicon)은 [책읽기](https://reading.exonomicon.net)와 [게임하기](https://gaming.exonomicon.net)를 좋아하는 [게임제작자](https://coding.exonomicon.net)이다.
 
 
 # 즐겨찾기

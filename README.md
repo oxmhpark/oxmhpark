@@ -3,4 +3,5 @@
 즐겨찾기
 =======
 
-[{ 고퀄리티:zap:개발 컨텐츠 모음 }](https://github.com/Integerous/goQuality-dev-contents)
+* [게임제네레이션](https://gamegeneration.or.kr/)
+* [{ 고퀄리티:zap:개발 컨텐츠 모음 }](https://github.com/Integerous/goQuality-dev-contents)

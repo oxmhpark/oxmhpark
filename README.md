@@ -4,4 +4,5 @@
 =======
 
 * [게임제네레이션](https://gamegeneration.or.kr/)
+* [Dangit, Git!?!](https://dangitgit.com/ko)
 * [{ 고퀄리티:zap:개발 컨텐츠 모음 }](https://github.com/Integerous/goQuality-dev-contents)

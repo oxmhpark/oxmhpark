@@ -5,4 +5,4 @@
 - 대화, 통화, 채팅, 영상보다 정리된 글을 선호합니다. 진지한 내용을 글이 아닌 방식으로 주고 받는 것을 특히 기피합니다.
 
 [link-work]: https://plotrick.com
-[link-hobby]: hhttps://nemorium.net
+[link-hobby]: https://nemorium.net

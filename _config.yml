@@ -7,7 +7,7 @@
 # [x] 샘플 포스트 삭제 -- /_posts/2023-01-29-lorem-ipsum.md
 
 # 운영자 정보
-author: "@oxmhpark"
+author: "옥수박"
 
 # 웹사이트 정보
 title: "NEMORIUM.NET"
@@ -29,23 +29,6 @@ format:
   view_archives:
     url: "/archives/"
     label: "전체목록 보기 &rarr;"
-
-# 댓글 시스템 (https://giscus.app)
-giscus:
-  src: "https://giscus.app/client.js"
-  repo: "oxmhpark/NEMORIUM.NET"
-  repo_id: "R_kgDOLAjHjw"
-  category: "Comments"
-  category_id: "DIC_kwDOLAjHj84CcLiH"
-  mapping: "pathname"
-  theme: "light"
-  lang: "ko"
-  input_position: "bottom"
-  reactions_enabled: 0
-  emit_metadata: 0
-  loading: "lazy"
-  strict: 1
-  crossorigin: "anonymous"
 
 # HTML/CSS 파서
 kramdown:

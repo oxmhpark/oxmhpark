@@ -30,23 +30,6 @@ format:
     url: "/archives/"
     label: "__VIEW_ARCHIVES__ &rarr;"
 
-# 댓글 시스템 (https://giscus.app)
-giscus:
-  src: "https://giscus.app/client.js"
-  repo: "__GISCUS_REPO__"
-  repo_id: "__GISCUS_REPO_ID__"
-  category: "__GISCUS_CATEGORY__"
-  category_id: "__GISCUS_CATEGORY_ID__"
-  mapping: "pathname"
-  theme: "light"
-  lang: "ko"
-  input_position: "bottom"
-  reactions_enabled: 0
-  emit_metadata: 0
-  loading: "lazy"
-  strict: 1
-  crossorigin: "anonymous"
-
 # HTML/CSS 파서
 kramdown:
   input: GFM

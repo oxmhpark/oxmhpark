@@ -1,0 +1,30 @@
+.archives {
+  .entry {
+    .archives {
+    }
+  }
+}
+
+.view-archives
+{
+  display: block;
+  clear: both;
+  margin: 1em 0;
+  text-align: right;
+}
+
+#search-container {
+  text-align: left;
+}
+
+#search-input {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 18px;
+  background-color: #fff3ff;
+}

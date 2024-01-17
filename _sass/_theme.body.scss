@@ -1,0 +1,177 @@
+.entry {
+  padding-top: 2em;
+
+  .entry-title {
+    margin: 0;
+    font-family: $font-text;
+    text-align: left;
+    font-weight: bold;
+    font-kerning: auto;
+    font-feature-settings: "kern","liga","dlig","hlig","cswh";
+    line-height: 1.2;
+  }
+
+  .entry-meta {
+    cursor: default;
+    color: #666;
+    font-size: 0.7em;
+    font-family: $font-meta;
+
+    .entry-author {
+      display: none;
+    }
+
+    .entry-date {
+      display: inline;
+
+      &.entry-date-modified {
+        color: #AAA;
+      }
+    }
+
+    .entry-tags {
+      display: inline;
+      margin: 0;
+      padding: 0;
+
+      li {
+        display: inline;
+        margin: 0 0 0 1em;
+
+        a {
+          color: inherit;
+
+          &:before {
+            content: "#";
+            display: inline;
+          }
+        }
+      }
+    }
+  }
+
+  .entry-body {
+    margin-top: 1em;
+
+    & > * {
+      margin: 0;
+    }
+
+    & > * + * {
+      margin-top: 1em;
+    }
+
+    blockquote {
+      margin: 1.8em 0.8em;
+      padding: 0.1em 1em;
+      color: $color-quote-text;
+      font-size: 22px;
+      font-style: italic;
+      background-color: $color-quote-background;
+    }
+  }
+
+  .read-more {
+    display: block;
+    clear: both;
+    margin: 1em 0;
+    font-size: 15px;
+
+    /*
+    a {
+      &:after {
+        display: inline;
+        content: " →";
+      }
+    }
+    */
+  }
+
+  &.entry-format-fulltext {
+    .read-more {
+      display: none;
+    }
+  }
+
+  &.entry-format-excerpt {
+    .read-more {
+      display: block;
+    }
+  }
+
+  &.entry-format-list-item {
+    display: list-item;
+    list-style: square;
+    padding-top: 0;
+    margin-top: 0.5em;
+    margin-left: 2em;
+
+    .entry-title {
+      display: inline;
+      font-size: inherit;
+      font-weight: inherit;
+    }
+
+    .entry-meta {
+      display: inline;
+
+      .entry-date {
+        display: inline;
+      }
+
+      .entry-tags {
+        display: none;
+      }
+    }
+
+    .entry-body {
+      display: none;
+    }
+
+    .entry-body {
+      display: none;
+    }
+
+    .read-more {
+      display: none;
+    }
+  }
+}
+
+.pagination {
+  cursor: default;
+  text-align: center;
+
+  a,
+  span {
+    display: inline-block;
+    margin: 0;
+    padding: 0 0.4em;
+    min-width: 24px;
+    height: 24px;
+    line-height: 24px;
+    background-color: $color-pagination-background;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+
+    & + & {
+      margin-left: 0.5em;
+    }
+  }
+
+  a {
+    color: $color-pagination-text;
+
+    &:hover {
+      cursor: pointer;
+      text-decoration: none;
+      background-color: $color-pagination-background-hover;
+      color: $color-pagination-text-hover;
+    }
+  }
+
+  span {
+    color: $color-nav-text;
+  }
+}

@@ -1,0 +1,104 @@
+.masthead {
+	height: 36px;
+	line-height: 36px;
+	cursor: default;
+	font-family: $font-title;
+	font-weight: normal;
+	font-size: 16px;
+	color: $color-title-text;
+
+	&:after,
+	&:before {
+		content: '';
+		display: block;
+		height: 16px;
+		clear: both;
+	}
+
+	.site-avatar {
+		display: none;
+	}
+
+	.site-info {
+		display: none;
+		
+		float: left;
+		margin-right: 16px;
+		text-align: left;
+		height: inherit;
+		line-height: inherit;
+		font-size: inherit;
+		font-weight: inherit;
+		color: inherit;
+
+		.site-name {
+			display: inline-block;
+			margin: 0;
+			height: inherit;
+			line-height: inherit;
+			font-size: inherit;
+			font-weight: inherit;
+			/* font-variant: small-caps;*/
+			color: inherit;
+
+			a {
+				&:link,
+				&:visited {
+					color: inherit;
+				}
+
+				&:active,
+				&:hover {
+					text-decoration: underline;
+					color: $color-title-text-hover;
+				}
+			}
+		}
+
+		.site-description {
+			display: none;
+		}
+	}
+
+	nav {
+		float: left;
+		text-align: left;
+		height: inherit;
+		line-height: inherit;
+		font-size: inherit;
+		font-weight: inherit;
+		/* font-family: $font-menu; */
+		/* text-transform: uppercase; */
+		/* color: $color-nav-text; */
+		color: inherit;
+		
+		a {
+			display: inline-block;
+			margin: 0px;
+			height: inherit;
+			line-height: inherit;
+			font-size: inherit;
+			font-weight: inherit;
+			color: inherit;
+
+			&:not(:first-child) {
+				margin-left: 16px;
+			}
+
+			&:link,
+			&:visited {
+				color: inherit;
+			}
+
+			&:active,
+			&:hover {
+				text-decoration: underline;
+				color: $color-nav-text-hover;
+			}
+			
+			&.current {
+				font-weight: bold;
+			}
+		}
+	}
+}

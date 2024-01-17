@@ -1,0 +1,12 @@
+---
+layout: default
+---
+{% assign post = page %}
+{% include post-format-fulltext-without-metadata.html %}
+
+<div class="archives archive-type-posts">
+  {% for post in site.posts %}
+  {% assign content = post.content %}
+  {% include post-format-list-item.html %}
+  {% endfor %}
+</div>

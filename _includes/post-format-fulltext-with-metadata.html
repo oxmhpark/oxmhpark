@@ -1,0 +1,16 @@
+<article class="entry entry-format-fulltext">
+  <h1 class="entry-title">
+    {{ post.title }}
+  </h1>
+
+  <div class="entry-meta">
+    <p class="entry-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: site.format.date }}</p>
+    {% if post.last_modified_at %}
+    <p class="entry-date entry-date-modified" datetime="{{ post.last_modified_at | date_to_xmlschema }}">(Updated: {{ post.last_modified_at | date: site.format.date }})</p>
+    {% endif %}
+  </div>
+
+  <div class="entry-body">
+    {{ content }}
+  </div>
+</article>

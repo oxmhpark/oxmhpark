@@ -11,5 +11,5 @@
 :no_bell: 대면, 통화, 채팅, 영상보다 글을 선호합니다. 진지한 이야기를 가볍게 주고 받는 것을 특히 기피합니다.
 
 [link-work]: https://plotrick.com
-[link-hobby]: https://projects.nemorium.net
+[link-hobby]: https://nemorium.net/projects/
 [link-blog]: https://nemorium.net

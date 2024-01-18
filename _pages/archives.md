@@ -1,5 +1,5 @@
 ---
-title: "전체목록"
+title: "#아카이브"
 layout: archives-posts-all
 slug: archives
 ---

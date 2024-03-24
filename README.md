@@ -1,3 +1,9 @@
+---
+layout: post
+permalink: /readme/
+title: "소개"
+---
+
 :bald_man:옥수박 oxmhpark
 ==========================
 

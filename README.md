@@ -14,7 +14,7 @@ title: "#소개"
 ## 옥수박:
 * [생업][link-plotrick] 및 [취미][link-projects]로 비디오 게임을 만듭니다.
 * 프로그래밍 언어를 다루지만, 이들을 마스터하기보다는 필요한 것을 만들 줄 아는 수준에 만족합니다.
-* 토론을 포함한 소통 전반에서 대면/통화/채팅을 기피하고 단방향 미디어를 선호합니다.
+* 대면/통화/채팅을 기피하고 단방향 미디어를 선호합니다.
 
 [link-plotrick]: https://plotrick.com
 [link-projects]: https://nemorium.net/projects/

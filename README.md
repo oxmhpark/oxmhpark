@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 permalink: /readme/
 title: "#소개"
 ---

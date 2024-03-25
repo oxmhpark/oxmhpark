@@ -13,8 +13,9 @@ title: "#소개"
 * 대면/통화/채팅과 같은 휘발성 채널에서 무겁거나 복잡한 주제를 다루지 않습니다.
 
 ## 네모리움:
-* 옥수박이 메모, 감상문, 잡글을 적는 개인 블로그입니다.
+* 옥수박이 메모, 감상문, 잡글을 적는 [개인 블로그][link-nemorium]입니다.
 * [개인 프로젝트][link-projects]를 진행하는 작업실의 이름이기도 합니다.
 
-[link-plotrick]: https://plotrick.com
+[link-nemorium]: https://nemorium.net
 [link-projects]: https://nemorium.net/projects/
+[link-plotrick]: https://plotrick.com

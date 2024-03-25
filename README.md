@@ -15,7 +15,10 @@ title: "#소개"
 ## 네모리움:
 * 옥수박이 메모, 감상문, 잡글을 적는 [개인 블로그][link-archives]입니다.
 * [개인 프로젝트][link-projects]를 진행하는 작업실의 이름이기도 합니다.
+* [Github Pages][link-github-pages], [Gisqus][link-giscus] 서비스를 이용합니다.
 
 [link-archives]: https://nemorium.net/archives/
 [link-projects]: https://nemorium.net/projects/
 [link-plotrick]: https://plotrick.com
+[link-github-pages]: https://pages.github.com
+[link-giscus]: https://giscus.app/

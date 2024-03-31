@@ -116,15 +116,15 @@ hr {
   outline: none !important;
   margin: 3em 0 !important;
   position: relative !important;
+  align-content: center !important;
   
   &:before {
     content: $decoration-hr-content !important;
-    position: absolute !important;
-    top: 0 !important;
-    left: 50% !important;
+    display: inline-block !important;
+    padding: 0.5em 3em !important;
+    text-wrap: nowrap !important;
     background-color: inherit !important;
     color: $decoration-hr-color-content !important;
-    padding: 0.5em 3em !important;
   }
 }
 

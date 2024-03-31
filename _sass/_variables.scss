@@ -47,8 +47,8 @@ $color-pagination-text-hover: $color-selected-text;
 
 // Contents
 $decoration-hr-color-line: #999999;
-$decoration-hr-color-content: $color-background;
-$decoration-hr-content: "&middot; &middot; &middot;";
+$decoration-hr-color-content: $decoration-hr-color-line;
+$decoration-hr-content: " · · · ";
 
 // Responsives
 @mixin mobile {

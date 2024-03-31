@@ -109,6 +109,25 @@ table {
   }
 }
 
+hr {
+  height: 1px;
+  background: $decoration-hr-color-line;
+  border: none;
+  outline: none;
+  margin: 3em 0;
+  position: relative;
+  
+  &:before {
+    content: $decoration-hr-content;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    background-color: inherit;
+    color: $decoration-hr-color-content;
+    padding: 0.5em 3em;
+  }
+}
+
 span[data-pullquote] {
   display: block;
   @include mobile {

@@ -111,37 +111,12 @@ table {
 
 hr {
   display: block !important;
-  position: relative !important;
-  width: 100% !important;
-  height: 20px !important;
-  background-color: inherit !important;
+  width: 30% !important;
+  height: 1px !important;
+  margin: 16px auto !important;
+  background-color: $decoration-hr-color !important;
   border: none !important;
   outline: none !important;
-  
-  &:before {
-    content: "" !important;
-    display: block !important;
-    position: absolute !important;
-    top: 10px !important;
-    left: 0px !important;
-    width: 100% !important;
-    height: 1px !important;
-    background-color: $decoration-hr-color-line !important;
-    border: none !important;
-    outline: none !important;
-  }
-
-  &:after {
-    content: $decoration-hr-content !important;
-    display: block !important;
-    position: relative !important;
-    margin: 0 auto !important;
-    padding: 0 1em !important;
-    word-wrap: nowrap !important;
-    text-align: center !important;
-    background-color: $color-background !important;
-    color: $decoration-hr-color-content !important;
-  }
 }
 
 span[data-pullquote] {

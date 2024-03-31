@@ -57,8 +57,13 @@ p {
 }
 
 blockquote {
+  margin: 1.8em 0.8em;
+  padding: 0.1em 1em;
+  color: $color-quote-text;
   font-family: $font-quote;
-  font-size: 18px;
+  // font-size: 22px;
+  font-style: italic;
+  background-color: $color-quote-background;
 }
 
 table {

@@ -3,13 +3,6 @@ layout: page
 permalink: /readme/
 title: "#소개"
 ---
-[![Hosted by Github Pages](https://img.shields.io/badge/Hosted%20by-Github%20Pages-orange)][link-github-pages]
-[![Powered by Jekyll](https://img.shields.io/badge/Powered%20by-Jekyll-orange)][link-jekyll]
-[![Featured by Giscus](https://img.shields.io/badge/Featured%20by-Giscus-orange)][link-giscus]
-\
-[![Open in Github](https://img.shields.io/badge/Open%20in-Github-blue?logo=github)][open-repository]
-[![Open in Visual Studio Code](https://img.shields.io/badge/Open%20in-Visal%20Studio%20Code-blue?logo=visualstudiocode)][open-vscode]
-
 > 己所不欲 勿施於人.\
 > 지식보다 경험, 경험보다 사고력, 사고력보다 목적의식.\
 > 공부는 엉덩이로, 주장은 발자국으로.
@@ -23,6 +16,15 @@ title: "#소개"
 * 메모, 감상문, 잡글을 적는 [개인 블로그][link-archives]입니다.
 * [개인 프로젝트][link-projects]를 진행하는 작업실의 이름이기도 합니다.
 * 옛 방식으로 [즐겨찾기][link-bookmarks]를 공유합니다.
+
+---
+
+[![Hosted by Github Pages](https://img.shields.io/badge/Hosted%20by-Github%20Pages-orange)][link-github-pages]
+[![Powered by Jekyll](https://img.shields.io/badge/Powered%20by-Jekyll-orange)][link-jekyll]
+[![Featured by Giscus](https://img.shields.io/badge/Featured%20by-Giscus-orange)][link-giscus]
+\
+[![Open in Github](https://img.shields.io/badge/Open%20in-Github-blue?logo=github)][open-repository]
+[![Open in Visual Studio Code](https://img.shields.io/badge/Open%20in-Visal%20Studio%20Code-blue?logo=visualstudiocode)][open-vscode]
 
 [link-github-pages]: https://pages.github.com
 [link-giscus]: https://giscus.app

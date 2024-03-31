@@ -19,6 +19,8 @@ title: "#소개"
 
 ---
 
+[![Written in HTML](https://img.shields.io/badge/Written%20in-HTML-orange)][link-html]
+[![Written in SCSS](https://img.shields.io/badge/Written%20in-SCSS-orange)][link-scss]
 [![Hosted by Github Pages](https://img.shields.io/badge/Hosted%20by-Github%20Pages-orange)][link-github-pages]
 [![Powered by Jekyll](https://img.shields.io/badge/Powered%20by-Jekyll-orange)][link-jekyll]
 [![Featured by Giscus](https://img.shields.io/badge/Featured%20by-Giscus-orange)][link-giscus]
@@ -26,6 +28,8 @@ title: "#소개"
 [![Open in Github](https://img.shields.io/badge/Open%20in-Github-blue?logo=github)][open-repository]
 [![Open in Visual Studio Code](https://img.shields.io/badge/Open%20in-Visal%20Studio%20Code-blue?logo=visualstudiocode)][open-vscode]
 
+[link-html]: https://w3.org
+[link-scss]: https://sass-lang.com
 [link-github-pages]: https://pages.github.com
 [link-giscus]: https://giscus.app
 [link-jekyll]: https://jekyllrb.com

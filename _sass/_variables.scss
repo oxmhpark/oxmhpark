@@ -46,8 +46,8 @@ $color-pagination-background-hover: $color-selected-background;
 $color-pagination-text-hover: $color-selected-text;
 
 // Contents
-$decoration-hr-color-line: $color-body-text;
-$decoration-hr-color-content: inherit;
+$decoration-hr-color-line: #999999;
+$decoration-hr-color-content: $color-background;
 $decoration-hr-content: "&middot; &middot; &middot;";
 
 // Responsives

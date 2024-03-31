@@ -111,20 +111,20 @@ table {
 
 hr {
   height: 1px;
-  background: $decoration-hr-color-line;
-  border: none;
-  outline: none;
-  margin: 3em 0;
-  position: relative;
+  background: $decoration-hr-color-line !important;
+  border: none !important;
+  outline: none !important;
+  margin: 3em 0 !important;
+  position: relative !important;
   
   &:before {
-    content: $decoration-hr-content;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    background-color: inherit;
-    color: $decoration-hr-color-content;
-    padding: 0.5em 3em;
+    content: $decoration-hr-content !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 50% !important;
+    background-color: inherit !important;
+    color: $decoration-hr-color-content !important;
+    padding: 0.5em 3em !important;
   }
 }
 

@@ -20,7 +20,7 @@ title: "#소개"
 ---
 
 [![Written in HTML](https://img.shields.io/badge/Written%20in-HTML-orange)][link-html]
-[![Written in SCSS](https://img.shields.io/badge/Written%20in-SCSS-orange)][link-scss]
+[![Written in SASS](https://img.shields.io/badge/Written%20in-SCSS-orange)][link-scss]
 [![Hosted by Github Pages](https://img.shields.io/badge/Hosted%20by-Github%20Pages-orange)][link-github-pages]
 [![Powered by Jekyll](https://img.shields.io/badge/Powered%20by-Jekyll-orange)][link-jekyll]
 [![Featured by Giscus](https://img.shields.io/badge/Featured%20by-Giscus-orange)][link-giscus]

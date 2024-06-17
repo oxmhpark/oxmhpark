@@ -1,5 +1,4 @@
 ---
-title: "#NOW"
+title: "#2024년"
 layout: page
 ---
-# 2024년 4월

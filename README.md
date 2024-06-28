@@ -13,8 +13,7 @@ title: "#소개"
 * 프로그래밍 언어를 마스터하기보다는 필요한 것을 만들 줄 아는 수준에 만족합니다.
 * 대면/통화/채팅과 같은 휘발성 채널에서 무겁거나 복잡한 주제를 다루지 않습니다.
 
-[![Repositories](https://img.shields.io/badge/github-blue?logo=github)][link-github-repositories]
-[![Gists](https://img.shields.io/badge/gists-blue?logo=github)][link-github-gists]
+[![Repositories](https://img.shields.io/badge/Repositories-Github-blue?logo=github)][link-github-repositories]
 
 ## 네모리움:
 
@@ -22,17 +21,16 @@ title: "#소개"
 * [개인 프로젝트][link-projects]를 진행하는 작업실의 이름이기도 합니다.
 * 댓글에 대한 응답은 느리거나 없을 수 있습니다.
 
-[![HTML](https://img.shields.io/badge/HTML-5-orange?logo=html5)][link-html]
-[![SASS](https://img.shields.io/badge/CSS-SCSS-orange?logo=css3)][link-scss]
-[![Jekyll](https://img.shields.io/badge/Jekyll-orange?logo=jekyll)][link-jekyll]
-[![Github Pages](https://img.shields.io/badge/Repo-Github%20Pages-orange?logo=github)][link-github-pages]
-[![Giscus](https://img.shields.io/badge/Comments-Giscus-orange?logo=googlechat)][link-giscus]
-[![GPSE](https://img.shields.io/badge/Search-GPSE-orange?logo=google)][link-google-programmable-search-engine]
-[![View on Github](https://img.shields.io/badge/Open%20in-Github-blue?logo=github)][open-repository]
-[![Open in VSCode](https://img.shields.io/badge/Open%20in-Visal%20Studio%20Code-blue?logo=visualstudiocode)][open-vscode]
+[![HTML](https://img.shields.io/badge/Written%20in-HTML5-orange?logo=html5)][link-html]
+[![SASS](https://img.shields.io/badge/Designed%20in-SCSS-orange?logo=css3)][link-scss]
+[![Jekyll](https://img.shields.io/badge/Powered%20by-Jekyll-orange?logo=jekyll)][link-jekyll]
+[![Github Pages](https://img.shields.io/badge/Hosted%20by-Github%20Pages-orange?logo=github)][link-github-pages]
+[![Giscus](https://img.shields.io/badge/Comment%20System-Giscus-orange?logo=googlechat)][link-giscus]
+[![GPSE](https://img.shields.io/badge/Search%20Engine-GPSE-orange?logo=google)][link-google-programmable-search-engine]
+[![View on Github](https://img.shields.io/badge/View%20on-Github-blue?logo=github)][open-repository]
+[![Open in VSCode](https://img.shields.io/badge/Open%20in-VSCode-blue?logo=visualstudiocode)][open-vscode]
 
 [link-github-repositories]: https://github.com/oxmhpark?tab=repositories
-[link-github-gists]: https://gist.github.com/oxmhpark
 [link-html]: https://w3.org
 [link-scss]: https://sass-lang.com
 [link-github-pages]: https://pages.github.com

@@ -15,6 +15,7 @@ title: "#소개"
 * 프로그래밍 언어를 마스터하기보다는 필요한 것을 만들 줄 아는 수준에 만족합니다.
 * 대면/통화/채팅과 같은 휘발성 채널에서 무겁거나 복잡한 주제를 다루지 않습니다.
 
+[![Public repositories](https://img.shields.io/badge/Public-Repositories-blue?logo=git)][link-repositories-git]
 [![itch.io apps](https://img.shields.io/badge/itch.io-Apps-blue?logo=itchdotio)][link-apps-itch]
 [![Steam apps](https://img.shields.io/badge/Steam-Apps-blue?logo=steam)][link-apps-steam]
 [![App Store apps](https://img.shields.io/badge/App_Store-Apps-blue?logo=appstore)][link-apps-appstore]
@@ -36,6 +37,7 @@ title: "#소개"
 [![View on Github](https://img.shields.io/badge/View_on-Github-blue?logo=github)][open-repository]
 [![Open in VSCode](https://img.shields.io/badge/Open_in-VSCode-blue?logo=visualstudiocode)][open-vscode]
 
+[link-repositories-git]: https://github.com/oxmhpark?tab=repositories
 [link-apps-itch]: https://oxmhpark.itch.io
 [link-apps-steam]: https://store.steampowered.com/developer/nemorium
 [link-apps-appstore]: https://oxmhpark.itch.io

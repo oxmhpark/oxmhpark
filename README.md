@@ -22,12 +22,12 @@ title: "#소개"
 * [개인 프로젝트][link-projects]를 진행하는 작업실의 이름이기도 합니다.
 * 댓글에 대한 응답은 느리거나 없을 수 있습니다.
 
-[![HTML](https://img.shields.io/badge/HTML-orange)][link-html]
-[![SASS](https://img.shields.io/badge/SCSS-orange)][link-scss]
-[![Jekyll](https://img.shields.io/badge/Jekyll-orange)][link-jekyll]
-[![Github Pages](https://img.shields.io/badge/Github%20Pages-orange)][link-github-pages]
-[![Giscus](https://img.shields.io/badge/Giscus-orange)][link-giscus]
-[![GPSE](https://img.shields.io/badge/Featured%20by-GPSE-orange)][link-google-programmable-search-engine]
+[![HTML](https://img.shields.io/badge/HTML-5-orange?logo=html5)][link-html]
+[![SASS](https://img.shields.io/badge/CSS-SCSS-orange?logo=css3)][link-scss]
+[![Jekyll](https://img.shields.io/badge/Jekyll-orange?logo=jekyll)][link-jekyll]
+[![Github Pages](https://img.shields.io/badge/Repo-Github%20Pages-orange?logo=github)][link-github-pages]
+[![Giscus](https://img.shields.io/badge/Comments-Giscus-orange?logo=googlechat)][link-giscus]
+[![GPSE](https://img.shields.io/badge/Search-GPSE-orange?logo=google)][link-google-programmable-search-engine]
 [![View on Github](https://img.shields.io/badge/Open%20in-Github-blue?logo=github)][open-repository]
 [![Open in VSCode](https://img.shields.io/badge/Open%20in-Visal%20Studio%20Code-blue?logo=visualstudiocode)][open-vscode]
 

@@ -15,7 +15,10 @@ title: "#소개"
 * 프로그래밍 언어를 마스터하기보다는 필요한 것을 만들 줄 아는 수준에 만족합니다.
 * 대면/통화/채팅과 같은 휘발성 채널에서 무겁거나 복잡한 주제를 다루지 않습니다.
 
-[![Repositories](https://img.shields.io/badge/Repositories-Github-blue?logo=git)][link-github-repositories]
+[![itch.io apps](https://img.shields.io/badge/Apps-itch.io-blue?logo=itchio)][link-apps-itchio]
+[![Steam apps](https://img.shields.io/badge/Apps-Steam-blue?logo=steam)][link-apps-steam]
+[![App Store apps](https://img.shields.io/badge/Apps-App%20Store-blue?logo=appstore)][link-apps-appstore]
+[![Google Play apps](https://img.shields.io/badge/Apps-Google%20Play-blue?logo=googleplay)][link-apps-playstore]
 
 #### 네모리움:
 
@@ -32,7 +35,10 @@ title: "#소개"
 [![Commenting functionality by Giscus](https://img.shields.io/badge/Comment%20System-Giscus-orange?logo=googlechat)][link-giscus]
 [![Searching functionality by GPSE](https://img.shields.io/badge/Search%20Engine-GPSE-orange?logo=google)][link-google-programmable-search-engine]
 
-[link-github-repositories]: https://github.com/oxmhpark?tab=repositories
+[link-apps-itchio]: https://oxmhpark.itch.io
+[link-apps-steam]: https://store.steampowered.com/developer/nemorium
+[link-apps-appstore]: https://oxmhpark.itch.io
+[link-apps-playstore]: https://oxmhpark.itch.io
 [link-html]: https://w3.org
 [link-scss]: https://sass-lang.com
 [link-github-pages]: https://pages.github.com

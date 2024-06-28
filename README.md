@@ -15,10 +15,10 @@ title: "#소개"
 * 프로그래밍 언어를 마스터하기보다는 필요한 것을 만들 줄 아는 수준에 만족합니다.
 * 대면/통화/채팅과 같은 휘발성 채널에서 무겁거나 복잡한 주제를 다루지 않습니다.
 
-[![itch.io apps](https://img.shields.io/badge/Apps-itch.io-blue?logo=itchio)][link-apps-itchio]
-[![Steam apps](https://img.shields.io/badge/Apps-Steam-blue?logo=steam)][link-apps-steam]
-[![App Store apps](https://img.shields.io/badge/Apps-App%20Store-blue?logo=appstore)][link-apps-appstore]
-[![Google Play apps](https://img.shields.io/badge/Apps-Google%20Play-blue?logo=googleplay)][link-apps-playstore]
+[![itch apps](https://img.shields.io/badge/itch.io-Apps-blue?logo=itch)][link-apps-itch]
+[![Steam apps](https://img.shields.io/badge/Steam-Apps-blue?logo=steam)][link-apps-steam]
+[![App Store apps](https://img.shields.io/badge/App%20Store-Apps-blue?logo=appstore)][link-apps-appstore]
+[![Google Play apps](https://img.shields.io/badge/Google%20Play-Apps-blue?logo=googleplay)][link-apps-googleplay]
 
 #### 네모리움:
 
@@ -26,19 +26,20 @@ title: "#소개"
 * [개인 프로젝트][link-projects]를 진행하는 작업실의 이름이기도 합니다.
 * 댓글에 대한 응답은 느리거나 없을 수 있습니다.
 
-[![View on Github](https://img.shields.io/badge/View%20on-Github-blue?logo=github)][open-repository]
-[![Open in VSCode](https://img.shields.io/badge/Open%20in-VSCode-blue?logo=visualstudiocode)][open-vscode]
 [![Written in HTML5](https://img.shields.io/badge/Written%20in-HTML5-orange?logo=html5)][link-html]
 [![Designed in SASS](https://img.shields.io/badge/Designed%20in-SCSS-orange?logo=css3)][link-scss]
 [![Powered by Jekyll](https://img.shields.io/badge/Powered%20by-Jekyll-orange?logo=jekyll)][link-jekyll]
 [![Hosted by Github Pages](https://img.shields.io/badge/Hosted%20by-Github%20Pages-orange?logo=github)][link-github-pages]
 [![Commenting functionality by Giscus](https://img.shields.io/badge/Comment%20System-Giscus-orange?logo=googlechat)][link-giscus]
 [![Searching functionality by GPSE](https://img.shields.io/badge/Search%20Engine-GPSE-orange?logo=google)][link-google-programmable-search-engine]
+<br />
+[![View on Github](https://img.shields.io/badge/View%20on-Github-blue?logo=github)][open-repository]
+[![Open in VSCode](https://img.shields.io/badge/Open%20in-VSCode-blue?logo=visualstudiocode)][open-vscode]
 
-[link-apps-itchio]: https://oxmhpark.itch.io
+[link-apps-itch]: https://oxmhpark.itch.io
 [link-apps-steam]: https://store.steampowered.com/developer/nemorium
 [link-apps-appstore]: https://oxmhpark.itch.io
-[link-apps-playstore]: https://oxmhpark.itch.io
+[link-apps-googleplay]: https://oxmhpark.itch.io
 [link-html]: https://w3.org
 [link-scss]: https://sass-lang.com
 [link-github-pages]: https://pages.github.com

@@ -13,6 +13,8 @@
     {
       list-style-type: none;
       display: inline;
+      word-wrap: normal;
+      word-break: keep-all;
     }
   }
 }

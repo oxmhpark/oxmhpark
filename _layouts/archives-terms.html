@@ -8,14 +8,14 @@ layout: default
   {% if site.data.categories %}
   <ul class="list-categories">
     {% for category in site.data.categories %}
-    <li><a href="{{ category.permalink }}">{{ category.name }}</a></li>
+    <li><a href="{{ site.jekyll-archives.permalinks.category | replace: ':name', category.slug  }}">{{ category.name }}</a></li>
     {% endfor %}
   </ul>
   {% endif %}
   {% if site.data.tags %}
   <ul class="list-tags">
     {% for tag in site.data.tags %}
-    <li><a href="{{ tag.permalink }}">#{{ tag.name }}</a></li>
+    <li><a href="{{ site.jekyll-archives.permalinks.tag | replace: ':name', tag.slug  }}">#{{ tag.name }}</a></li>
     {% endfor %}
   </ul>
   {% endif %}

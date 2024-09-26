@@ -65,10 +65,10 @@ jekyll-archives:
     - categories
     - tags
   layouts:
-    year: archives-yearly
-    month: archives-monthly
-    category: archives-category
-    tag: archives-tag
+    year: archives-liquid-yearly
+    month: archives-liquid-monthly
+    category: archives-liquid-category
+    tag: archives-liquid-tag
   permalinks:
     year: "/:year/"
     month: "/:year/:month/"

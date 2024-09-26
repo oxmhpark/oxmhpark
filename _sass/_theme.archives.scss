@@ -9,11 +9,11 @@
 {
   ul.list-terms
   {
+    list-style-type: none;
     margin-left: 0;
 
     li
     {
-      list-style-type: none;
       display: inline;
       word-wrap: normal;
       word-break: keep-all;

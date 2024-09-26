@@ -4,8 +4,8 @@ layout: default
 {% assign post = page %}
 {% include post-format-fulltext-without-metadata.html %}
 
+{% if site.data.categories %}
 <div class="archives archive-type-terms">
-  {% if site.data.categories %}
   <h2>카테고리</h2>
   <ul class="list-terms list-categories">
     {% for category in site.data.categories %}
@@ -15,8 +15,11 @@ layout: default
     <li><a href="{{ site.jekyll-archives.permalinks.category | replace: ':name', slug }}">#{{ name }}</a></li>
     {% endfor %}
   </ul>
-  {% endif %}
-  {% if site.data.tags %}
+</div>
+{% endif %}
+
+{% if site.data.tags %}
+<div class="archives archive-type-terms">
   <h2>태그</h2>
   <ul class="list-terms list-tags">
     {% for tag in site.data.tags %}
@@ -26,5 +29,5 @@ layout: default
     <li><a href="{{ site.jekyll-archives.permalinks.tag | replace: ':name', slug }}">#{{ name }}</a></li>
     {% endfor %}
   </ul>
-  {% endif %}
 </div>
+{% endif %}

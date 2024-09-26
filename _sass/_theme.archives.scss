@@ -7,8 +7,10 @@
 
 .archive-type-terms
 {
-  ul
+  ul.list-terms
   {
+    margin-left: 0;
+
     li
     {
       list-style-type: none;

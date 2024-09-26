@@ -7,10 +7,13 @@
 
 .archive-type-terms
 {
-  li
+  ul
   {
-    list-style-type: none;
-    display: inline;
+    li
+    {
+      list-style-type: none;
+      display: inline;
+    }
   }
 }
 

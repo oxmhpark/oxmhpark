@@ -1,92 +1,69 @@
 journal:
-  slug: journal
   name: "일지"
   description: ""
 maintenance:
-  slug: maintenance
   name: "관리"
   description: ""
 reading:
-  slug: reading
   name: "독서"
   description: ""
 video:
-  slug: video
   name: "비디오"
   description: ""
 audio:
-  slug: audio
   name: "오디오"
   description: ""
 gaming:
-  slug: gaming
   name: "게임"
   description: ""
 classic-gaming:
-  slug: classic-gaming
   name: "고전 게임"
   description: ""
 link:
-  slug: link
   name: "링크"
   description: ""
 resource:
-  slug: resource
   name: "리소스"
   description: ""
 windows:
-  slug: windows
   name: "윈도우"
   description: ""
 linux:
-  slug: linux
   name: "리눅스"
   description: ""
 google:
-  slug: google
   name: "구글"
   description: ""
 apple:
-  slug: apple
   name: "애플"
   description: ""
 android:
-  slug: android
   name: "안드로이드"
   description: ""
 csharp:
-  slug: csharp
   name: "C# 공부"
   description: ""
 rider:
-  slug: rider
   name: "라이더"
   description: ""
 vs:
-  slug: vs
   name: "비주얼 스튜디오"
   description: ""
 vscode:
-  slug: vscode
   name: "비주얼 스튜디오 코드"
   description: ""
 godot-engine:
-  slug: godot-engine
   name: "고도 엔진"
   description: ""
 unity-engine:
-  slug: unity-engine
   name: "유니티 엔진"
   description: ""
 unreal-engine:
-  slug: unreal-engine
   name: "언리얼 엔진"
   description: ""
 blender:
-  slug: blender
   name: "블렌더"
   description: ""
 aseprite:
-  slug: aseprite
   name: "에이스프라이트"
   description: ""

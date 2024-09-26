@@ -1,16 +1,12 @@
 jumpydumpy:
-  slug: jumpydumpy
   name: "점피 덤피"
   description: ""
 cannonclans:
-  slug: cannonclans
   name: "캐논 클랜"
   description: ""
 wingnuts:
-  slug: wingnuts
   name: "윙너츠"
   description: ""
 plotrick:
-  slug: plotrick
   name: "플로트릭"
   description: ""

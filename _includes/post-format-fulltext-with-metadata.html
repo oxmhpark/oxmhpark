@@ -8,6 +8,22 @@
     {% if post.last_modified_at %}
     <p class="entry-date entry-date-modified" datetime="{{ post.last_modified_at | date_to_xmlschema }}">(Updated: {{ post.last_modified_at | date: site.format.date }})</p>
     {% endif %}
+    {% if post.categories %}
+    <ul class="entry-categories">
+      {% for category in post.categories %}
+      {% assign category = site.data.categories[category] %}
+      <li><a href="{{ category.permalink }}">{{ category.name }}</a></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+    {% if post.tags %}
+    <ul class="entry-tags">
+      {% for tag in post.tags %}
+      {% assign tag = site.data.tags[tag] %}
+      <li><a href="{{ tag.permalink }}">{{ tag.name }}</a></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
   </div>
 
   <div class="entry-body">

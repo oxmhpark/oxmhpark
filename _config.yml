@@ -53,6 +53,24 @@ exclude:
 
 # 플러그인
 plugins:
+  - jekyll-archives
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
+
+jekyll-archives:
+  enabled:
+    - year
+    - month
+    - categories
+    - tags
+  layouts:
+    year: archives-yearly
+    month: archives-monthly
+    category: archives-category
+    tag: archives-tag
+  permalinks:
+    year: "/:year/"
+    month: "/:year/:month/"
+    category: "/category/:name"
+    tag: "/tag/:name"

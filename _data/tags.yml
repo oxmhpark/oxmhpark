@@ -1,0 +1,69 @@
+journal:
+  name: "일지"
+  description: ""
+maintenance:
+  name: "관리"
+  description: ""
+reading:
+  name: "독서"
+  description: ""
+video:
+  name: "비디오"
+  description: ""
+audio:
+  name: "오디오"
+  description: ""
+gaming:
+  name: "게임"
+  description: ""
+classic-gaming:
+  name: "고전 게임"
+  description: ""
+link:
+  name: "링크"
+  description: ""
+resource:
+  name: "리소스"
+  description: ""
+windows:
+  name: "윈도우"
+  description: ""
+linux:
+  name: "리눅스"
+  description: ""
+google:
+  name: "구글"
+  description: ""
+apple:
+  name: "애플"
+  description: ""
+android:
+  name: "안드로이드"
+  description: ""
+csharp:
+  name: "C# 공부"
+  description: ""
+rider:
+  name: "라이더"
+  description: ""
+vs:
+  name: "비주얼 스튜디오"
+  description: ""
+vscode:
+  name: "비주얼 스튜디오 코드"
+  description: ""
+godot-engine:
+  name: "고도 엔진"
+  description: ""
+unity-engine:
+  name: "유니티 엔진"
+  description: ""
+unreal-engine:
+  name: "언리얼 엔진"
+  description: ""
+blender:
+  name: "블렌더"
+  description: ""
+aseprite:
+  name: "에이스프라이트"
+  description: ""

@@ -1,8 +1,39 @@
-journal:
-  name: "일지"
+# 문서의 소재 분류
+sf:
+  name: "SF"
   description: ""
-maintenance:
-  name: "관리"
+nintendo:
+  name: "닌텐도"
+  description: ""
+zelda:
+  name: "젤다의 전설"
+  description: ""
+mario:
+  name: "슈퍼 마리오"
+  description: ""
+capcom:
+  name: "캡콤"
+  description: ""
+streetfighter:
+  name: "스트리트 파이터"
+  description: ""
+monsterhunter:
+  name: "몬스터 헌터"
+  description: ""
+github:
+  name: "깃허브"
+  description: ""
+jekyll:
+  name: "지킬"
+  description: ""
+discord:
+  name: "디스코드"
+  description: ""
+steam:
+  name: "스팀"
+  description: ""
+itch:
+  name: "itch.io"
   description: ""
 reading:
   name: "독서"
@@ -52,14 +83,17 @@ vs:
 vscode:
   name: "비주얼 스튜디오 코드"
   description: ""
-godot-engine:
+godot:
   name: "고도 엔진"
   description: ""
-unity-engine:
+unity:
   name: "유니티 엔진"
   description: ""
-unreal-engine:
+unreal:
   name: "언리얼 엔진"
+  description: ""
+gimp:
+  name: "김프"
   description: ""
 blender:
   name: "블렌더"

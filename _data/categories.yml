@@ -1,12 +1,16 @@
-jumpydumpy:
-  name: "점피 덤피"
+# 문서의 목적 분류
+study:
+  name: "공부"
   description: ""
-cannonclans:
-  name: "캐논 클랜"
+work:
+  name: "일"
   description: ""
-wingnuts:
-  name: "윙너츠"
+hobby:
+  name: "취미"
   description: ""
-plotrick:
-  name: "플로트릭"
+living:
+  name: "생활"
+  description: ""
+maintenance:
+  name: "관리"
   description: ""

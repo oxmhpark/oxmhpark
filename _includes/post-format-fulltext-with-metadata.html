@@ -11,16 +11,20 @@
     {% if post.categories %}
     <ul class="entry-categories">
       {% for category in post.categories %}
+      {% if site.data.categories[category] %}
       {% assign category = site.data.categories[category] %}
       <li><a href="{{ category.permalink }}">{{ category.name }}</a></li>
+      {% endif %}
       {% endfor %}
     </ul>
     {% endif %}
     {% if post.tags %}
     <ul class="entry-tags">
       {% for tag in post.tags %}
+      {% if site.data.tags[tag] %}
       {% assign tag = site.data.tags[tag] %}
       <li><a href="{{ tag.permalink }}">{{ tag.name }}</a></li>
+      {% endif %}
       {% endfor %}
     </ul>
     {% endif %}

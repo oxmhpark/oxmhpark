@@ -20,10 +20,6 @@ title: "#소개"
 * 블로그의 운영 목적은 생각과 자료들을 정리해서 부족한 기억력을 보조하는 것이다.
 * 소통은 주된 관심사가 아니므로 댓글에 대한 응답이 느리거나 없을 수 있다.
 * 광고, 중복, 사생활 침해에 해당하는 댓글은 통보 없이 삭제될 수 있다.
-* 주요 업데이트 주제는 다음과 같다:
-    * 일상 기록: [#독서](/tag/reading) [#게임](/tag/gaming) [#영화 감상](/video) [#음악 감상](/audio)
-    * 기술 공부: [#리소스](/tag/resource) [#블렌더](/tag/blender) [#에이스프라이트](/tag/aseprite) [#C#](/tag/csharp) [#라이더](/tag/rider) [#비주얼 스튜디오](/tag/vs) [#비주얼 스튜디오 코드](/tag/vscode) [#유니티 엔진](/tag/unity-engine) [#고도 엔진](/godot-engine)
-    * 관리 기록: [#윈도우](/tag/windows) [#리눅스](/tag/linux) [#애플](/tag/apple) [#안드로이드](/tag/android) [#구글](/tag/google) [#고전 게임]](/tag/classic-gaming)
 
 <!--
 [![Github repositories](https://img.shields.io/badge/Repositories-Github-blue?logo=git)][link-repositories-github]

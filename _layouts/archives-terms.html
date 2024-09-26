@@ -7,7 +7,7 @@ layout: default
 <div class="archives archive-type-terms">
   {% if site.data.categories %}
   <h2>카테고리</h2>
-  <ul class="list-categories">
+  <ul class="list-terms list-categories">
     {% for category in site.data.categories %}
     {% assign slug = category[0] %}
     {% assign name = category[1].name %}
@@ -18,7 +18,7 @@ layout: default
   {% endif %}
   {% if site.data.tags %}
   <h2>태그</h2>
-  <ul class="list-tags">
+  <ul class="list-terms list-tags">
     {% for tag in site.data.tags %}
     {% assign slug = tag[0] %}
     {% assign name = tag[1].name %}

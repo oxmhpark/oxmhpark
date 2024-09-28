@@ -71,6 +71,9 @@ apple:
 android:
   name: "안드로이드"
   description: ""
+pico8:
+  name: "PICO-8"
+  description: "\"<a href=\"https://www.lexaloffle.com/pico-8.php\">PICO-8</a> is a fantasy console for making, sharing and playing tiny games and other computer programs.\""
 csharp:
   name: "C# 공부"
   description: ""

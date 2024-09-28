@@ -71,9 +71,15 @@ apple:
 android:
   name: "안드로이드"
   description: ""
+picotron:
+  name: "Picotron"
+  description: "\"<a href=\"https://www.lexaloffle.com/picotron.php\">Picotron</a> is a fantasy Workstation for making pixelart games, animations, music, demos and other curiosities.\""
 pico8:
   name: "PICO-8"
   description: "\"<a href=\"https://www.lexaloffle.com/pico-8.php\">PICO-8</a> is a fantasy console for making, sharing and playing tiny games and other computer programs.\""
+voxatron:
+  name: "Voxatron"
+  description: "\"<a href=\"https://www.lexaloffle.com/voxatron.php\">Voxatron</a> is a fantasy console and collection of games made entirely out of voxels.\""
 csharp:
   name: "C# 공부"
   description: ""

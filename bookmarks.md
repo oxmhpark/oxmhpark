@@ -1,4 +1,4 @@
 ---
 title: "#즐겨찾기"
-layout: bookmarks
+layout: archives-links
 ---

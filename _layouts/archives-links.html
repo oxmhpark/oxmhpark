@@ -8,7 +8,7 @@ layout: default
 <ul class="bookmarks">
 {% for bookmark in site.data.links %}
     <li>
-        <h2><a href="{{ bookmark.link }}" title="{{ bookmark.description }}">{% if bookmark.banner %}<img src="{{ bookmark.banner }}" alt="{{ bookmark.title }}" />{% elseif %}{{ bookmark.name }}{% endif %}</a></h2>
+        <h2><a href="{{ bookmark.link }}" title="{{ bookmark.description }}">{% if bookmark.banner %}<img src="{{ bookmark.banner }}" alt="{{ bookmark.title }}" />{% elif %}{{ bookmark.name }}{% endif %}</a></h2>
         {% if bookmark.description %}<p>{{ bookmark.description }}</p>{% endif %}
     </li>
 {% endfor %}

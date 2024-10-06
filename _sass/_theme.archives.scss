@@ -66,12 +66,9 @@
         font-size: inherit;
       }
 
-      p
+      h2+p
       {
-        :first-of-type
-        {
-          margin-top: 0;
-        }
+        margin-top: 0;
       }
     }
   }

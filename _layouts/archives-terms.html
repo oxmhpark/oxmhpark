@@ -10,9 +10,11 @@ layout: default
   <ul class="list-terms list-categories">
     {% for category in site.data.categories %}
     {% assign slug = category[0] %}
+    {% if site.categories contains slug %}
     {% assign name = category[1].name %}
     {% assign description = category[1].description %}
     <li><a href="{{ site.jekyll-archives.permalinks.category | replace: ':name', slug }}">#{{ name }}</a></li>
+    {% endif %}
     {% endfor %}
   </ul>
 </div>
@@ -24,9 +26,11 @@ layout: default
   <ul class="list-terms list-tags">
     {% for tag in site.data.tags %}
     {% assign slug = tag[0] %}
+    {% if site.tags contains slug %}
     {% assign name = tag[1].name %}
     {% assign description = tag[1].description %}
     <li><a href="{{ site.jekyll-archives.permalinks.tag | replace: ':name', slug }}">#{{ name }}</a></li>
+    {% endif %}
     {% endfor %}
   </ul>
 </div>

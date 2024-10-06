@@ -92,9 +92,6 @@ vs:
 vscode:
   name: "비주얼 스튜디오 코드"
   description: ""
-godot:
-  name: "고도 엔진"
-  description: ""
 unity:
   name: "유니티 엔진"
   description: ""

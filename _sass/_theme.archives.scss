@@ -5,7 +5,7 @@
   }
 }
 
-.archive-type-terms
+.archives-type-terms
 {
   margin: 1.5em 0;
 
@@ -52,4 +52,26 @@
   box-sizing: border-box;
   font-size: 18px;
   background-color: #fff3ff;
+}
+
+.archives-type-link
+{
+  ul.list-links
+  {
+    li
+    {
+      h2
+      {
+        font-size: inherit;
+      }
+
+      p
+      {
+        :first-child
+        {
+          margin: 0;
+        }
+      }
+    }
+  }
 }

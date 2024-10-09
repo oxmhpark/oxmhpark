@@ -63,13 +63,23 @@
     {
       h2
       {
-        margin-bottom: 0;
+        display: inline;
+        margin: 0;
         font-size: inherit;
       }
 
       h2+p
       {
-        margin-top: 0;
+        display: inline;
+        margin: 0;
+        font-size: inherit;
+
+        :before
+        {
+          display: inline;
+          margin: 0;
+          content: ": ";
+        }
       }
     }
   }

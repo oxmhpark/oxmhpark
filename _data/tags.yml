@@ -38,6 +38,9 @@ itch:
 reading:
   name: "독서"
   description: ""
+stationery:
+  name: "문구"
+  description: ""
 video:
   name: "비디오"
   description: ""

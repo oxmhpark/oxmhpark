@@ -1,0 +1,36 @@
+<article class="entry entry-format-fulltext">
+  <h1 class="entry-title">
+    {{ post.title }}
+  </h1>
+
+  <div class="entry-meta">
+    <p class="entry-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: site.format.date }}</p>
+    {% if post.last_modified_at %}
+    <p class="entry-date entry-date-modified" datetime="{{ post.last_modified_at | date_to_xmlschema }}">(Updated: {{ post.last_modified_at | date: site.format.date }})</p>
+    {% endif %}
+    {% if post.categories %}
+    <ul class="entry-categories">
+      {% for category in post.categories %}
+      {% if site.data.categories[category] %}
+      {% assign category = site.data.categories[category] %}
+      <li><a href="{{ category.permalink }}">{{ category.name }}</a></li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+    {% endif %}
+    {% if post.tags %}
+    <ul class="entry-tags">
+      {% for tag in post.tags %}
+      {% if site.data.tags[tag] %}
+      {% assign tag = site.data.tags[tag] %}
+      <li><a href="{{ tag.permalink }}">{{ tag.name }}</a></li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+
+  <div class="entry-body">
+    {{ content }}
+  </div>
+</article>

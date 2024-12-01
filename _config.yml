@@ -1,0 +1,76 @@
+# 체크리스트
+# [x] 설정 -- /_config.yml
+# [x] 도메인 -- /CNAME
+# [x] 메뉴 구성 -- /_includes/nav.html
+# [x] 첫 페이지 제목 -- /index.md
+# [x] 아카이브 제목 -- /archives.md
+# [x] 샘플 포스트 삭제 -- /_posts/2023-01-29-lorem-ipsum.md
+
+# 운영자 정보
+author: "옥수박"
+
+# 웹사이트 정보
+title: "NEMORIUM.NET"
+description: ""
+lang: "ko"
+timezone: "Asia/Seoul"
+stylesheet_url: "/assets/style.css"
+favicon_url: ""
+
+# 주소체계
+url: "https://nemorium.net"
+enforce_ssl: "https://nemorium.net"
+baseurl: "/"
+permalink: "/:title/"
+format:
+  date: "%Y.%m.%d."
+  read_more:
+    label: "마저 읽기 &rarr;"
+  view_archives:
+    url: "/archives/"
+    label: "전체목록 보기 &rarr;"
+
+# HTML/CSS 파서
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+sass:
+  style: :expanded
+
+# 빌드 타겟
+collections:
+  pages:
+    output: true
+    path: _pages
+    permalink: "/:slug/"
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - CNAME
+
+# 플러그인
+plugins:
+  - jekyll-archives
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+jekyll-archives:
+  enabled:
+    - year
+    - month
+    - categories
+    - tags
+  layouts:
+    year: archives-liquid-yearly
+    month: archives-liquid-monthly
+    category: archives-liquid-category
+    tag: archives-liquid-tag
+  permalinks:
+    year: "/:year/"
+    month: "/:year/:month/"
+    category: "/category/:name"
+    tag: "/tag/:name"

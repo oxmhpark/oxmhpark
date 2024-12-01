@@ -1,0 +1,19 @@
+# 문서의 목적 분류
+study:
+  name: "공부"
+  description: ""
+work:
+  name: "일"
+  description: ""
+hobby:
+  name: "취미"
+  description: ""
+living:
+  name: "생활"
+  description: ""
+maintenance:
+  name: "관리"
+  description: ""
+memo:
+  name: "메모"
+  description: ""

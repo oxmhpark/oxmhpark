@@ -1,0 +1,51 @@
+/* @import url(https://use.typekit.net/xri2bkj.css); */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+
+// Font Families
+$font-sans-serif: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+$font-serif: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+$font-monospace: 'Bitstream Vera Sans Mono','Courier', monospace;
+
+// Typography
+$font-title: $font-sans-serif;
+$font-menu: $font-sans-serif;
+$font-heading: $font-sans-serif;
+$font-text: $font-serif;
+$font-quote: $font-serif;
+$font-meta: $font-sans-serif;
+$font-form: $font-sans-serif;
+$font-code: $font-monospace; // Mobile breakpoints
+
+// Markup Colors
+$color-link-default: #4183C4;
+$color-link-hover: #224499;
+$color-quote-background: #EEEEEE;
+$color-quote-text: #333;
+$color-selected-background: #eee;
+$color-selected-text: #000;
+$color-code-background: #EEEEEE;
+$color-code-text: #666666;
+
+// Layout Colors
+$color-background: #fff;
+$color-title-text: #666;
+$color-title-text-hover: #333;
+$color-nav-text: #666;
+$color-nav-text-hover: #333;
+$color-heading-text: #000;
+$color-meta-text: #999;
+$color-body-text: #333;
+$color-pagination-background: $color-background;
+$color-pagination-text: $color-link-default;
+$color-pagination-background-hover: $color-selected-background;
+$color-pagination-text-hover: $color-selected-text;
+
+// Contents
+$decoration-hr-color: #999999;
+
+// Responsives
+@mixin mobile {
+  @media screen and (max-width: 640px) {
+    @content;
+  }
+}

@@ -1,0 +1,21 @@
+<article class="entry entry-format-list-item">
+  <h3 class="entry-title"><a href="{{ post.url }}">{% if post.title and post.title != "" %}{{post.title}}{% else %}{{post.excerpt |strip_html}}{%endif%}</a></h3>
+
+  <div class="entry-meta">
+    {% if site.author %}
+    <p class="entry-author">{{site.author}}</p>
+    {% endif %}
+    <p class="entry-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: site.format.date }}</p>
+    {% if post.last_modified_at %}
+    <p class="entry-date entry-date-modified" datetime="{{ post.last_modified_at | date_to_xmlschema }}">(Updated: {{ post.last_modified_at | date: site.format.date }})</p>
+    {% endif %}
+  </div>
+
+  <div class="entry-body">
+    {{ post.excerpt | strip_html }}
+  </div>
+
+  <div class="read-more">
+    <a href="{{ post.url }}">{{ site.format.read_more.label }}</a>
+  </div>
+</article>

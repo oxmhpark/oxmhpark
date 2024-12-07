@@ -38,7 +38,7 @@ title: "#소개"
 
 [link-job]: https://plotrick.com
 [link-projects]: https://nemorium.net/projects/
-[link-profile-bluesky]: https://bsky.social/oxmhpark@nemorium.net
+[link-profile-bluesky]: https://bsky.app/profile/oxmhpark.nemorium.net
 [link-profile-steam]: https://store.steampowered.com/developer/nemorium
 [link-profile-itch.io]: https://oxmhpark.itch.io
 

@@ -32,12 +32,12 @@ title: "#소개"
 * 기술을 마스터하기보다는 필요한 것을 만들 줄 아는 수준에 만족한다.
 * 대면/통화/채팅과 같은 휘발성 채널에서 무겁거나 복잡한 주제를 다루지 않는다.
 
-[![Discord server](https://img.shields.io/badge/Server-Discord-blue?logo=discord)][link-server-discord]
+[![Discord chatroom](https://img.shields.io/badge/Chatroom-Discord-blue?logo=discord)][link-chatroom-discord]
 [![Bluesky profile](https://img.shields.io/badge/Profile-Bluesky-blue?logo=bluesky)][link-profile-bluesky]
 [![Steam profile](https://img.shields.io/badge/Profile-Steam-blue?logo=steam)][link-profile-steam]
 [![itch.io profile](https://img.shields.io/badge/Profile-itch.io-blue?logo=itchdotio)][link-profile-itch.io]
 
-[link-server-discord]: https://discord.gg/u8Vx5Qhy
+[link-chatroom-discord]: https://discord.gg/u8Vx5Qhy
 [link-job]: https://plotrick.com
 [link-projects]: https://nemorium.net/projects/
 [link-profile-bluesky]: https://bsky.app/profile/oxmhpark.nemorium.net

@@ -15,7 +15,7 @@ description: ""
 lang: "ko"
 timezone: "Asia/Seoul"
 stylesheet_url: "/assets/style.css"
-favicon_url: ""
+favicon_url: "/assets/CIN_TIGHT@NEMORIUM.NET.png"
 
 # 주소체계
 url: "https://nemorium.net"

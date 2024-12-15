@@ -99,6 +99,11 @@
 			&.current {
 				font-weight: bold;
 			}
+
+			img.favicon {
+				display: inline-block;
+				vertical-align: middle;
+			}
 		}
 	}
 }

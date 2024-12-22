@@ -1,4 +1,4 @@
 ---
-title: "#2024년"
+title: "2024년"
 layout: page
 ---

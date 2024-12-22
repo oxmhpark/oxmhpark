@@ -34,7 +34,7 @@ title: "소개"
 * 기술을 마스터하기보다는 필요한 것을 만들 줄 아는 수준에 만족한다.※
 * 대면/통화/채팅과 같은 휘발성 채널에서 무겁거나 복잡한 주제를 다루지 않는다.
 
-※ 경제/법률 상식, 맞춤법, 프로그래밍 언어 명세 등에서 기능과 무관한 오류를 수정할 여력은 없다.
+※ 오류/장애가 아니라면 친숙한 방식을 갱신하는데 일정 이상의 자원을 쓰지 않는다.
 
 [![Discord chatroom](https://img.shields.io/badge/Chatroom-Discord-blue?logo=discord)][link-chatroom-discord]
 [![Bluesky profile](https://img.shields.io/badge/Profile-Bluesky-blue?logo=bluesky)][link-profile-bluesky]

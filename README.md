@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /readme/
-title: "#소개"
+title: "소개"
 ---
 
-## 「네모리움」:
+## 네모리움:
 
 * 옥수박이 메모와 [프로젝트][link-projects] 진행 기록을 정리하는 개인 [블로그][link-archives]이다.
 * 소통은 주된 관심사가 아니므로 댓글에 대한 응답이 느리거나 없을 수 있다.
@@ -26,7 +26,7 @@ title: "#소개"
 [open-repository]: https://github.com/oxmhpark/oxmhpark
 [open-vscode]: https://vscode.dev/github/oxmhpark/oxmhpark
 
-## 「옥수박」:
+## 옥수박:
 
 * [생업][link-job] 및 [취미][link-projects]로 비디오 게임을 만든다.
 * 기술을 마스터하기보다는 필요한 것을 만들 줄 아는 수준에 만족한다.

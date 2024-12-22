@@ -3,6 +3,7 @@
 
   .entry-title {
     margin: 0;
+    font-size: 60px;
     font-family: $font-text;
     text-align: left;
     font-weight: bold;
@@ -60,16 +61,6 @@
     & > * + * {
       margin-top: 1em;
     }
-
-    & > h1:before,
-    & > h2:before,
-    & > h3:before,
-    & > h4:before,
-    & > h5:before,
-    & > h6:before {
-      content: "&#00A7; ";
-      display: inline;
-}
   }
 
   .read-more {

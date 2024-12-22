@@ -10,7 +10,7 @@ title: "소개"
 * 소통은 주된 관심사가 아니므로 댓글에 대한 응답이 느리거나 없을 수 있다.※
 * 광고, 중복, 사생활 침해에 해당하는 댓글은 통보 없이 삭제될 수 있다.
 
-※ 감당할 수 있는 방법으로 감당할 수 있는 만큼의 소통을 할 뿐이므로 방어적으로 적어두었다.
+※ 감당할 수 있는 방법으로 감당할 수 있는 만큼 소통할 따름이라 방어적으로 적어두었다.
 
 [![Powered by Jekyll](https://img.shields.io/badge/Powered_by-Jekyll-orange?logo=jekyll)][link-jekyll]
 [![Built by Github Pages](https://img.shields.io/badge/Built_by-Github_Pages-orange?logo=github)][link-github-pages]

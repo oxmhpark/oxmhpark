@@ -10,9 +10,8 @@ title: "소개"
 * 소통은 주된 관심사가 아니므로 댓글에 대한 응답이 느리거나 없을 수 있다.※
 * 광고, 중복, 사생활 침해에 해당하는 댓글은 통보 없이 삭제될 수 있다.※※
 
-※ 감당할 수 있는 방법으로 감당할 수 있는 만큼 소통할 따름이라 방어적으로 적어두었다.
-\
-※※ 사생활 침해 여부에 대한 판단은 자의적일 수 밖에 없다.
+※ 감당할 수 있는 방법으로 감당할 수 있는 만큼 소통할 따름이라 방어적으로 적어두었다.\
+※※ 사생활 침해 여부에 대한 판단은 자의적일 수 밖에 없다.\
 
 [![Powered by Jekyll](https://img.shields.io/badge/Powered_by-Jekyll-orange?logo=jekyll)][link-jekyll]
 [![Built by Github Pages](https://img.shields.io/badge/Built_by-Github_Pages-orange?logo=github)][link-github-pages]
@@ -37,9 +36,8 @@ title: "소개"
 * 기술을 마스터하기보다는 필요한 것을 만들 줄 아는 수준에 만족한다.※
 * 대면/통화/채팅과 같은 휘발성 채널에서 무겁거나 복잡한 주제를 다루지 않는다.※※
 
-※ 오류/장애가 아니라면 친숙한 방식을 갱신하는데 일정 이상의 자원을 쓰지 않는다.
-\
-※※ 할 말이 많은 사람은 본인 채널을 운영하시길. 인연이 닿는다면 방문하게 될 것이다.
+※ 오류/장애가 아니라면 친숙한 방식을 갱신하는데 일정 이상의 자원을 쓰지 않는다.\
+※※ 할 말이 많은 사람은 본인 채널을 운영하시길. 인연이 닿는다면 방문하게 될 것이다.\
 
 [![Discord chatroom](https://img.shields.io/badge/Chatroom-Discord-blue?logo=discord)][link-chatroom-discord]
 [![Bluesky profile](https://img.shields.io/badge/Profile-Bluesky-blue?logo=bluesky)][link-profile-bluesky]

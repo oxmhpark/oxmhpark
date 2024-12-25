@@ -17,9 +17,6 @@ title: "소개"
 [![Built by Github Pages](https://img.shields.io/badge/Built_by-Github_Pages-orange?logo=github)][link-github-pages]
 [![Commenting functionality by Giscus](https://img.shields.io/badge/Featured-Giscus-orange?logo=googlechat)][link-giscus]
 [![Searching functionality by GPSE](https://img.shields.io/badge/Featured-GPSE-orange?logo=google)][link-google-programmable-search-engine]
-\
-[![View on Github](https://img.shields.io/badge/View_on-Github-blue?logo=github)][open-repository]
-[![Open in VSCode](https://img.shields.io/badge/Open_in-VSCode-blue?logo=visualstudiocode)][open-vscode]
 
 [link-archives]: https://nemorium.net/archives/
 [link-bookmarks]: https://nemorium.net/bookmarks/
@@ -27,8 +24,6 @@ title: "소개"
 [link-giscus]: https://giscus.app
 [link-google-programmable-search-engine]: https://programmablesearchengine.google.com/
 [link-jekyll]: https://jekyllrb.com
-[open-repository]: https://github.com/oxmhpark/oxmhpark
-[open-vscode]: https://vscode.dev/github/oxmhpark/oxmhpark
 
 ## 옥수박:
 

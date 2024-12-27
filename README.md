@@ -46,8 +46,3 @@ title: "소개"
 [link-profile-bluesky]: https://bsky.app/profile/oxmhpark.nemorium.net
 [link-profile-steam]: https://store.steampowered.com/developer/nemorium
 [link-profile-itch.io]: https://oxmhpark.itch.io
-
-<!--
-2024.08.31 -- 소개 문구를 수정했다. 온라인 vscode에서 직통으로 저장소를 여는 경로가 바뀌어 이를 반영했다.
-2024.11.10 -- 소개 페이지에서 덧없는 문장들을 지웠다.
--->

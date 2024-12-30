@@ -31,6 +31,7 @@ baseurl: "/"
 permalink: "/:title"
 format:
   date: "%Y.%m.%d."
+  year: "%Y"
   read_more:
     label: "마저 읽기 &rarr;"
   view_archives:

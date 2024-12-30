@@ -1,5 +1,5 @@
 ---
 title: "프로젝트"
-slug: projects
+permalink: /projects
 layout: page
 ---

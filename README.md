@@ -1,6 +1,6 @@
 ---
 title: "소개"
-slug: readme
+permalink: /readme
 layout: page
 ---
 

@@ -1,4 +1,5 @@
 ---
+permalink: "/archives/archivedata"
 layout: raw
 ---
 {

@@ -77,9 +77,9 @@ jekyll-archives:
     - categories
     - tags
   layouts:
-    year: archives-liquid
-    category: archives-liquid
-    tag: archives-liquid
+    year: archives-liquid.html
+    category: archives-liquid.html
+    tag: archives-liquid.html
   permalinks:
     year: "/years/:year/"
     category: "/categories/:name/"

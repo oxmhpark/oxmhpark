@@ -62,26 +62,6 @@ collections:
     path: _pages
     permalink: "/:title"
     layout: page
-
-# 플러그인
-plugins:
-  - jekyll-archives
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-seo-tag
-
-# 플러그인 - 아카이브
-jekyll-archives:
-  slug_mode: default
-  enabled:
-    - year
-    - categories
-    - tags
-  layouts:
-    year: archives-liquid.html
-    category: archives-liquid.html
-    tag: archives-liquid.html
-  permalinks:
-    year: "/years/:year/"
-    category: "/categories/:name/"
-    tag: "/tags/:name/"
+  archives:
+    output: true
+    permalink: "/archives/:path/"

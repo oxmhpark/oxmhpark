@@ -2,7 +2,7 @@
     <h2>태그</h2>
     <ul class="list-terms list-tags">
       {% for tag in site.tags %}
-      <li><a href="{{ site.jekyll-archives.permalinks.tag | replace: ':name', tag }}">#{{ tag }}</a></li>
+      <li><a href="{{ site.collections.archives.permalink | replace: ':path', tag }}">#{{ tag }}</a></li>
       {% endfor %}
     </ul>
   </div>

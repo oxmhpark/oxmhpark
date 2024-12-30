@@ -4,7 +4,7 @@
     {% assign year = '' %}
     {% assign newYear = false %}
     {% for post in site.posts %}
-        {% capture postYear %}{{ post.last_modified_at | date: site.format.year }}{% endcapture %}
+        {% capture postYear %}{{ post.date | date: site.format.year }}{% endcapture %}
         {% if year != postYear %}
         <li><a href="{{ site.jekyll-archives.permalinks.year | replace: ':year', year }}">{{ year }}</a></li>
         {% assign year = postYear %}

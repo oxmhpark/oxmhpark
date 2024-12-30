@@ -6,7 +6,7 @@
     {% for post in site.posts %}
         {% capture postYear %}{{ post.date | date: site.format.year }}{% endcapture %}
         {% if year != postYear %}
-        <li><a href="{{ site.jekyll-archives.permalinks.year | replace: ':year', year }}">{{ year }}</a></li>
+        <li><a href="{{ site.jekyll-archives.permalinks.year | replace: ':year', postYear }}">{{ postYear }}</a></li>
         {% assign year = postYear %}
         {% endif %}
     {% endfor %}

@@ -1,5 +1,5 @@
 name: Generate Jekyll Archives
-# description: Generate categories, tags and years archive files.
+# description: Generate categories, tags and years archive files. see https://github.com/kannansuresh/jekyll-blog-archive-workflow
 on:
   workflow_dispatch:
   push:

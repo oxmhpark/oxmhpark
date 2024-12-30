@@ -21,7 +21,7 @@ favicon_url: "/assets/CIN_TIGHT@NEMORIUM.NET.png"
 url: "https://nemorium.net"
 enforce_ssl: "https://nemorium.net"
 baseurl: "/"
-permalink: "/:title/"
+permalink: "/:title"
 format:
   date: "%Y.%m.%d."
   read_more:
@@ -44,7 +44,7 @@ collections:
   pages:
     output: true
     path: _pages
-    permalink: "/:slug/"
+    permalink: "/:title"
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -59,18 +59,16 @@ plugins:
   - jekyll-seo-tag
 
 jekyll-archives:
+  slug_mode: default
   enabled:
     - year
-    - month
     - categories
     - tags
   layouts:
-    year: archives-liquid-yearly
-    month: archives-liquid-monthly
-    category: archives-liquid-category
-    tag: archives-liquid-tag
+    year: archives-liquid
+    category: archives-liquid
+    tag: archives-liquid
   permalinks:
-    year: "/:year/"
-    month: "/:year/:month/"
-    category: "/category/:name"
-    tag: "/tag/:name"
+    year: "/archives/:year/"
+    category: "/archives/:name/"
+    tag: "/archives/:name/"

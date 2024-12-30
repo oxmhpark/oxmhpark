@@ -1,4 +1,5 @@
 ---
 title: "즐겨찾기"
-layout: archives-links
+layout: page
 ---
+{% include list-links %}

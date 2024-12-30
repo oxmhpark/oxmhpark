@@ -1,0 +1,9 @@
+<div class="archives archives-type-terms archives-type-tags">
+    <h2>태그</h2>
+    <ul class="list-terms list-tags">
+        {% for tag in site.tags %}
+        <li><a href="{{ site.jekyll-archives.permalinks.tag | replace: ':name', tag }}">#{{ tag }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+  

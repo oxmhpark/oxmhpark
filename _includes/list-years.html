@@ -1,0 +1,18 @@
+<div class="archives archives-type-terms archives-type-years">
+    <h2>연도</h2>
+    <ul class="list-terms list-years">
+    {% assign year = '' %}
+    {% assign newYear = false %}
+    {% for post in site.posts %}
+        {% if year != post.date.year %}
+        {% assign newYear = true %}
+        {% else %}
+        {% assign newYear = false %}
+        {% if newYear %}
+        <li><a href="{{ site.jekyll-archives.permalinks.year | replace: ':year', year }}">{{ year }}</a></li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+</div>
+  
+  

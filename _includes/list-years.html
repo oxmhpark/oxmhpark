@@ -4,7 +4,7 @@
     {% assign year = '' %}
     {% assign newYear = false %}
     {% for post in site.posts %}
-        {% assign postYear = post.last_modified_at | date: site.format.year %}
+        {% capture postYear %}{{ post.last_modified_at | date: site.format.year }}{% endcapture %}
         {% if year != postYear %}
         {% assign newYear = true %}
         {% else %}

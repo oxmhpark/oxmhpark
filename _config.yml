@@ -34,7 +34,7 @@ format:
   read_more:
     label: "마저 읽기 &rarr;"
   view_archives:
-    url: "/archives/"
+    url: "/archives"
     label: "전체목록 보기 &rarr;"
 
 # HTML/CSS 파서

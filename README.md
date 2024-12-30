@@ -1,7 +1,7 @@
 ---
-layout: page
-permalink: /readme/
 title: "소개"
+slug: readme
+layout: page
 ---
 
 ## 네모리움:

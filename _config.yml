@@ -81,6 +81,6 @@ jekyll-archives:
     category: archives-liquid
     tag: archives-liquid
   permalinks:
-    year: "/archives/:year/"
-    category: "/archives/:name/"
-    tag: "/archives/:name/"
+    year: "/years/:year/"
+    category: "/categories/:name/"
+    tag: "/tags/:name/"

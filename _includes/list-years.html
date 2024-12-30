@@ -4,13 +4,15 @@
     {% assign year = '' %}
     {% assign newYear = false %}
     {% for post in site.posts %}
-        {% if year != post.last_modified_at | date: site.format.year %}
+        {% assign postYear = post.last_modified_at | date: site.format.year %}
+        {% if year != postYear %}
         {% assign newYear = true %}
         {% else %}
         {% assign newYear = false %}
         {% endif %}
         {% if newYear %}
         <li><a href="{{ site.jekyll-archives.permalinks.year | replace: ':year', year }}">{{ year }}</a></li>
+        {% assign year = postYear %}
         {% endif %}
     {% endfor %}
     </ul>

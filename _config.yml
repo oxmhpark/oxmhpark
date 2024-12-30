@@ -70,6 +70,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+# 플러그인 - 아카이브
 jekyll-archives:
   slug_mode: default
   enabled:

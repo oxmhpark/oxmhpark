@@ -1,8 +1,8 @@
-<div class="archives archives-type-terms archives-type-tags">
-    <h2>태그</h2>
-    <ul class="list-terms list-tags">
-        {% for tag in site.tags %}
-        <li><a href="{{ site.jekyll-archives.permalinks.tag | replace: ':name', tag }}">#{{ tag }}</a></li>
+<div class="archives archives-type-terms archives-type-categories">
+    <h2>카테고리</h2>
+    <ul class="list-terms list-categories">
+        {% for category in site.categories %}
+        <li><a href="{{ site.jekyll-archives.permalinks.category | replace: ':name', category }}">{{ category }}</a></li>
         {% endfor %}
     </ul>
 </div>

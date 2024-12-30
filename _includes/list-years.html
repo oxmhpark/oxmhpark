@@ -8,6 +8,7 @@
         {% assign newYear = true %}
         {% else %}
         {% assign newYear = false %}
+        {% endif %}
         {% if newYear %}
         <li><a href="{{ site.jekyll-archives.permalinks.year | replace: ':year', year }}">{{ year }}</a></li>
         {% endif %}

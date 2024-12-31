@@ -4,9 +4,8 @@ layout: default
 {% assign post = page %}
 {% include post-format-fulltext-without-metadata.html %}
 
-{% assign posts = site.categories[post.title] %}
 <div class="archives archive-type-posts">
-  {% for post in posts %}
+  {% for post in site.categories[post.title] %}
   {% assign content = post.content %}
   {% include post-format-list-item.html %}
   {% endfor %}

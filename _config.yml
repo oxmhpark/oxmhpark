@@ -84,17 +84,17 @@ collections:
     layout: page
   archives_years:
     output: true
-    path: _years
+    path: _archives_years
     permalink: "/years/:title"
     layout: year
   archives_categories:
     output: true
-    path: _categories
+    path: _archives_categories
     permalink: "/categories/:title"
     layout: category
   archives_tags:
     output: true
-    path: _tags
+    path: _archives_tags
     permalink: "/tags/:title"
     layout: tag
 

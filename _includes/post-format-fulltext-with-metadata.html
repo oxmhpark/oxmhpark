@@ -11,7 +11,7 @@
     {% if post.categories %}
     <ul class="entry-categories">
       {% for category in post.categories %}
-      <li><a href="{{ site.collections.archives_categories.permalink | replace: ':title' | category }}">{{ category }}</a></li>
+      <li><a href="{{ site.collections.archives_categories.permalink | replace: ':title', category }}">{{ category }}</a></li>
       {% endfor %}
     </ul>
     {% endif %}

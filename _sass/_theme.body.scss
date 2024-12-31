@@ -43,6 +43,11 @@
         display: inline;
         margin: 0 0 0 1em;
 
+        &:first
+        {
+          margin-left: 0;
+        }
+
         a {
           color: inherit;
 
@@ -62,6 +67,11 @@
       li {
         display: inline;
         margin: 0 0 0 1em;
+
+        &:first
+        {
+          margin-left: 0;
+        }
 
         a {
           color: inherit;

@@ -1,7 +1,6 @@
 <div class="archives archives-type-terms archives-type-categories">
     <h2>카테고리</h2>
     <ul class="list-terms list-categories">
-        {% if site.categories %}
         {% for category in site.categories %}
         {% capture categoryName %}{{ category[0] }}{% endcapture %}
         <li><a href="{{ site.collections.categories.permalink | replace: ':title', categoryName }}">{{ categoryName }}</a></li>

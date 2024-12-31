@@ -5,7 +5,8 @@ layout: default
 {% include post-format-fulltext-without-metadata.html %}
 
 <div class="archives archive-type-posts">
-  {% for post in site.tags[post.title] %}
+  {% capture archiveName %}{{ post.title }}{% endcapture %}
+  {% for post in site.tags[archiveName] %}
   {% assign content = post.content %}
   {% include post-format-list-item.html %}
   {% endfor %}

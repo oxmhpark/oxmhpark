@@ -1,7 +1,7 @@
 <div class="archives archives-type-terms archives-type-years">
     <h2>연도</h2>
     <ul class="list-terms list-years">
-        {% for post in site.collections.years %}
+        {% for post in site.years %}
         <li><a href="{{ post.permalink }}">{{ post.title }}</a></li>
         {% endfor %}
     </ul>

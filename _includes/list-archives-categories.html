@@ -1,7 +1,7 @@
 <div class="archives archives-type-terms archives-type-categories">
     <h2>카테고리</h2>
     <ul class="list-terms list-categories">
-        {% for post in site.collections.categories %}
+        {% for post in site.categories %}
         <li><a href="{{ post.permalink }}">{{ post.title }}</a></li>
         {% endfor %}
     </ul>

@@ -1,7 +1,7 @@
 <div class="archives archives-type-terms archives-type-tags">
   <h2>태그</h2>
   <ul class="list-terms list-tags">
-    {% for post in site.collections.tags %}
+    {% for post in site.tags %}
     <li><a href="{{ post.permalink }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>

@@ -6,8 +6,11 @@ layout: default
 
 <div class="archives archive-type-posts">
   {% capture archiveName %}{{ post.title }}{% endcapture %}
-  {% for post in posts | where_exp: 'item', 'item.date contains archiveName' %}
-  {% assign content = post.content %}
-  {% include post-format-list-item.html %}
+  {% for post in posts %}
+  {% capture postYear %}{{ post.date | site.format.year }}{% endcapture %}
+  {% if archiveName == postYear %}
+    {% assign content = post.content %}
+    {% include post-format-list-item.html %}
+  {% endif %}
   {% endfor %}
 </div>

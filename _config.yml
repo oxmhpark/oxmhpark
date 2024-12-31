@@ -54,6 +54,26 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "post"
+  -
+    scope:
+      path: "_pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: "_years"
+    values:
+      layout: "year"
+  -
+    scope:
+      path: "_categories"
+    values:
+      layout: "category"
+  -
+    scope:
+      path: "_tags"
+    values:
+      layout: "tag"
 
 # 추가 형식
 collections:
@@ -66,17 +86,17 @@ collections:
     output: true
     path: _years
     permalink: "/years/:title"
-    layout: archives-year
+    layout: year
   categories:
     output: true
     path: _categories
     permalink: "/categories/:title"
-    layout: archives-category
+    layout: category
   tags:
     output: true
     path: _tags
     permalink: "/tags/:title"
-    layout: archives-tag
+    layout: tag
 
 # 플러그인
 plugins:

@@ -34,6 +34,26 @@
       }
     }
 
+    .entry-categories {
+      display: inline;
+      margin: 0;
+      padding: 0;
+
+      li {
+        display: inline;
+        margin: 0 0 0 1em;
+
+        a {
+          color: inherit;
+
+          &:before {
+            content: "#";
+            display: inline;
+          }
+        }
+      }
+    }
+
     .entry-tags {
       display: inline;
       margin: 0;
@@ -113,6 +133,10 @@
 
       .entry-date {
         display: inline;
+      }
+
+      .entry-categories {
+        display: none;
       }
 
       .entry-tags {

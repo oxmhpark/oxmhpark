@@ -62,6 +62,24 @@ collections:
     path: _pages
     permalink: "/:title"
     layout: page
-  archives:
+  years:
     output: true
-    permalink: "/archives/:path/"
+    path: _years
+    permalink: "/years/:title"
+    layout: archives-year
+  categories:
+    output: true
+    path: _categories
+    permalink: "/categories/:title"
+    layout: archives-category
+  tags:
+    output: true
+    path: _tags
+    permalink: "/tags/:title"
+    layout: archives-tag
+
+# 플러그인
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag

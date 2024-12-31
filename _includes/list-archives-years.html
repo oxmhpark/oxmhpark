@@ -4,10 +4,10 @@
     {% assign year = '' %}
     {% assign newYear = false %}
     {% for post in site.posts %}
-        {% capture postYear %}{{ post.date | date: site.format.year }}{% endcapture %}
-        {% if year != postYear %}
-        <li><a href="{{ site.collections.archives.permalink | replace: ':path', postYear }}">{{ postYear }}</a></li>
-        {% assign year = postYear %}
+        {% capture yearName %}{{ post.date | date: site.format.year }}{% endcapture %}
+        {% if year != yearName %}
+        <li><a href="{{ site.collections.years.permalink | replace: ':title', yearName }}">{{ yearName }}</a></li>
+        {% assign year = yearName %}
         {% endif %}
     {% endfor %}
     </ul>

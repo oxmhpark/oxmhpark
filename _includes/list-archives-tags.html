@@ -1,9 +1,9 @@
 <div class="archives archives-type-terms archives-type-tags">
-    <h2>태그</h2>
-    <ul class="list-terms list-tags">
-      {% for tag in site.tags %}
-      <li><a href="{{ site.collections.archives.permalink | replace: ':path', tag }}">#{{ tag }}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
-  
+  <h2>태그</h2>
+  <ul class="list-terms list-tags">
+    {% for tag in site.tags %}
+    {% capture tagName %}{{ tag[0] }}{% endcapture %}
+    <li><a href="{{ site.collections.tags.permalink | replace: ':title', tagName }}">{{ tagName }}</a></li>
+    {% endfor %}
+  </ul>
+</div>

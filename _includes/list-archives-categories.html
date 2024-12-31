@@ -2,7 +2,8 @@
     <h2>카테고리</h2>
     <ul class="list-terms list-categories">
         {% for category in site.categories %}
-        <li><a href="{{ site.collections.archives.permalink | replace: ':path', category }}">{{ category }}</a></li>
+        {% capture categoryName %}{{ category[0] }}{% endcapture %}
+        <li><a href="{{ site.collections.categories.permalink | replace: ':title', categoryName }}">{{ categoryName }}</a></li>
         {% endfor %}
     </ul>
 </div>

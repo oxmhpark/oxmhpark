@@ -1,4 +1,7 @@
 ---
 layout: page
 ---
-<!-- 자유형식 알림사항 -->
+<!-- 자유형식 -->
+
+<!-- 최근 글 -->
+{% include list-posts-recent.html %}

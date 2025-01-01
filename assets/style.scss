@@ -1,16 +1,18 @@
 ---
 ---
 
-@import "reset";
-@import "variables";
+@import "base-variables";
+@import "base-reset";
+@import "base-defaults";
+@import "base-layout";
 
-@import "theme.reset";
-@import "theme.layout";
-@import "theme.header";
-@import "theme.body";
-@import "theme.footer";
-@import "theme.archives";
-@import "theme.module.tag-list";
-@import "theme.module.share-box";
+@import "layout-header";
+@import "layout-body";
+@import "layout-footer";
 
-@import "highlights";
+@import "content-archives";
+@import "content-details";
+
+@import "component-tags";
+@import "component-share";
+@import "component-highlights";

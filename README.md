@@ -34,7 +34,7 @@ layout: page
 
 ## 즐겨찾기:
 
-{% include list-data-links.html %}
+{% include component-bookmarks.html %}
 
 
 [link-blog-projects]: https://nemorium.net/projects

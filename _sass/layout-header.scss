@@ -71,42 +71,53 @@
 		/* text-transform: uppercase; */
 		/* color: $color-nav-text; */
 		color: inherit;
+
+		ul {
+			display: block;
+			margin: 0;
+			padding: 0;
+
+			li {
+				display: block;
+				margin: 0;
+				padding: 0;
+				a {
+					display: inline-block;
+					margin: 0px;
+					height: inherit;
+					line-height: inherit;
+					font-size: inherit;
+					font-weight: inherit;
+					color: inherit;
 		
-		a {
-			display: inline-block;
-			margin: 0px;
-			height: inherit;
-			line-height: inherit;
-			font-size: inherit;
-			font-weight: inherit;
-			color: inherit;
-
-			&:not(:first-child) {
-				margin-left: 0.5em;
+					&:not(:first-child) {
+						margin-left: 0.5em;
+					}
+		
+					&:link,
+					&:visited {
+						color: inherit;
+					}
+		
+					&:active,
+					&:hover {
+						text-decoration: underline;
+						color: $color-nav-text-hover;
+					}
+					
+					&.current {
+						font-weight: bold;
+					}
+		
+					img {
+						display: inline-block;
+						vertical-align: -0.15em;
+						width: 1em;
+						height: 1em;
+						margin-right: 0.1em;
+					}
+				}
 			}
-
-			&:link,
-			&:visited {
-				color: inherit;
-			}
-
-			&:active,
-			&:hover {
-				text-decoration: underline;
-				color: $color-nav-text-hover;
-			}
-			
-			&.current {
-				font-weight: bold;
-			}
-
-			img.favicon {
-				display: inline-block;
-				vertical-align: -0.15em;
-				width: 1em;
-				height: 1em;
-				margin-right: 0.1em;
-			}
-		}
+		}		
 	}
 }

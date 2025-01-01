@@ -62,10 +62,16 @@
 
       /*
       &.entry-categories {
-      
+        li {
+          a {
+            &:before {
+              content: "#";
+              display: inline;
+            }
+          }
+        }
       }
-      */
-  
+      
       &.entry-tags {
         li {
           a {
@@ -76,6 +82,7 @@
           }
         }
       }
+      */  
     }
   }
 

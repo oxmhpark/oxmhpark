@@ -1,10 +1,11 @@
 /* @import url(https://use.typekit.net/xri2bkj.css); */
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+@import url('//cdn.jsdelivr.net/gh/neodgm/neodgm-webfont@1.600/neodgm_code/style.css');
 
 // Font Families
 $font-sans-serif: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 $font-serif: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-$font-monospace: 'Bitstream Vera Sans Mono','Courier', monospace;
+$font-monospace: "NeoDunggeunmo Code", "Bitstream Vera Sans Mono", "Courier", monospace;
 
 // Typography
 $font-title: $font-sans-serif;

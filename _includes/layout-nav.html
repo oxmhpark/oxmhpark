@@ -1,6 +1,9 @@
+{% if site.data.nav %}
 <nav>
-  <a class="current" href="/">{% if site.favicon_url %}<img class="favicon" src="{{ site.favicon_url }}" alt="" />{% endif %}NEMORIUM.NET</a>
-  <a href="/archives">#아카이브</a>
-  <a href="/projects">#프로젝트</a>
-  <a href="/readme">#소개</a>
+  <ul>
+    {% for nav in site.data.nav %}
+      <a{% if nav.class and nav.class != "" %} class="{{ nav.class }}"{% endif %} href="{{ nav.link }}">{% if nav.icon and nav.icon != "" %}<img src="{{ nav.icon }}" alt="" />{% endif %}{{ nav.name }}</a>
+    {% endfor %}
+  </ul>
 </nav>
+{% endif %}

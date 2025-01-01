@@ -190,21 +190,38 @@ strong {
 }
 
 pre,
-code {
-  background-color: $color-code-background;
-  color: $color-code-text;
+code,
+kbd {
   font-family: $font-code;
 }
 
 pre {
+  background-color: $color-code-background;
+  color: $color-code-text;
   padding: 1em;
-  border-radius: 0.5em;
+  border-radius: 0.2em;
 }
 
 code {
+  background-color: $color-code-background;
+  color: $color-code-text;
   padding: 0.1em;
-  border-radius: 0.3em;
+  border-radius: 0.2em;
   font-size: 0.8em;
+}
+
+kbd {
+  color: $color-code-background;
+
+  &:before {
+    display: inline;
+    content: '〔';
+  }
+
+  &:after {
+    display: inline;
+    content: '〕';
+  }
 }
 
 img {

@@ -1,9 +1,12 @@
 ---
 class: "body-article body-article-page"
-layout: default
 ---
+{% include base-header.html %}
+
 {% assign post = page %}
 {% include post-format-fulltext-without-metadata.html %}
 {% if post.comments %}
 {% include comments.html %}
 {% endif %}
+
+{% include base-footer.html %}

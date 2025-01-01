@@ -1,7 +1,8 @@
 ---
 class: "body-archive body-archive-year"
-layout: default
 ---
+{% include base-header.html %}
+
 {% assign post = page %}
 {% include post-format-fulltext-without-metadata.html %}
 
@@ -15,3 +16,5 @@ layout: default
   {% endif %}
   {% endfor %}
 </div>
+
+{% include base-footer.html %}

@@ -4,18 +4,9 @@ permalink: /readme
 layout: page
 ---
 
-[![Powered by Jekyll](https://img.shields.io/badge/Powered_by-Jekyll-orange?logo=jekyll)][link-tool-jekyll]
-[![Built by Github Pages](https://img.shields.io/badge/Built_by-Github_Pages-orange?logo=github)][link-tool-github-pages]
-[![Commenting functionality by Giscus](https://img.shields.io/badge/Featuring-Giscus-orange?logo=googlechat)][link-tool-giscus]
-[![Searching functionality by GPSE](https://img.shields.io/badge/Featuring-GPSE-orange?logo=google)][link-tool-google-programmable-search-engine]\
-[![Discord chatroom](https://img.shields.io/badge/Chatroom-Discord-blue?logo=discord)][link-chatroom-discord]
-[![Bluesky profile](https://img.shields.io/badge/Profile-Bluesky-blue?logo=bluesky)][link-profile-bluesky]
-[![Steam profile](https://img.shields.io/badge/Profile-Steam-blue?logo=steam)][link-profile-steam]
-[![itch.io profile](https://img.shields.io/badge/Profile-itch.io-blue?logo=itchdotio)][link-profile-itch.io]
-
 ## 네모리움:
 
-* 옥수박이 [잡글][link-blog-archives]을 쓰고 [프로젝트 기록][link-blog-projects]을 정리하는 개인 블로그이다.
+* 옥수박이 잡글을 쓰고 프로젝트 기록을 정리하는 개인 블로그이다.
 * 소통은 주된 관심사가 아니므로 댓글에 대한 응답이 느리거나 없을 수 있다.※
 * 광고, 중복, 사생활 침해에 해당하는 댓글은 통보 없이 삭제될 수 있다.※※
 
@@ -33,16 +24,20 @@ layout: page
 
 {% include component-bookmarks.html %}
 
-[link-blog-projects]: https://nemorium.net/projects
-[link-blog-archives]: https://nemorium.net/archives
-[link-blog-bookmarks]: https://nemorium.net/bookmarks
+[![Powered by Jekyll](https://img.shields.io/badge/Powered_by-Jekyll-orange?logo=jekyll)][link-tool-jekyll]
+[![Built by Github Pages](https://img.shields.io/badge/Built_by-Github_Pages-orange?logo=github)][link-tool-github-pages]
+[![Commenting functionality by Giscus](https://img.shields.io/badge/Featuring-Giscus-orange?logo=googlechat)][link-tool-giscus]
+[![Searching functionality by GPSE](https://img.shields.io/badge/Featuring-GPSE-orange?logo=google)][link-tool-google-programmable-search-engine]\
+[![Discord chatroom](https://img.shields.io/badge/Chatroom-Discord-blue?logo=discord)][link-chatroom-discord]
+[![Bluesky profile](https://img.shields.io/badge/Profile-Bluesky-blue?logo=bluesky)][link-profile-bluesky]
+[![Steam profile](https://img.shields.io/badge/Profile-Steam-blue?logo=steam)][link-profile-steam]
+[![itch.io profile](https://img.shields.io/badge/Profile-itch.io-blue?logo=itchdotio)][link-profile-itch.io]
 
 [link-tool-github-pages]: https://pages.github.com
 [link-tool-giscus]: https://giscus.app
 [link-tool-google-programmable-search-engine]: https://programmablesearchengine.google.com/
 [link-tool-jekyll]: https://jekyllrb.com
 
-[link-job]: https://plotrick.com
 [link-chatroom-discord]: https://discord.gg/u8Vx5Qhy
 [link-profile-bluesky]: https://bsky.app/profile/oxmhpark.nemorium.net
 [link-profile-steam]: https://store.steampowered.com/developer/nemorium

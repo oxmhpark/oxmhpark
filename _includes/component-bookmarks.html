@@ -1,9 +1,9 @@
 {% if site.data.bookmarks %}
 <div class="bookmarks">
-<ul>
-{% for bookmark in site.data.bookmarks %}
-    <li><a href="{{ bookmark.link }}">{% if bookmark.banner and bookmark.banner != "" %}<img src="{{ bookmark.banner }}" alt="{{ bookmark.name }}" />{% else %}{{ bookmark.name }}{% endif %}</a></li>
-{% endfor %}
-</ul>
+    <ul>
+        {% for bookmark in site.data.bookmarks %}
+            <li><a href="{{ bookmark.link }}">{% if bookmark.banner and bookmark.banner != "" %}<img src="{{ bookmark.banner }}" alt="{{ bookmark.name }}" />{% else %}{{ bookmark.name }}{% endif %}</a></li>
+        {% endfor %}
+    </ul>
 </div>
 {% endif %}

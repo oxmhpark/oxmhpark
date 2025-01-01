@@ -191,18 +191,20 @@ strong {
 
 pre,
 code {
-  padding: 1em;
-  border-radius: 0.5em;
   background-color: $color-code-background;
   color: $color-code-text;
   font-family: $font-code;
 }
 
 pre {
+  padding: 1em;
+  border-radius: 0.5em;
 }
 
 code {
-  font-size: 85%;
+  padding: 0.1em;
+  border-radius: 0.1em;
+  font-size: 0.8em;
 }
 
 img {

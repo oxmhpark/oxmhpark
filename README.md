@@ -32,6 +32,11 @@ layout: page
 [![Steam profile](https://img.shields.io/badge/Profile-Steam-blue?logo=steam)][link-profile-steam]
 [![itch.io profile](https://img.shields.io/badge/Profile-itch.io-blue?logo=itchdotio)][link-profile-itch.io]
 
+## 즐겨찾기:
+
+{% include list-data-links.html %}
+
+
 [link-blog-projects]: https://nemorium.net/projects
 [link-blog-archives]: https://nemorium.net/archives
 [link-blog-bookmarks]: https://nemorium.net/bookmarks

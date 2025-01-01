@@ -2,10 +2,7 @@
 <div class="archives-type-links">
 <ul class="list-links">
 {% for bookmark in site.data.links %}
-    <li>
-        <h2><a href="{{ bookmark.link }}"{% if bookmark.description and bookmark.description != "" %} title="{{ bookmark.description  | strip_html }}"{% endif %}>{% if bookmark.banner and bookmark.banner != "" %}<img src="{{ bookmark.banner }}" alt="{{ bookmark.name }}" />{% else %}{{ bookmark.name }}{% endif %}</a></h2>
-        {% if bookmark.description %}<p>{{ bookmark.description }}</p>{% endif %}
-    </li>
+    <li><a href="{{ bookmark.link }}">{% if bookmark.banner and bookmark.banner != "" %}<img src="{{ bookmark.banner }}" alt="{{ bookmark.name }}" />{% else %}{{ bookmark.name }}{% endif %}</a></li>
 {% endfor %}
 </ul>
 </div>

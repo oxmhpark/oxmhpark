@@ -1,4 +1,8 @@
 body.body-archive {
   .entry-title {
+    &:before {
+      display: inline;
+      content: '#';
+    }
   }
 }

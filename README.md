@@ -15,8 +15,8 @@ layout: page
 
 [![Powered by Jekyll](https://img.shields.io/badge/Powered_by-Jekyll-orange?logo=jekyll)][link-tool-jekyll]
 [![Built by Github Pages](https://img.shields.io/badge/Built_by-Github_Pages-orange?logo=github)][link-tool-github-pages]
-[![Commenting functionality by Giscus](https://img.shields.io/badge/Featured-Giscus-orange?logo=googlechat)][link-tool-giscus]
-[![Searching functionality by GPSE](https://img.shields.io/badge/Featured-GPSE-orange?logo=google)][link-tool-google-programmable-search-engine]
+[![Commenting functionality by Giscus](https://img.shields.io/badge/Featuring-Giscus-orange?logo=googlechat)][link-tool-giscus]
+[![Searching functionality by GPSE](https://img.shields.io/badge/Featuring-GPSE-orange?logo=google)][link-tool-google-programmable-search-engine]
 
 ## 옥수박:
 

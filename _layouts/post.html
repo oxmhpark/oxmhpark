@@ -1,7 +1,10 @@
 ---
 class: "body-article body-article-post"
-layout: default
 ---
+{% include base-header.html %}
+
 {% assign post = page %}
 {% include post-format-fulltext-with-metadata.html %}
-{% include comments.html %}
+{% include component-comments.html %}
+
+{% include base-footer.html %}

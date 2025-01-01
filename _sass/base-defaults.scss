@@ -191,9 +191,18 @@ strong {
 
 pre,
 code {
+  padding: 1em;
+  border-radius: 0.5em;
   background-color: $color-code-background;
   color: $color-code-text;
   font-family: $font-code;
+}
+
+pre {
+}
+
+code {
+  font-size: 85%;
 }
 
 img {

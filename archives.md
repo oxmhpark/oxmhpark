@@ -1,5 +1,5 @@
 ---
-title: "아카이브"
+title: "#아카이브"
 permalink: /archives
 layout: page
 ---

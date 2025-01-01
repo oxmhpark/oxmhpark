@@ -202,26 +202,21 @@ pre {
   border-radius: 0.2em;
 }
 
-code {
-  background-color: $color-code-background;
-  color: $color-code-text;
+code,
+kbd {
   padding: 0.1em;
   border-radius: 0.2em;
   font-size: 0.8em;
 }
 
+code {
+  background-color: $color-code-background;
+  color: $color-code-text;
+}
+
 kbd {
+  border: 1px solid $color-code-text;
   color: $color-code-background;
-
-  &:before {
-    display: inline;
-    content: '〔';
-  }
-
-  &:after {
-    display: inline;
-    content: '〕';
-  }
 }
 
 img {

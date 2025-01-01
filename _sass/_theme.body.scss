@@ -18,8 +18,8 @@
 
   .entry-meta {
     cursor: default;
-    color: #666;
-    font-size: 0.7em;
+    color: #999;
+    font-size: 0.85em;
     font-family: $font-meta;
 
     .entry-author {
@@ -41,7 +41,7 @@
 
       li {
         display: inline;
-        margin: 0 0 0 1em;
+        margin: 0 0 0 0.5em;
 
         &:first
         {

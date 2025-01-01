@@ -127,6 +127,7 @@
   }
 
   &.entry-format-list-item {
+    /*
     display: list-item;
     list-style: square;
     padding-top: 0;
@@ -161,6 +162,11 @@
 
     .entry-body {
       display: none;
+    }
+    */
+
+    .entry-body {
+      margin-top: 0;
     }
 
     .read-more {

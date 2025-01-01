@@ -1,5 +1,5 @@
 <article class="entry entry-format-fulltext">
-  <h1 class="entry-title">{{ post.title }}</h1>
+  {% if post.title and post.title != "" %}<h1 class="entry-title">{{ post.title }}</h1>{% endif %}
 
   <div class="entry-meta">
     <p class="entry-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: site.format.date }}</p>

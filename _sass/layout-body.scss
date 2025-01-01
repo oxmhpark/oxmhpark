@@ -138,11 +138,12 @@
     .entry-title {
       display: inline;
       font-size: inherit;
+      /*
       font-weight: inherit;
+      */
     }
 
     .entry-meta {
-      /*
       display: inline;
 
       .entry-date {
@@ -156,7 +157,6 @@
       .entry-tags {
         display: none;
       }
-      */
     }
 
     .entry-body {

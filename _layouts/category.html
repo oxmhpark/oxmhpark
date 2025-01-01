@@ -1,7 +1,8 @@
 ---
 class: "body-archive body-archive-category"
-layout: default
 ---
+{% include base-header.html %}
+
 {% assign post = page %}
 {% include post-format-fulltext-without-metadata.html %}
 
@@ -12,3 +13,5 @@ layout: default
   {% include post-format-list-item.html %}
   {% endfor %}
 </div>
+
+{% include base-footer.html %}

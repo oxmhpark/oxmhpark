@@ -81,18 +81,16 @@
 				display: inline-block;
 				margin: 0;
 				padding: 0;
+	
+				&:not(:first-child) {
+					margin-left: 0.75em;
+				}
+
 				a {
-					display: inline-block;
-					margin: 0px;
-					height: inherit;
 					line-height: inherit;
 					font-size: inherit;
 					font-weight: inherit;
 					color: inherit;
-		
-					&:not(:first-child) {
-						margin-left: 0.5em;
-					}
 		
 					&:link,
 					&:visited {

@@ -1,7 +1,10 @@
 ---
 class: "body-error body-error-404"
-layout: default
 ---
+{% include base-header.html %}
+
 {% assign post = page %}
 {% include post-format-fulltext-without-metadata.html %}
 <p>You can try again by going <a href="{{ site.url }}">back to the homepage</a>.</p>
+
+{% include base-footer.html %}

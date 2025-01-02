@@ -22,12 +22,6 @@ layout: page
 ※ 치명적인 오류가 아니라면 기존 것을 고치는 일에 일정량 이상의 자원을 쓰지 않는다.\
 ※※ 할 말이 많은 사람은 본인 채널을 운영하시길. 인연이 닿는다면 방문하게 될 것이다.
 
----
-
-{% include component-bookmarks.html %}
-
----
-
 [![Powered by Jekyll](https://img.shields.io/badge/Powered_by-Jekyll-orange?logo=jekyll)][link-tool-jekyll]
 [![Built by Github Pages](https://img.shields.io/badge/Built_by-Github_Pages-orange?logo=github)][link-tool-github-pages]
 [![Commenting functionality by Giscus](https://img.shields.io/badge/Featuring-Giscus-orange?logo=googlechat)][link-tool-giscus]
@@ -46,3 +40,7 @@ layout: page
 [link-profile-bluesky]: https://bsky.app/profile/oxmhpark.nemorium.net
 [link-profile-steam]: https://store.steampowered.com/developer/nemorium
 [link-profile-itch.io]: https://oxmhpark.itch.io
+
+---
+
+{% include component-bookmarks.html %}

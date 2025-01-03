@@ -9,14 +9,14 @@
     {% if post.categories %}
     <ul class="entry-terms entry-categories">
       {% for category in post.categories %}
-      <li><a href="/categories/{{ category }}">{{ category }}</a></li>
+      <li><a href="/categories/{{ category | slugify }}">{{ category }}</a></li>
       {% endfor %}
     </ul>
     {% endif %}
     {% if post.tags %}
     <ul class="entry-terms entry-tags">
       {% for tag in post.tags %}
-      <li><a href="/tags/{{ tag }}">{{ tag }}</a></li>
+      <li><a href="/tags/{{ tag | slugify }}">{{ tag }}</a></li>
       {% endfor %}
     </ul>
     {% endif %}

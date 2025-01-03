@@ -24,36 +24,36 @@ layout: page
 
 ---
 
-[![Powered by Jekyll][icon-tool-jekyll]][link-tool-jekyll]
-[![Built by Github Pages][icon-tool-github-pages]][link-tool-github-pages]
-[![Commenting functionality by Giscus][icon-tool-giscus]][link-tool-giscus]
-[![Searching functionality by GPSE][icon-tool-google-programmable-search-engine]][link-tool-google-programmable-search-engine]\
-[![Font by Freesentation][icon-resource-freesentation]][link-resource-freesentation]\
-[![Discord chatroom][icon-domain-discord]][link-domain-discord]
-[![Bluesky profile][icon-domain-bluesky]][link-domain-bluesky]
-[![Steam profile][icon-domain-steam]][link-domain-steam]
-[![itch.io profile][icon-domain-itch.io]][link-domain-itch.io]
+[![Powered by Jekyll][icon-jekyll]][link-jekyll]
+[![Built by Github Pages][icon-github-pages]][link-github-pages]
+[![Commenting functionality by Giscus][icon-giscus]][link-giscus]
+[![Searching functionality by GPSE][icon-google-programmable-search-engine]][link-google-programmable-search-engine]\
+[![Font by Freesentation][icon-freesentation]][link-freesentation]\
+[![Discord chatroom][icon-discord]][link-discord]
+[![Bluesky profile][icon-bluesky]][link-bluesky]
+[![Steam profile][icon-steam]][link-steam]
+[![itch.io profile][icon-itch.io]][link-itch.io]
 
-[icon-tool-jekyll]: https://img.shields.io/badge/Powered_by-Jekyll-orange?logo=jekyll
-[link-tool-jekyll]: https://jekyllrb.com
-[icon-tool-github-pages]: https://img.shields.io/badge/Built_by-Github_Pages-orange?logo=github
-[link-tool-github-pages]: https://pages.github.com
-[icon-tool-giscus]: https://img.shields.io/badge/Featuring-Giscus-orange?logo=googlechat
-[link-tool-giscus]: https://giscus.app
-[icon-tool-google-programmable-search-engine]: https://img.shields.io/badge/Featuring-GPSE-orange?logo=google
-[link-tool-google-programmable-search-engine]: https://programmablesearchengine.google.com/
+[icon-jekyll]: https://img.shields.io/badge/Powered_by-Jekyll-orange?logo=jekyll
+[link-jekyll]: https://jekyllrb.com
+[icon-github-pages]: https://img.shields.io/badge/Built_by-Github_Pages-orange?logo=github
+[link-github-pages]: https://pages.github.com
+[icon-giscus]: https://img.shields.io/badge/Featuring-Giscus-orange?logo=googlechat
+[link-giscus]: https://giscus.app
+[icon-google-programmable-search-engine]: https://img.shields.io/badge/Featuring-GPSE-orange?logo=google
+[link-google-programmable-search-engine]: https://programmablesearchengine.google.com/
 
-[icon-resource-freesentation]: https://img.shields.io/badge/Font_by-Freesentation-orange?logo=font
-[link-resource-freesentation]: https://freesentation.blog
+[icon-freesentation]: https://img.shields.io/badge/Font_by-Freesentation-orange?logo=font
+[link-freesentation]: https://freesentation.blog
 
-[icon-domain-discord]: https://img.shields.io/badge/Chatroom-Discord-blue?logo=discord
-[link-domain-discord]: https://discord.gg/u8Vx5Qhy
-[icon-domain-bluesky]: https://img.shields.io/badge/Profile-Bluesky-blue?logo=bluesky
-[link-domain-bluesky]: https://bsky.app/profile/oxmhpark.nemorium.net
-[icon-domain-steam]: https://img.shields.io/badge/Profile-Steam-blue?logo=steam
-[link-domain-steam]: https://store.steampowered.com/developer/nemorium
-[icon-domain-itch.io]: https://img.shields.io/badge/Profile-itch.io-blue?logo=itchdotio
-[link-domain-itch.io]: https://oxmhpark.itch.io
+[icon-discord]: https://img.shields.io/badge/Chatroom-Discord-blue?logo=discord
+[link-discord]: https://discord.gg/u8Vx5Qhy
+[icon-bluesky]: https://img.shields.io/badge/Profile-Bluesky-blue?logo=bluesky
+[link-bluesky]: https://bsky.app/profile/oxmhpark.nemorium.net
+[icon-steam]: https://img.shields.io/badge/Profile-Steam-blue?logo=steam
+[link-steam]: https://store.steampowered.com/developer/nemorium
+[icon-itch.io]: https://img.shields.io/badge/Profile-itch.io-blue?logo=itchdotio
+[link-itch.io]: https://oxmhpark.itch.io
 
 ---
 

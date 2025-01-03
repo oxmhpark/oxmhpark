@@ -64,6 +64,10 @@ blockquote {
   // font-size: 22px;
   font-style: italic;
   background-color: $color-quote-background;
+
+  a {
+    text-decoration: none;
+  }
 }
 
 table {

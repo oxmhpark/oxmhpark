@@ -29,6 +29,10 @@
     .entry-date {
       display: inline;
 
+      a {
+        color: inherit;
+      }
+
       /*
       &.entry-date-modified {
         color: #AAA;

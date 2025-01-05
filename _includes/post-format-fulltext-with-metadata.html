@@ -2,7 +2,7 @@
   {% if post.title and post.title != "" %}<h1 class="entry-title">{{ post.title }}</h1>{% endif %}
 
   <div class="entry-meta">
-    <p class="entry-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: site.format.date }}</p>
+    <p class="entry-date" datetime="{{ post.date | date_to_xmlschema }}"><a href="/years/{{ post.date | date: site.format.year }}">{{ post.date | date: site.format.date }}</a></p>
     {% if post.last_modified_at %}
     <p class="entry-date entry-date-modified" datetime="{{ post.last_modified_at | date_to_xmlschema }}">(Updated: {{ post.last_modified_at | date: site.format.date }})</p>
     {% endif %}

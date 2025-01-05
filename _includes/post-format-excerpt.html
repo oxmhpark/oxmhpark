@@ -2,7 +2,7 @@
   <h2 class="entry-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
 
   <div class="entry-meta">
-    <p class="entry-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: site.format.date }}</p>
+    <p class="entry-date" datetime="{{ post.date | date_to_xmlschema }}"><a href="/years/{{ post.date | date: site.format.year }}">{{ post.date | date: site.format.date }}</a></p>
     {% if post.last_modified_at %}
     <p class="entry-date entry-date-modified" datetime="{{ post.last_modified_at | date_to_xmlschema }}">(Updated: {{ post.last_modified_at | date: site.format.date }})</p>
     {% endif %}

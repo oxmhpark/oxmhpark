@@ -7,7 +7,6 @@
 {% include post-format-fulltext-without-metadata.html %}
 
 <div class="archives archive-type-posts">
-  <hr />
   {% capture archiveName %}{{ post.title }}{% endcapture %}
   {% for post in site.categories[archiveName] %}
   {% assign content = post.content %}

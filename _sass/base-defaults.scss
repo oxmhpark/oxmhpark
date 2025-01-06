@@ -68,8 +68,8 @@ blockquote {
   &:after {
     display: block;
     position: absolute;
-    width: 0;
-    height: 0;
+    width: 3em;
+    height: 3em;
     font-size: 3em;
     word-wrap: nowrap;
     overflow: show;
@@ -84,8 +84,8 @@ blockquote {
   }
 
   &:after {
-    right: 0;
-    bottom: 0;
+    right: -3em;
+    bottom: -3em;
     content: '”';
   }
   

@@ -30,4 +30,10 @@ body.body-archive {
       content: '#';
     }
   }
+
+  #main > .archives {
+    & > hr > .entry {
+      margin-top: 0;
+    }
+  }
 }

@@ -59,10 +59,9 @@ p {
 blockquote {
   position: relative;
   margin: 1.8em 0.8em;
-  padding: 0.1em 1em;
+  padding: 0em 1em 0 3em;
   color: $color-quote-text;
   font-family: $font-quote;
-  // font-size: 22px;
   font-style: italic;
 
   &:before {

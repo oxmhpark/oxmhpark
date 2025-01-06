@@ -171,6 +171,27 @@ a {
     text-decoration: underline;
     color: $color-link-hover;
   }
+
+  &[href^="http://"],
+  &[href^="https://"],
+  &[href^="ftp:"],
+  &[href^="sftp:"],
+  &[href^="mailto:"] {
+    &:before {
+      display: inline;
+    }
+    &[href^="http://"],
+    &[href^="https://"] {
+      content: '🌐';
+    }
+    &[href^="ftp:"],
+    &[href^="sftp:"] {
+      content: '📁';
+    }
+    &[href^="mailto:"] {
+      content: '✉️';
+    }
+  }
 }
 
 ol,

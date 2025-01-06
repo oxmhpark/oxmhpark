@@ -24,16 +24,15 @@
 }
 
 body.body-archive {
-  #main > .entry > .entry-title {
-    &:before {
-      display: inline;
-      content: '#';
+  #main > .entry {
+    & > .entry-title {
+      &:before {
+        display: inline;
+        content: '#';
+      }
     }
-  }
-
-  #main > .archives {
-    & > hr + .entry {
-      padding-top: 0;
+    & > .entry-body {
+      border-left: 5px solid $color-quote-background;
     }
   }
 }

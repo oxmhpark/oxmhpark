@@ -6,9 +6,9 @@
 {% assign post = page %}
 {% include post-format-fulltext-without-metadata.html %}
 
+<div class="archives archive-type-posts">
 <hr />
 
-<div class="archives archive-type-posts">
   {% capture archiveName %}{{ post.title }}{% endcapture %}
   {% for post in site.posts %}
   {% capture postYear %}{{ post.date | date: site.format.year }}{% endcapture %}

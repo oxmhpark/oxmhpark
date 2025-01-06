@@ -59,7 +59,7 @@ p {
 blockquote {
   position: relative;
   margin: 1.8em 0em;
-  padding: 0.1em 0 0.1em 3em;
+  padding: 0 0 0 3em;
   color: $color-quote-text;
   font-family: $font-quote;
   font-style: italic;
@@ -67,12 +67,12 @@ blockquote {
   &:before {
     display: block;
     position: absolute;
-    width: 24px;
-    height: 24px;
+    width: 48px;
+    height: 48px;
     left: 0;
     top: 0;
     content: '“';
-    font-size: 24px;
+    font-size: 48px;
     font-family: Georgia, serif;
     word-wrap: nowrap;
     overflow: show;

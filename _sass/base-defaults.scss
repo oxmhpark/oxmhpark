@@ -67,12 +67,12 @@ blockquote {
   &:before {
     display: block;
     position: absolute;
-    width: 3em;
-    height: 3em;
+    width: 24px;
+    height: 24px;
     left: 0;
     top: 0;
     content: '“';
-    font-size: 3em;
+    font-size: 24px;
     font-family: Georgia, serif;
     word-wrap: nowrap;
     overflow: show;

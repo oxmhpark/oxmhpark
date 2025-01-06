@@ -182,14 +182,20 @@ a {
     }
     &[href^="http://"],
     &[href^="https://"] {
-      content: '🌐';
+      &:before { 
+        content: '🌐';
+      }
     }
     &[href^="ftp:"],
     &[href^="sftp:"] {
-      content: '📁';
+      &:before { 
+        content: '📁';
+      }
     }
     &[href^="mailto:"] {
-      content: '✉️';
+      &:before { 
+        content: '✉️';
+      }
     }
   }
 }

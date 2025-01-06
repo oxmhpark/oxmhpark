@@ -59,7 +59,7 @@ p {
 blockquote {
   position: relative;
   margin: 1.8em 0em;
-  padding: 0 0 0 3em;
+  padding: 0 0 0 36px;
   color: $color-quote-text;
   font-family: $font-quote;
   font-style: italic;
@@ -70,7 +70,7 @@ blockquote {
     width: 48px;
     height: 48px;
     left: 0;
-    top: 0;
+    top: -14px;
     content: '“';
     font-size: 48px;
     font-family: Georgia, serif;

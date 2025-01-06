@@ -59,34 +59,25 @@ p {
 blockquote {
   position: relative;
   margin: 1.8em 0em;
-  padding: 0.1em 3em;
+  padding: 0.1em 0 0.1em 3em;
   color: $color-quote-text;
   font-family: $font-quote;
   font-style: italic;
 
-  &:before,
-  &:after {
+  &:before {
     display: block;
     position: absolute;
     width: 3em;
     height: 3em;
+    left: 0;
+    top: 0;
+    content: '“';
     font-size: 3em;
+    font-family: Georgia, serif;
     word-wrap: nowrap;
     overflow: show;
     color: $color-quote-background;
     pointer: default;
-  }
-
-  &:before {
-    left: 0;
-    top: 0;
-    content: '“';
-  }
-
-  &:after {
-    right: -3em;
-    bottom: -3em;
-    content: '”';
   }
   
   a {

@@ -57,13 +57,23 @@ p {
 }
 
 blockquote {
+  position: relative;
   margin: 1.8em 0.8em;
   padding: 0.1em 1em;
   color: $color-quote-text;
   font-family: $font-quote;
   // font-size: 22px;
   font-style: italic;
-  background-color: $color-quote-background;
+
+  &:before {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '“';
+    font-size: 3em;
+    color: $color-quote-background;
+  }
 
   a {
     text-decoration: none;

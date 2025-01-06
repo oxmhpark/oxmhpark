@@ -1,30 +1,30 @@
 -
   - name: Powered by Jekyll
-    badge: Powered_by-Jekyll-orange?logo=jekyll
+    code: Powered_by-Jekyll-orange?logo=jekyll
     link: https://jekyllrb.com
   - name: Built by Github Pages
-    badge: Built_by-Github_Pages-orange?logo=github
+    code: Built_by-Github_Pages-orange?logo=github
     link: https://pages.github.com
   - name: Commenting functionality by Giscus
-    badge: Featuring-Giscus-orange?logo=googlechat
+    code: Featuring-Giscus-orange?logo=googlechat
     link: https://giscus.app
   - name: Searching functionality by GPSE
-    badge: Featuring-GPSE-orange?logo=google
+    code: Featuring-GPSE-orange?logo=google
     link: https://programmablesearchengine.google.com/
 -
   - name: Font by Freesentation
-    badge: Font_by-Freesentation-orange?logo=font
+    code: Font_by-Freesentation-orange?logo=font
     link: https://freesentation.blog
 -
   - name: Discord chatroom
-    badge: Chatroom-Discord-blue?logo=discord
+    code: Chatroom-Discord-blue?logo=discord
     link: https://discord.gg/u8Vx5Qhy
   - name: Bluesky profile
-    badge: Profile-Bluesky-blue?logo=bluesky
+    code: Profile-Bluesky-blue?logo=bluesky
     link: https://bsky.app/profile/oxmhpark.nemorium.net
   - name: Steam profile
-    badge: Profile-Steam-blue?logo=steam
+    code: Profile-Steam-blue?logo=steam
     link: https://store.steampowered.com/developer/nemorium
   - name: itch.io profile
-    badge: Profile-itch.io-blue?logo=itchdotio
+    code: Profile-itch.io-blue?logo=itchdotio
     link: https://oxmhpark.itch.io

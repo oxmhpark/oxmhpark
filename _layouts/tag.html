@@ -6,6 +6,8 @@
 {% assign post = page %}
 {% include post-format-fulltext-without-metadata.html %}
 
+<hr />
+
 <div class="archives archive-type-posts">
   {% capture archiveName %}{{ post.title }}{% endcapture %}
   {% for post in site.tags[archiveName] %}

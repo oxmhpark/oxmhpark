@@ -32,8 +32,9 @@ body.body-archive {
       }
     }
     & > .entry-body {
-      border-left: 10px solid $color-quote-background;
       padding-left: 1em;
+      border-left: 10px solid #555;
+      color: #555;
     }
   }
 }

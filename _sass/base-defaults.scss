@@ -172,7 +172,7 @@ a {
     color: $color-link-hover;
   }
 
-  &:not(:has(> img)) {
+  &:not(:has(img)) {
     &[href^="http://"],
     &[href^="https://"],
     &[href^="ftp:"],

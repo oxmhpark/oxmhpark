@@ -172,29 +172,31 @@ a {
     color: $color-link-hover;
   }
 
-  &[href^="http://"],
-  &[href^="https://"],
-  &[href^="ftp:"],
-  &[href^="sftp:"],
-  &[href^="mailto:"] {
-    &:before {
-      display: inline;
-    }
+  &:not(:has(> img)) {
     &[href^="http://"],
-    &[href^="https://"] {
-      &:before { 
-        content: '🌐';
-      }
-    }
+    &[href^="https://"],
     &[href^="ftp:"],
-    &[href^="sftp:"] {
-      &:before { 
-        content: '📁';
-      }
-    }
+    &[href^="sftp:"],
     &[href^="mailto:"] {
-      &:before { 
-        content: '✉️';
+      &:before {
+        display: inline;
+      }
+      &[href^="http://"],
+      &[href^="https://"] {
+        &:before { 
+          content: '🌐';
+        }
+      }
+      &[href^="ftp:"],
+      &[href^="sftp:"] {
+        &:before { 
+          content: '📁';
+        }
+      }
+      &[href^="mailto:"] {
+        &:before { 
+          content: '✉️';
+        }
       }
     }
   }

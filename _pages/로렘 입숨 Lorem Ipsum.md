@@ -1,4 +1,5 @@
 ---
+title: "로렘 입숨 Lorem Ipsum"
 tags:
   - 출판
   - 디자인

@@ -238,17 +238,11 @@ strong {
   font-weight: bold;
 }
 
-pre,
 code,
-kbd {
+kbd,
+pre,
+xmp {
   font-family: $font-code;
-}
-
-pre {
-  background-color: $color-code-background;
-  color: $color-code-text;
-  padding: 1em;
-  border-radius: 0.2em;
 }
 
 code,
@@ -266,6 +260,27 @@ code {
 kbd {
   border: 1px solid $color-code-text;
   color: $color-code-text;
+}
+
+pre,
+xmp {
+  background-color: $color-code-background;
+  color: $color-code-text;
+  padding: 1em;
+  border-radius: 0.2em;
+  overflow: auto;
+}
+
+pre {
+  white-space: nowrap;
+  word-wrap: normal;
+  word-break: keep-all;
+}
+
+xmp {
+  white-space: normal;
+  word-wrap: break-word;
+  word-break: keep-all;
 }
 
 img {

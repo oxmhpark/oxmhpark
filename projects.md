@@ -6,6 +6,6 @@ layout: page
 <div class="archives archive-type-posts">
     {% for post in site.pages %}
     {% assign content = post.content %}
-    {% include post-format-excerpt.html %}
+    {% include post-format-list-item.html %}
     {% endfor %}
 </div>

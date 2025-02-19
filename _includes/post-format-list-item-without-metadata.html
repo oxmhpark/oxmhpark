@@ -1,0 +1,11 @@
+<article class="entry entry-format-list-item">
+  <h3 class="entry-title"><a href="{{ post.url }}">{% if post.title and post.title != "" %}{{post.title}}{% else %}{{post.excerpt |strip_html}}{%endif%}</a></h3>
+
+  <div class="entry-body">
+    {{ post.excerpt | strip_html }}
+  </div>
+
+  <div class="read-more">
+    <a href="{{ post.url }}">{{ site.format.read_more.label }}</a>
+  </div>
+</article>

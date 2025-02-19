@@ -3,6 +3,7 @@ title: "로렘 입숨 Lorem Ipsum"
 tags:
   - 출판
   - 디자인
+  - 용어
   - HTML
   - 채워넣기
   - 미리보기

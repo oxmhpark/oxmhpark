@@ -1,6 +1,6 @@
 ---
 title: "Lorem Ipsum"
-slug: "Lorem-Ipsum"
+permalink: "/Lorem-Ipsum"
 categories:
   - 미분류
 tags:

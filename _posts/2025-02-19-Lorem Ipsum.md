@@ -1,4 +1,6 @@
 ---
+categories:
+  - 미분류
 tags:
   - 출판
   - 디자인

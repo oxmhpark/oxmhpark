@@ -9,11 +9,11 @@ tags:
   - 채워넣기
   - 미리보기
 ---
-로렘 입숨은 출판·디자인 업계에서 쓰이는 가짜 문장으로, 키케로의 최고 선악론(De finibus bonorum et malorum) 1권 32-33문단을 재구성한 것이라고 알려져 있다.
+로렘 입숨 Lorem Ipsum은 출판·디자인 업계에서 쓰이는 가짜 문장으로, 키케로의 최고 선악론(De finibus bonorum et malorum) 1권 32-33문단을 재구성한 것이라고 알려져 있다.
 
 ---
 
-다음 세 단락은 로렘 입숨과 비슷한 가짜 문장을 생성해주는 웹사이트 [Lorem Ipsum - All the facts](https://www.lipsum.com/)에서 발췌한 것이다.
+*다음 세 단락은 로렘 입숨과 비슷한 가짜 문장을 생성해주는 웹사이트 [Lorem Ipsum - All the facts](https://www.lipsum.com/)에서 발췌한 것이다.*
 
 <h1>What is Lorem Ipsum?</h1>
 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
@@ -27,7 +27,7 @@ tags:
 
 ---
 
-다음 네 단락은 기본 로렘 입숨 문자열로 일부 HTML 요소를 시험한 것이다.
+*다음 네 단락은 기본 로렘 입숨 문자열로 일부 HTML 요소를 시험한 것이다.*
 
 <h1>Blockquote</h1>
 <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</blockquote>

@@ -1,6 +1,6 @@
 ---
-title: "Lorem Ipsum"
-permalink: "/Lorem-Ipsum"
+title: "로렘 입숨"
+permalink: "/로렘-입숨"
 categories:
   - 미분류
 tags:

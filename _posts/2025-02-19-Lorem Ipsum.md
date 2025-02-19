@@ -1,5 +1,6 @@
 ---
 title: "Lorem Ipsum"
+slug: "Lorem-Ipsum"
 categories:
   - 미분류
 tags:

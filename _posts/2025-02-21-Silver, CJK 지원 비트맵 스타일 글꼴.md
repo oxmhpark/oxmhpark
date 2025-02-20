@@ -2,7 +2,7 @@
 title: "Silver, CJK 지원 비트맵 스타일 글꼴"
 permalink: "/Silver-CJK-지원-비트맵-스타일-글꼴"
 categories:
-  - 개발 노트
+  - 개발노트
 tags:
   - 게임 개발
   - 글꼴

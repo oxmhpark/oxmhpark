@@ -1,5 +1,5 @@
 <article class="entry entry-format-list-item">
-  <h3 class="entry-title"><a href="{{ post.url }}">{% if post.title and post.title != "" %}{{post.title}}{% else %}{{post.excerpt |strip_html}}{%endif%}</a></h3>
+  <h3 class="entry-title"><a href="{{ post.url }}">{% if post.title and post.title != "" %}{{post.title}}{% if post.subtitle %}<span>{{ post.subtitle }}</span>{% endif %}{% else %}{{post.excerpt |strip_html}}{%endif%}</a></h3>
 
   <div class="entry-meta">
     {% if site.author %}

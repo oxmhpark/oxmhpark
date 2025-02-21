@@ -129,17 +129,6 @@ table {
   }
 }
 
-@mixin hr {
-  display: block !important;
-  width: 30% !important;
-  min-width: 300px !important;
-  height: 1px !important;
-  margin: 2.5em auto 2.5em 0 !important;
-  background-color: $decoration-hr-color !important;
-  border: none !important;
-  outline: none !important;
-}
-
 hr {
   @include hr;
 }

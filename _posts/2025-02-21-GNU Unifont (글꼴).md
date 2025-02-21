@@ -1,5 +1,5 @@
 ---
-title: "GNU Unifont 프로젝트"
+title: "GNU Unifont"
 permalink: "/GNU-Unifont"
 categories:
   - 개발노트

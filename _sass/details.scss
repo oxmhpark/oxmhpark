@@ -4,7 +4,6 @@
   */
 
   .subtitle {
-    display: block;
     /*
     color: $color-subtitle-text;
     */
@@ -13,7 +12,7 @@
 
     &:before {
       display: inline;
-      content: "- ";
+      content: " - ";
     }
   }
 }
@@ -22,10 +21,5 @@
   .subtitle {
     display: inline;
     font-size: inherit;
-
-    &:before {
-      display: inline;
-      content: " - ";
-    }
   }
 }

@@ -1,1 +1,12 @@
 
+.title {
+    .subtitle {
+      font-size: 0.9em;
+
+      &:before {
+        display: inline;
+        content: '-';
+        margin-right: 1em;
+      }
+    }
+}

@@ -1,0 +1,27 @@
+sup[role="doc-noteref"] {
+  font-size: 0.7em;
+
+  a[rel="footnote"] {
+    &:before {
+      display: inline;
+      content: '※';
+    }
+  }
+}
+
+div[role="endnotes"] {
+  font-size: 0.7em;
+
+  &:before {
+    display: block;
+  }
+
+  li[role="endnote"] {
+    list-style-position: inside;
+
+    &:before {
+      display: inline;
+      content: '※'
+    }
+  }
+}

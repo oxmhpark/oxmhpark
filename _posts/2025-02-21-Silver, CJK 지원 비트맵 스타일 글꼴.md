@@ -1,6 +1,6 @@
 ---
 title: "Silver, CJK 지원 비트맵 스타일 글꼴"
-permalink: "/Silver-CJK-지원-비트맵-스타일-글꼴"
+permalink: "/Silver-글꼴"
 categories:
   - 개발노트
 tags:
@@ -9,6 +9,14 @@ tags:
   - 글꼴
   - 소개
 ---
-[Silver](https://poppyworks.itch.io/silver)는 [CJK 문자표를 상당 부분 지원](https://itch.io/t/488011/currently-supported-unicode-blocks)하는 비트맵 스타일의 글꼴이다. 기준 크기는 19px이고, 게임과 관련된 특수문자도 포함하고 있다.
+[Silver](https://poppyworks.itch.io/silver)는 CJK 문자표를 상당 부분 지원하는 비트맵 스타일의 글꼴이다. 다국어를 지원하는 픽셀 아트 풍의 앱 개발에 잘 어울리며, 게임과 관련된 특수문자를 여럿 지원하고 있어 레트로 게임 개발에 특히 유용하다. [GNU Unifont](/GNU-Unifont)와의 가장 큰 차이점은 전체 BMP를 지원하지 않는 것이다.
+
+# 사양
+- 기준 크기 : 19px; <https://itch.io/t/529134/solved-broken-text-in-unity>
+- 지원하는 문자표 : <https://itch.io/t/488011/currently-supported-unicode-blocks>
+
+# 참조
+- 배포처 : <https://poppyworks.itch.io/silver>
+- 커뮤니티 : <https://poppyworks.itch.io/silver/community>
 
 ![Silver 글꼴이 지원하는 게임 관련 특수문자표](https://img.itch.zone/aW1nLzkwNzk5NTUucG5n/original/zt1vCz.png)

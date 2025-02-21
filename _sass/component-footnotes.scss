@@ -11,6 +11,8 @@ sup[role="doc-noteref"] {
 
 div[role="doc-endnotes"] {
   @include hr;
+
+  min-width: 100% !important;
   font-size: 0.9em;
 
   li[role="doc-endnote"] {

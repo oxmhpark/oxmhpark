@@ -13,7 +13,6 @@ div[role="doc-endnotes"] {
   font-size: 0.9em;
 
   &:before {
-    display: block;
     @include hr;
   }
 

@@ -10,15 +10,6 @@
     font-kerning: auto;
     font-feature-settings: "kern","liga","dlig","hlig","cswh";
     line-height: 1.2;
-
-    .subtitle {
-      font-size: 0.9em;
-
-      &:before {
-        display: inline;
-        content: '―';
-      }
-    }
     
     @include mobile {
       font-size: 46px;

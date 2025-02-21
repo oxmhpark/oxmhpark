@@ -9,4 +9,4 @@ tags:
   - 글꼴
   - 소개
 ---
-[GNU Unifont](https://unifoundry.com/unifont/index.html)는 Unicode Basic Multilingual Plane을 지원하는 글꼴 프로젝트이다.
+[GNU Unifont](https://unifoundry.com/unifont/index.html)는 [Unicode Basic Multilingual Plane](/Unicode-Basic-Multilingual-Plane)을 지원하는 글꼴 프로젝트이다.

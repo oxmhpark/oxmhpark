@@ -50,8 +50,10 @@ $decoration-hr-color: #999999;
   min-width: 300px !important;
   height: 1px !important;
   margin: 2.5em auto 2.5em 0 !important;
-  background-color: $decoration-hr-color !important;
-  border: none !important;
+  border-top: 1px solid $decoration-hr-color !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: none !important;
   outline: none !important;
 }
 

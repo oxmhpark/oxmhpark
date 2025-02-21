@@ -10,14 +10,15 @@ sup[role="doc-noteref"] {
 }
 
 div[role="doc-endnotes"] {
-  font-size: 0.8em;
+  font-size: 0.9em;
 
   &:before {
     display: block;
   }
 
   li[role="doc-endnote"] {
-    list-style-position: inside;
+    list-style-type: gregorian;
+    list-style-position: outside;
 
     &:before {
       display: inline;

@@ -14,7 +14,7 @@ div[role="doc-endnotes"] {
 
   &:before {
     display: block;
-    @hr;
+    @include hr;
   }
 
   li[role="doc-endnote"] {

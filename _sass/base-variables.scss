@@ -44,6 +44,17 @@ $color-pagination-text-hover: $color-selected-text;
 // Contents
 $decoration-hr-color: #999999;
 
+@mixin hr {
+  display: block !important;
+  width: 30% !important;
+  min-width: 300px !important;
+  height: 1px !important;
+  margin: 2.5em auto 2.5em 0 !important;
+  background-color: $decoration-hr-color !important;
+  border: none !important;
+  outline: none !important;
+}
+
 // Responsives
 @mixin mobile {
   @media screen and (max-width: 640px) {

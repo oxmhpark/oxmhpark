@@ -10,11 +10,8 @@ sup[role="doc-noteref"] {
 }
 
 div[role="doc-endnotes"] {
+  @include hr;
   font-size: 0.9em;
-
-  &:before {
-    @include hr;
-  }
 
   li[role="doc-endnote"] {
     list-style-type: gregorian;

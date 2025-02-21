@@ -9,14 +9,14 @@ sup[role="doc-noteref"] {
   }
 }
 
-div[role="endnotes"] {
+div[role="doc-endnotes"] {
   font-size: 0.7em;
 
   &:before {
     display: block;
   }
 
-  li[role="endnote"] {
+  li[role="doc-endnote"] {
     list-style-position: inside;
 
     &:before {

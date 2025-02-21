@@ -1,5 +1,5 @@
 <article class="entry entry-format-fulltext">
-  <h1 class="entry-title">{% if post.title %}{{post.title}}{% if post.subtitle %}<span>{{ post.subtitle }}</span>{% endif %}{% else %}{{ post.excerpt | strip_html }}{% endif %}</h1>
+  <h1 class="entry-title">{% if post.title %}{{post.title}}{% if post.subtitle %} <span>{{ post.subtitle }}</span>{% endif %}{% else %}{{ post.excerpt | strip_html }}{% endif %}</h1>
 
   <div class="entry-meta">
     <p class="entry-date" datetime="{{ post.date | date_to_xmlschema }}"><a href="/years/{{ post.date | date: site.format.year }}">{{ post.date | date: site.format.date }}</a></p>

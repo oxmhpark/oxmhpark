@@ -4,11 +4,19 @@
   */
 
   .subtitle {
+    display: block;
     /*
     color: $color-subtitle-text;
     */
     font-size: 0.8em;
     font-weight: normal;
+  }
+}
+
+.entry-format-list-item {
+  .subtitle {
+    display: inline;
+    font-size: inherit;
 
     &:before {
       display: inline;

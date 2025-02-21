@@ -129,7 +129,7 @@ table {
   }
 }
 
-@hr {
+@mixin hr {
   display: block !important;
   width: 30% !important;
   min-width: 300px !important;

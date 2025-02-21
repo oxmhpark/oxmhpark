@@ -1,14 +1,19 @@
 .title {
+  /*
   color: $color-title-text;
+  */
 
   .subtitle {
+    /*
     color: $color-subtitle-text;
+    */
     font-size: 0.8em;
     font-weight: normal;
 
     &:before {
       display: inline;
       content: '-';
+      margin: 0 0.5em;
     }
   }
 }

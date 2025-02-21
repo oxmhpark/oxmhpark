@@ -141,7 +141,7 @@ table {
 }
 
 hr {
-  @hr;
+  @include hr;
 }
 
 span[data-pullquote] {

@@ -1,12 +1,22 @@
 .title {
+    color: $color-title-text;
+
+    &:hover {
+        color: $color-title-text-hover;
+    }
+    
     .subtitle {
-      color: $color-meta-text;
+      color: $color-subtitle-text;
       font-size: 0.8em;
       font-weight: normal;
 
       &:before {
         display: inline;
         content: '-';
+      }
+
+      &:hover {
+        color: $color-subtitle-text-hover;
       }
     }
 }

@@ -7,7 +7,13 @@
   h6 {
     font-size: inherit;
     font-weight: bold;
-
+  }
+  
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     &:before,
     &:after {
       display: inline;
@@ -22,45 +28,38 @@
     }
   }
 
-  h1 {
+  h2 {
     &:before,
     &:after {
       content: "-";
     }
   }
 
-  h2 {
+  h3 {
     &:before,
     &:after {
       content: "--";
     }
   }
 
-  h3 {
+  h4 {
     &:before,
     &:after {
       content: "---";
     }
   }
 
-  h4 {
+  h5 {
     &:before,
     &:after {
       content: "----";
     }
   }
 
-  h5 {
-    &:before,
-    &:after {
-      content: "-----";
-    }
-  }
-
   h6 {
     &:before,
     &:after {
-      content: "------";
+      content: "-----";
     }
   }
 }

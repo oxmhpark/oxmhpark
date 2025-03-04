@@ -9,11 +9,13 @@
 <div class="archives archive-type-posts">
   {% capture archiveName %}{{ post.title }}{% endcapture %}
   {% for post in site.entry_posts %}
-  {% capture postArchiveName %}{{ post.date | date: site.format.year }}{% endcapture %}
-  {% if archiveName == postArchiveName %}
-    {% assign content = post.content %}
-    {% include post-format-list-item.html %}
-  {% endif %}
+    {% if post.date %}
+      {% capture postArchiveName %}{{ post.date | date: site.format.year }}{% endcapture %}
+      {% if archiveName == postArchiveName %}
+        {% assign content = post.content %}
+        {% include post-format-list-item.html %}
+      {% endif %}
+    {% endif %}
   {% endfor %}
 </div>
 

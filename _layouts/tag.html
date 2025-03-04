@@ -8,9 +8,13 @@
 
 <div class="archives archive-type-posts">
   {% capture archiveName %}{{ post.title }}{% endcapture %}
-  {% for post in site.tags[archiveName] %}
-  {% assign content = post.content %}
-  {% include post-format-list-item.html %}
+  {% for post in site.entry_posts %}
+    {% for tag in post.tags %}
+      {% if archiveName == tag %}
+        {% assign content = post.content %}
+        {% include post-format-list-item.html %}
+      {% endif %}
+    {% endfor %}
   {% endfor %}
 </div>
 

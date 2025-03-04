@@ -2,7 +2,7 @@
 date: 2025-02-21
 title: "Silver"
 subtitle: "CJK 지원 비트맵 스타일 글꼴"
-permalink: "/Silver-글꼴"
+slug: "Silver-글꼴"
 categories:
   - 개발노트
 tags:

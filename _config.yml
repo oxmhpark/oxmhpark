@@ -28,7 +28,7 @@ favicon_url: "/assets/CIN_TIGHT@NEMORIUM.NET.png"
 url: "https://nemorium.net"
 enforce_ssl: "https://nemorium.net"
 baseurl: "/"
-permalink: "/:title"
+permalink: "/:slug"
 format:
   date: "%Y.%m.%d."
   year: "%Y"
@@ -85,42 +85,37 @@ collections:
   posts:
     output: false
     path: _posts
-    permalink: "/:title"
+    permalink: "/:slug"
     layout: post
   pages:
     output: false
     path: _pages
-    permalink: "/:title"
+    permalink: "/:slug"
     layout: page
   entry_posts:
     output: true
     path: _entry_posts
-    permalink: "/:title"
+    permalink: "/:slug"
     layout: post
   entry_pages:
     output: _entry_pages
     path: _pages
-    permalink: "/:title"
-    layout: page
-  pages:
-    output: true
-    path: _pages
-    permalink: "/:title"
+    permalink: "/:slug"
     layout: page
   archives_years:
     output: true
     path: _archives_years
-    permalink: "/years/:title"
+    permalink: "/years/:slug"
     layout: year
   archives_categories:
     output: true
     path: _archives_categories
-    permalink: "/categories/:title"
+    permalink: "/categories/:slug"
     layout: category
   archives_tags:
     output: true
     path: _archives_tags
-    permalink: "/tags/:title"
+    permalink: "/tags/:slug"
     layout: tag
 
 # 플러그인

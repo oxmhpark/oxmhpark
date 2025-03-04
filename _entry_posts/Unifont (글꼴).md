@@ -1,7 +1,7 @@
 ---
 date: 2025-02-21
 title: "Unifont"
-permalink: "/Unifont"
+slug: "Unifont"
 categories:
   - 개발노트
 tags:

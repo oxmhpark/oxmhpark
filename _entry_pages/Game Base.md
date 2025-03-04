@@ -1,6 +1,6 @@
 ---
 title: "Game Base"
-permalink: "/Game-Base"
+slug: "Game-Base"
 ---
 
 # IdalBasin.GameBase

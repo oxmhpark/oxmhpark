@@ -1,4 +1,5 @@
 ---
+date: 2025-02-21
 title: "Unicode Basic Multilingual Plane"
 permalink: "/Unicode-Basic-Multilingual-Plane"
 categories:

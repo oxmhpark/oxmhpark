@@ -56,7 +56,12 @@ defaults:
       layout: "post"
   -
     scope:
-      path: "_pages"
+      path: "_entry_posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: "_entry_pages"
     values:
       layout: "page"
   -
@@ -77,6 +82,26 @@ defaults:
 
 # 추가 형식
 collections:
+  posts:
+    output: false
+    path: _posts
+    permalink: "/:title"
+    layout: post
+  pages:
+    output: false
+    path: _pages
+    permalink: "/:title"
+    layout: page
+  entry_posts:
+    output: true
+    path: _entry_posts
+    permalink: "/:title"
+    layout: post
+  entry_pages:
+    output: _entry_pages
+    path: _pages
+    permalink: "/:title"
+    layout: page
   pages:
     output: true
     path: _pages

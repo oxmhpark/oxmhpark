@@ -119,7 +119,7 @@ collections:
     layout: tag
 
 # 플러그인
-plugins:
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-seo-tag
+#plugins:
+#  - jekyll-sitemap
+#  - jekyll-feed
+#  - jekyll-seo-tag

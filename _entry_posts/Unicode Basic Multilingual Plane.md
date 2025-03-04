@@ -1,5 +1,5 @@
 ---
-date: 2025-02-21
+date: 2025-02-21 00:00:00 +0900
 title: "Unicode Basic Multilingual Plane"
 slug: "Unicode-Basic-Multilingual-Plane"
 categories:

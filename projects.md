@@ -4,4 +4,4 @@ permalink: /projects
 layout: page
 ---
 {% assign posts = site.entry_pages %}
-{% include list-posts-all.html %}
+{% include list-posts-item-without-metadata.html %}

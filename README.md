@@ -3,11 +3,14 @@ title: "#소개"
 permalink: /readme
 layout: page
 ---
+
 # 네모리움:
 
 * 옥수박이 잡글을 쓰고 프로젝트 기록을 정리하는 개인 블로그이다.
 * 소통은 주된 관심사가 아니므로 댓글에 대한 응답이 느리거나 없을 수 있다.[^1]
 * 광고, 중복, 사생활 침해에 해당하는 댓글은 통보 없이 삭제될 수 있다.[^2]
+
+{% include component-badges.html %}
 
 # 옥수박:
 
@@ -22,8 +25,6 @@ layout: page
 
 ---
 
-{% include component-badges.html %}
-
----
+# 즐겨찾기
 
 {% include component-bookmarks.html %}

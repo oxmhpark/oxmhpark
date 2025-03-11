@@ -1,7 +1,7 @@
 ---
 date: 2025-02-21 00:00:00 +0900
 title: "Unicode Basic Multilingual Plane"
-slug: "Unicode-Basic-Multilingual-Plane"
+slug: "unicode-basic-multilingual-plane"
 categories:
   - 개발노트
 tags:

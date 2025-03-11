@@ -1,7 +1,7 @@
 ---
 date: 2025-02-21 00:00:00 +0900
 title: "Unifont"
-slug: "Unifont"
+slug: "unifont"
 categories:
   - 개발노트
 tags:

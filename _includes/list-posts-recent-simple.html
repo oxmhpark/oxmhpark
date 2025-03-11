@@ -1,5 +1,5 @@
 <div class="archives archive-type-posts">
-    {% for post in site.entry_posts sort_natural:"date" reverse limit:7 %}
+    {% for post in site.entry_posts sort_natural:"date" limit:7 %}
     {% assign content = post.content %}
     {% include post-format-list-item.html %}
     {% endfor %}

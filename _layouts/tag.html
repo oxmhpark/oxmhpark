@@ -6,18 +6,7 @@
 {% assign post = page %}
 {% include post-format-fulltext-without-metadata.html %}
 
-<div class="archives archive-type-posts">
-  {% capture archiveName %}{{ post.title }}{% endcapture %}
-  {% for post in site.entry_posts %}
-    {% if post.tags %}
-      {% for tag in post.tags %}
-        {% if archiveName == tag %}
-          {% assign content = post.content %}
-          {% include post-format-list-item.html %}
-        {% endif %}
-      {% endfor %}
-    {% endif %}
-  {% endfor %}
-</div>
+{% assign posts = site.entry_posts | where_exp: "post", "post.tags contains" + post.title %}
+{% include list-posts-recent-excerpt.html %}
 
 {% include base-footer.html %}

@@ -7,7 +7,7 @@
 {% include post-format-fulltext-without-metadata.html %}
 
 {% assign archiveName = post.title %}
-{% assign posts = site.entry_posts | where_exp: "post", "post.tags contains" + archiveName %}
+{% assign posts = site.entry_posts | where_exp: "post", "post.tags contains archiveName" %}
 {% include list-posts-recent-excerpt.html %}
 
 {% include base-footer.html %}

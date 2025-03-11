@@ -42,6 +42,7 @@ tags:
 - Character Set : [Custom Range] 0-65535
 - Render Mode : RASTER_HINTED
 - Get Kerning Pairs : false (기본값)
+- 생성 결과 : 질의 = 65536, 성공 = 13519, 실패 = 52017, 제외 = 0 ([보고서 읽기](/assets/TextMeshPro_ GlyphReport-Silver.txt))
 
 ## Text Mesh Pro 설정 에셋에서 기본 글꼴로 지정
 - Default Font Asset : Silver (TMP_Font Asset)

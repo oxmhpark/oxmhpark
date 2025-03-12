@@ -67,6 +67,11 @@ defaults:
       layout: "page"
   -
     scope:
+      path: "_entry_bookmarks"
+    values:
+      layout: "page"
+  -
+    scope:
       path: "_archives_years"
     values:
       layout: "year"
@@ -80,11 +85,6 @@ defaults:
       path: "_archives_tags"
     values:
       layout: "tag"
-  -
-    scope:
-      path: "_archives_bookmarks"
-    values:
-      layout: "page"
 
 # 추가 형식
 collections:

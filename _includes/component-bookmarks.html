@@ -2,7 +2,10 @@
 <div class="bookmarks">
     <ul>
         {% for bookmark in site.data.bookmarks %}
-            <li><a href="{{ bookmark.link }}">{% if bookmark.banner and bookmark.banner != "" %}<img src="{{ bookmark.banner }}" alt="{{ bookmark.name }}" />{% else %}{{ bookmark.name }}{% endif %}</a></li>
+            <li class="bookmark {% if bookmark.banner and bookmark.banner != '' %}bookmark-with-banner{% else %}bookmark-without-banner{% endif %}">
+                <a href="{{ bookmark.link }}">{% if bookmark.banner and bookmark.banner != "" %}<img src="{{ bookmark.banner }}" alt="{{ bookmark.name }}" />{% endif %}<span>{{ bookmark.name }}</span></a>
+                {% if bookmark.description %}<p>{{ bookmark.description }}</p>{% endif %}
+            </li>
         {% endfor %}
     </ul>
 </div>

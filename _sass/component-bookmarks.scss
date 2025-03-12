@@ -1,17 +1,32 @@
 .bookmarks {
-  ul {
+  ul.bookmarks {
     display: block;
     margin: 0;
     padding: 0;
     
-    li {
+    li.bookmark {
       list-style-type: none;
       display: inline-block;
       margin: 0;
       padding: 0;
-      
-      a {
-        img {
+
+      &.bookmark-with-banner {
+        a {
+          img {
+            display: inline-block;
+          }
+
+          span {
+            display: none;
+          }
+        }
+      }
+
+      &.bookmark-without-banner {
+        a {
+          span {
+            display: block;
+          }
         }
       }
     }

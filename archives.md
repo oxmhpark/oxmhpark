@@ -9,7 +9,7 @@ layout: page
 <div class="archives archives-type-terms archives-type-categories">
     <h1>카테고리</h1>
     <ul class="list-terms list-categories">
-        {% for post in site.archives_categories %}
+        {% for post in site.archive_categories %}
         <li><a href="{{ post.url }}">#{{ post.title }}</a></li>
         {% endfor %}
     </ul>
@@ -18,7 +18,7 @@ layout: page
 <div class="archives archives-type-terms archives-type-tags">
   <h1>태그</h1>
   <ul class="list-terms list-tags">
-    {% for post in site.archives_tags %}
+    {% for post in site.archive_tags %}
     <li><a href="{{ post.url }}">#{{ post.title }}</a></li>
     {% endfor %}
 </ul>
@@ -27,7 +27,7 @@ layout: page
 <div class="archives archives-type-terms archives-type-years">
     <h1>연도</h1>
     <ul class="list-terms list-years">
-        {% for post in site.archives_years %}
+        {% for post in site.archive_years %}
         <li><a href="{{ post.url }}">#{{ post.title }}</a></li>
         {% endfor %}
     </ul>

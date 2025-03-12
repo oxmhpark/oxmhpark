@@ -72,17 +72,17 @@ defaults:
       layout: "page"
   -
     scope:
-      path: "_archives_years"
+      path: "_archive_years"
     values:
       layout: "year"
   -
     scope:
-      path: "_archives_categories"
+      path: "_archive_categories"
     values:
       layout: "category"
   -
     scope:
-      path: "_archives_tags"
+      path: "_archive_tags"
     values:
       layout: "tag"
 
@@ -105,22 +105,27 @@ collections:
     layout: post
   entry_pages:
     output: _entry_pages
-    path: _pages
+    path: _entry_pages
     permalink: "/:slug"
     layout: page
-  archives_years:
+  entry_bookmarks:
+    output: _entry_bookmarks
+    path: _entry_bookmarks
+    permalink: "/:slug"
+    layout: page
+  archive_years:
     output: true
-    path: _archives_years
+    path: _archive_years
     permalink: "/years/:slug"
     layout: year
-  archives_categories:
+  archive_categories:
     output: true
-    path: _archives_categories
+    path: _archive_categories
     permalink: "/categories/:slug"
     layout: category
-  archives_tags:
+  archive_tags:
     output: true
-    path: _archives_tags
+    path: _archive_tags
     permalink: "/tags/:slug"
     layout: tag
 

@@ -11,7 +11,7 @@
       padding: 0;
 
       a {
-        &:before {
+        &[href^="https://"]:before {
           display: none;
         }
       }

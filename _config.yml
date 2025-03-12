@@ -68,7 +68,7 @@ defaults:
     values:
       layout: "page"
       read_more:
-        label: "소개문 전체 읽기 &rarr;"
+        label: "메모 읽기 &rarr;"
   -
     scope:
       path: "_archive_years"

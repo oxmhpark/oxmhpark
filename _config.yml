@@ -51,7 +51,7 @@ defaults:
     values:
       layout: "post"
       read_more:
-        label: "마저 읽기 &rarr;"
+        label: "전문 읽기 &rarr;"
   -
     scope:
       path: "_entry_posts"
@@ -68,7 +68,7 @@ defaults:
     values:
       layout: "page"
       read_more:
-        label: "마저 읽기 &rarr;"
+        label: "소개문 전체 읽기 &rarr;"
   -
     scope:
       path: "_archive_years"

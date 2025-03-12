@@ -6,9 +6,19 @@
     
     li.bookmark {
       list-style-type: none;
-      display: inline-block;
-      margin: 0;
+      display: block;
+      margin: 1em 0;
       padding: 0;
+
+      a {
+        &:before {
+          display: none;
+        }
+      }
+
+      p {
+        margin: 0;
+      }
 
       &.bookmark-with-banner {
         a {

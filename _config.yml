@@ -80,6 +80,11 @@ defaults:
       path: "_archives_tags"
     values:
       layout: "tag"
+  -
+    scope:
+      path: "_archives_bookmarks"
+    values:
+      layout: "bookmark"
 
 # 추가 형식
 collections:

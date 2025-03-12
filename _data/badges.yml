@@ -2,29 +2,3 @@
   - name: Powered by Jekyll
     code: Powered_by-Jekyll-orange?logo=jekyll
     link: https://jekyllrb.com
-  - name: Built by Github Pages
-    code: Built_by-Github_Pages-orange?logo=github
-    link: https://pages.github.com
-  - name: Commenting functionality by Giscus
-    code: Featuring-Giscus-orange?logo=googlechat
-    link: https://giscus.app
-  - name: Searching functionality by GPSE
-    code: Featuring-GPSE-orange?logo=google
-    link: https://programmablesearchengine.google.com/
--
-  - name: Font by Freesentation
-    code: Font_by-Freesentation-orange?logo=font
-    link: https://freesentation.blog
--
-  - name: Discord chatroom
-    code: Chatroom-Discord-blue?logo=discord
-    link: https://discord.gg/u8Vx5Qhy
-  - name: Bluesky profile
-    code: Profile-Bluesky-blue?logo=bluesky
-    link: https://bsky.app/profile/oxmhpark.nemorium.net
-  - name: Steam profile
-    code: Profile-Steam-blue?logo=steam
-    link: https://store.steampowered.com/developer/nemorium
-  - name: itch.io profile
-    code: Profile-itch.io-blue?logo=itchdotio
-    link: https://oxmhpark.itch.io

@@ -1,7 +1,7 @@
-{% if site.bookmarks %}
+{% if site.archives_bookmarks %}
 <div class="bookmarks">
     <ul class="bookmarks">
-        {% for bookmark in site.bookmarks %}
+        {% for bookmark in site.archives_bookmarks %}
             <li class="bookmark {% if bookmark.banner and bookmark.banner != '' %}bookmark-with-banner{% else %}bookmark-without-banner{% endif %}">
                 <a href="{{ bookmark.url }}">{% if bookmark.banner and bookmark.banner != "" %}<img src="{{ bookmark.banner }}" alt="{{ bookmark.title }}" />{% endif %}<span>{{ bookmark.title }}</span></a>
                 {% if bookmark.excerpt and bookmark.excerpt != "" %}<p>{{ bookmark.excerpt }}</p>{% endif %}

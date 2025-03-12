@@ -1,4 +1,4 @@
 ---
 slug: "geek-news"
-url: https://news.hada.io/
+address: https://news.hada.io/
 ---

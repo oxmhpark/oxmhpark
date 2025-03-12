@@ -33,11 +33,6 @@ permalink: "/:slug"
 format:
   date: "%Y.%m.%d."
   year: "%Y"
-  read_more:
-    label: "마저 읽기 &rarr;"
-  view_archives:
-    url: "/archives"
-    label: "전체목록 보기 &rarr;"
 
 # HTML/CSS 파서
 kramdown:
@@ -55,6 +50,8 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "post"
+      read_more:
+        label: "마저 읽기 &rarr;"
   -
     scope:
       path: "_entry_posts"
@@ -70,6 +67,8 @@ defaults:
       path: "_entry_bookmarks"
     values:
       layout: "page"
+      read_more:
+        label: "마저 읽기 &rarr;"
   -
     scope:
       path: "_archive_years"

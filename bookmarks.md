@@ -4,4 +4,4 @@ permalink: /bookmarks
 layout: page
 ---
 {% assign posts = site.entry_bookmarks | sort_natural: "title" %}
-{% include list-posts-item-without-metadata.html %}
+{% include list-posts-excerpt-without-metadata.html %}

@@ -1,0 +1,12 @@
+<article class="entry entry-format-excerpt">
+  {% include parts-cover.html %}
+  <h1 class="entry-title"><a href="{% include parts-url.html %}">{% include parts-title.html %}</a></h1>
+
+  <div class="entry-body">
+    {{ post.excerpt }}
+  </div>
+
+  <div class="read-more">
+    <a href="{{ post.url }}">{{ site.format.read_more.label }}</a>
+  </div>
+</article>

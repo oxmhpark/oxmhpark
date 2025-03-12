@@ -8,6 +8,7 @@
 
 # 빌드 타겟
 exclude:
+  - README.md
   - Gemfile
   - Gemfile.lock
   - LICENSE

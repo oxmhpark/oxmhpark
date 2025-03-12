@@ -140,12 +140,7 @@
     }
   }
 
-  &.entry-format-excerpt {
-    .read-more {
-      display: block;
-    }
-  }
-
+  &.entry-format-excerpt,
   &.entry-format-list-item {
     /*
     display: list-item;
@@ -183,8 +178,16 @@
       margin-top: 0;
     }
 
-    .read-more {
-      display: none;
+    &.entry-format-excerpt {
+      .read-more {
+        display: block;
+      }
+    }
+
+    &.entry-format-list-item {
+      .read-more {
+        display: none;
+      }
     }
   }
 }

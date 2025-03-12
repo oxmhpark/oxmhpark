@@ -3,4 +3,5 @@ title: "#즐겨찾기"
 permalink: /bookmarks
 layout: page
 ---
-{% include component-bookmarks.html %}
+{% assign posts = site.entry_bookmarks | sort_natural: "title" %}
+{% include list-posts-item-without-metadata.html %}

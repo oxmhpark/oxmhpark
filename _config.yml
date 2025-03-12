@@ -84,7 +84,7 @@ defaults:
     scope:
       path: "_archives_bookmarks"
     values:
-      layout: "bookmark"
+      layout: "page"
 
 # 추가 형식
 collections:

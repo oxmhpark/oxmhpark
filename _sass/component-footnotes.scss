@@ -15,6 +15,7 @@ div[role="doc-endnotes"] {
   min-width: 100% !important;
   font-size: 0.9em;
 
+  ol,
   ul {
     counter-reset: footnotes;
     text-indent: 0;

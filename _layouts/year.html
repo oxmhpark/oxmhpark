@@ -7,6 +7,7 @@
 {% include post-format-fulltext-without-metadata.html %}
 
 {% assign archiveName = post.title | to_i %}
+<code>year: {{ archiveName }}</code>
 {% assign posts = site.entry_posts | where_exp: "post", "post.year == archiveName" | sort_natural: "date" | reverse %}
 {% include list-posts-item.html %}
 

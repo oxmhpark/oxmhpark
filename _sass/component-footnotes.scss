@@ -15,18 +15,23 @@ div[role="doc-endnotes"] {
   min-width: 100% !important;
   font-size: 0.9em;
 
-  li[role="doc-endnote"] {
-    list-style: none;
+  ul {
+    counter-reset: footnotes;
     text-indent: 0;
 
-    &:before {
-      content: '※' counter(step-counter) ': ';
-      display: inline-block;
-    }
-
-    p {
-      display: inline;
-      margin: 0;
+    li[role="doc-endnote"] {
+      list-style: none;
+      counter-increment: footnotes;
+  
+      &:before {
+        content: '※' counter(footnotes) ': ';
+        display: inline-block;
+      }
+  
+      p {
+        display: inline;
+        margin: 0;
+      }
     }
   }
 }

@@ -1,19 +1,7 @@
 <article class="entry entry-format-list-item entry-format-bookmark">
-  {% include parts-cover.html %}
-  <h1 class="entry-title"><a href="{% include parts-url.html %}">{% include parts-title.html %}</a></h1>
-
-  <div class="entry-meta">
-    <p class="entry-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: site.format.date }}</p>
-    {% if post.last_modified_at %}
-    <p class="entry-date entry-date-modified" datetime="{{ post.last_modified_at | date_to_xmlschema }}">(Updated: {{ post.last_modified_at | date: site.format.date }})</p>
-    {% endif %}
-  </div>
-
-  <div class="entry-body">
-    {{ post.excerpt }}
-  </div>
-
-  <div class="read-more">
-    <a href="{{ post.url }}">{{ post.read_more.label }}</a>
-  </div>
+<h1 class="entry-title"><a href="{% include parts-url.html %}">{% include parts-title.html %}</a></h1>
+{% include parts-read-more.html %}
+<div class="entry-body">
+{{ post.excerpt }}
+</div>
 </article>

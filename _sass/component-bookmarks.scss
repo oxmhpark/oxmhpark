@@ -1,48 +1,6 @@
-.bookmarks {
-  ul.bookmarks {
+.entry-format-bookmark {
+  
+  .read-more {
     display: block;
-    margin: 0;
-    padding: 0;
-
-    li.bookmark {
-      list-style-type: none;
-      display: block;
-      margin: 1em 0;
-      padding: 0;
-
-      a {
-        &[href^="https://"]:before {
-          display: none;
-        }
-
-        span {
-          font-weight: bold;
-        }
-      }
-
-      p {
-        margin: 0;
-      }
-
-      &.bookmark-with-banner {
-        a {
-          img {
-            display: inline-block;
-          }
-
-          span {
-            display: none;
-          }
-        }
-      }
-
-      &.bookmark-without-banner {
-        a {
-          span {
-            display: block;
-          }
-        }
-      }
-    }
   }
 }

@@ -134,7 +134,6 @@
     }
   }
 
-  &.entry-format-excerpt,
   &.entry-format-list-item {
     padding-top: 1em;
 
@@ -173,15 +172,7 @@
     .entry-body {
       margin-top: 0;
     }
-  }
 
-  &.entry-format-excerpt {
-    .read-more {
-      display: block;
-    }
-  }
-
-  &.entry-format-list-item {
     .read-more {
       display: none;
     }

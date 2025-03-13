@@ -16,12 +16,12 @@ div[role="doc-endnotes"] {
   font-size: 0.9em;
 
   li[role="doc-endnote"] {
-    list-style-type: gregorian;
-    list-style-position: outside;
+    list-style: none;
+    text-indent: 0;
 
     &:before {
-      display: inline;
-      content: '※'
+      content: '※' counter(step-counter) ': ';
+      display: inline-block;
     }
 
     p {

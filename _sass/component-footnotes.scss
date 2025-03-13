@@ -18,17 +18,11 @@ div[role="doc-endnotes"] {
   ol,
   ul {
     counter-reset: footnotes;
-    text-indent: 0;
 
     li[role="doc-endnote"] {
-      list-style: none;
       counter-increment: footnotes;
-  
-      &:before {
-        content: '※' counter(footnotes) ': ';
-        display: inline-block;
-      }
-  
+      list-style-type: '※' counter(footnotes) '. ';
+   
       p {
         display: inline;
         margin: 0;

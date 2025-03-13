@@ -1,7 +1,11 @@
 .entry {
   &.entry-format-bookmark {
+    .entry-title {
+      display: inline;
+    }
+    
     .read-more {
-      display: block;
+      display: inline;
     }
 
     .entry-meta {

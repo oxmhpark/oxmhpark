@@ -1,8 +1,9 @@
 ---
 published: false
-date: 2025-02-21 00:00:00 +0900
 title: "Unicode Basic Multilingual Plane"
 slug: "unicode-basic-multilingual-plane"
+date: 2025-02-21 00:00:00 +0900
+year: 2025
 categories:
   - 개발노트
 tags:

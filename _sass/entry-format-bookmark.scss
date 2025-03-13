@@ -1,0 +1,11 @@
+.entry {
+  &.entry-format-bookmark {
+    .entry-meta {
+      display: none;
+    }
+
+    .read-more {
+      display: block;
+    }
+  }
+}

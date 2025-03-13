@@ -1,0 +1,10 @@
+.entry {
+	&.entry-format-list-item {
+		.entry-title {
+			.subtitle {
+				display: inline;
+				font-size: inherit;
+			}
+		}
+	}
+}

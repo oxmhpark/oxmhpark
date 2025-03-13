@@ -24,6 +24,25 @@
     img.banner {
       display: block;
     }
+
+    .title {
+      /*
+      color: $color-title-text;
+      */
+    
+      .subtitle {
+        /*
+        color: $color-subtitle-text;
+        */
+        font-size: 0.4em;
+        font-weight: normal;
+    
+        &:before {
+          display: inline;
+          content: " - ";
+        }
+      }
+    }
   }
 
   .entry-meta {

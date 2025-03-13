@@ -21,7 +21,10 @@ div[role="doc-endnotes"] {
 
     li[role="doc-endnote"] {
       counter-increment: footnotes;
-      list-style-type: '※' counter(footnotes) '. ';
+
+      &::marker {
+        content: '※' counter(footnotes) '. ';
+      }
    
       p {
         display: inline;

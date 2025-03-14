@@ -10,3 +10,13 @@ layout: page
 [link-giscus]: <https://giscus.app>
 [link-gpse]: </tags/gpse>
 [link-freesentation]: <https://freesentation.blog/>
+
+# 옥수박:
+
+- 생업 및 취미로 비디오 게임을 만든다.[^1]
+- Sci-Fi, 바바리안 판타지, 음모론을 좋아한다.[^2]
+- 대면·통화·채팅과 같은 휘발성 채널을 좋아하지 않는다.
+- 유흥, 여행, 식도락, 재테크에 관심이 없다.
+
+[^1]: 기술을 마스터하기보다는 필요한 것을 만들 줄 아는 수준에 만족한다.
+[^2]: 몇몇 작가와 작품을 협소하게 좋아할 뿐 정통하지 않다.

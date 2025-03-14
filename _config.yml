@@ -8,8 +8,8 @@
 
 # 빌드 타겟
 exclude:
-  - _config.yml.sample
   - oxmhpark.code-workspace
+  - _config.yml.sample
   - .gitattributes
   - .gitignore
   - .hintrc

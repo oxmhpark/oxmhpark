@@ -18,3 +18,8 @@
   url: "/bookmarks"
   class: ""
   icon: ""
+-
+  name: "#도움말"
+  url: "/readme"
+  class: ""
+  icon: ""

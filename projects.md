@@ -1,6 +1,6 @@
 ---
 title: "#프로젝트"
-permalink: /projects
+slug: projects
 layout: page
 ---
 {% assign posts = site.entry_pages %}

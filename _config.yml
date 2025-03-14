@@ -8,7 +8,11 @@
 
 # 빌드 타겟
 exclude:
-  - README.md
+  - _config.yml.sample
+  - oxmhpark.code-workspace
+  - .gitattributes
+  - .gitignore
+  - .hintrc
   - Gemfile
   - Gemfile.lock
   - LICENSE

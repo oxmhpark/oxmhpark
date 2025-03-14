@@ -8,5 +8,5 @@ layout: page
 
 [link-github-pages]: </tags/깃허브-페이지스>
 [link-giscus]: <https://giscus.app>
-[link-gpse]: </tags/GPSE>
+[link-gpse]: </tags/gpse>
 [link-freesentation]: <https://freesentation.blog/>

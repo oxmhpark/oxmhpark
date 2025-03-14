@@ -12,7 +12,7 @@ layout: raw
 {% endfor %}
 {% for post in site.entry_posts %}
     <url>
-        <loc>{{ site.url }}{{ post.url }}</loc>
+        <loc>{{ post.url | prepend: site.baseurl | prepend: site.url }}</loc>
 		{% if post.updated == null %}
 		<lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
 		{% else %}
@@ -33,7 +33,7 @@ layout: raw
 {% endfor %}
 {% for page in site.entry_pages %}
     <url>
-        <loc>{{ site.url }}{{ page.url }}</loc>
+        <loc>{{ page.url | prepend: site.baseurl | prepend: site.url }}</loc>
 		{% if page.updated == null %}
 		<lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
 		{% else %}

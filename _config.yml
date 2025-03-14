@@ -7,9 +7,6 @@
 # [x] 샘플 포스트 삭제 -- /_posts/2023-01-29-lorem-ipsum.md
 
 # 빌드 타겟
-include:
-  - README.md
-
 exclude:
   - oxmhpark.code-workspace
   - _config.yml.sample

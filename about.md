@@ -8,7 +8,7 @@ layout: page
 
 - 옥수박이 메모를 정리하고 잡글을 쓰는 개인 블로그이다.
 - [깃허브 페이지스][link-github-pages], [giscus][link-giscus], [GPSE][link-gpse], [Freesentation][link-freesentation] 등을 이용해서 제작했다.
-- 답글은 늦거나 없을 수 있으며 광고·스팸·사생활 침해에 해당하는 댓글은 통보 없이 삭제될 수 있다.[^1]
+- 답글은 늦거나 없을 수 있으며 광고·스팸·사생활 침해성 댓글은 통보 없이 삭제될 수 있다.[^1]
 
 [link-github-pages]: </tags/깃허브-페이지스>
 [link-giscus]: <https://giscus.app>

@@ -3,16 +3,16 @@ layout: raw
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-{% for menu in site.data.nav %}
+{% for nav in site.data.nav %}
     <url>
-        <loc>{{ site.baseurl | prepend: site.url }}{{ nav.link }}</loc>
+        <loc>{{ nav.url | prepend: site.url }}</loc>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
 {% endfor %}
 {% for post in site.entry_posts %}
     <url>
-        <loc>{{ site.url }}{{ post.url }}</loc>
+        <loc>{{ post.url | prepend: site.url }}</loc>
 		{% if post.updated == null %}
 		<lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
 		{% else %}
@@ -33,7 +33,7 @@ layout: raw
 {% endfor %}
 {% for page in site.entry_pages %}
     <url>
-        <loc>{{ site.url }}{{ page.url }}</loc>
+        <loc>{{ page.url | prepend: site.url }}</loc>
 		{% if page.updated == null %}
 		<lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
 		{% else %}

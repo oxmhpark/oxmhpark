@@ -145,12 +145,12 @@
     a {
       text-decoration: none;
       background-color: inherit;
-      border-radius: 0.1em;
-      color: $color-quote-text;
+      border-radius: 0.2em;
+      color: $color-meta-text;
     
       &:hover {
         text-decoration: none;
-        background-color: $color-quote-text;
+        background-color: $color-meta-text;
         border-radius: 0.1em;
         color: inherit;
       }

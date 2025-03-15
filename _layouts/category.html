@@ -4,10 +4,10 @@
 {% include base-header.html %}
 
 {% assign post = page %}
-{% include post-format-fulltext-without-metadata.html %}
+{% include post-format-fulltext.html %}
 
 {% assign archiveName = post.title %}
 {% assign posts = site.entry_posts | where_exp: "post", "post.categories contains archiveName" | sort_natural: "date" | reverse %}
-{% include list-posts-item.html %}
+{% include list-posts-item-full-metadata.html %}
 
 {% include base-footer.html %}

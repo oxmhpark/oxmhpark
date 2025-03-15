@@ -51,6 +51,10 @@
     font-size: 0.85em;
     font-family: $font-meta;
 
+    .entry-address {
+      display: block;
+    }
+
     .entry-author {
       display: none;
     }

@@ -54,6 +54,13 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "post"
+      meta:
+        - address
+        - author
+        - date
+        - lastmod
+        - categories
+        - tags
       read_more:
         label: "전문 읽기 &rarr;"
   -
@@ -61,16 +68,30 @@ defaults:
       path: "_entry_posts"
     values:
       layout: "post"
+      meta:
+        - address
+        - date
+        - lastmod
+        - categories
+        - tags
   -
     scope:
       path: "_entry_pages"
     values:
       layout: "page"
+      meta:
+        - address
+        - date
+        - lastmod
   -
     scope:
       path: "_entry_bookmarks"
     values:
       layout: "page"
+      meta:
+        - address
+        - date
+        - lastmod
       read_more:
         label: "메모 읽기 &rarr;"
   -
@@ -78,16 +99,22 @@ defaults:
       path: "_archive_years"
     values:
       layout: "year"
+      meta:
+        - address
   -
     scope:
       path: "_archive_categories"
     values:
       layout: "category"
+      meta:
+        - address
   -
     scope:
       path: "_archive_tags"
     values:
       layout: "tag"
+      meta:
+        - address
 
 # 추가 형식
 collections:

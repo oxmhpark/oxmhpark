@@ -5,4 +5,4 @@ layout: page
 meta: nil
 ---
 {% assign posts = site.entry_pages %}
-{% include list-posts-item-without-metadata.html %}
+{% include list-posts-item.html %}

@@ -91,7 +91,7 @@ defaults:
       meta:
         - address
       read_more:
-        label: "메모 읽기 &rarr;"
+        label: "&rarr;"
   -
     scope:
       path: "_archive_years"

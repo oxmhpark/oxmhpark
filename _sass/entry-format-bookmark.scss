@@ -10,6 +10,14 @@
 
     .entry-meta {
       display: none;
+
+      a {
+        color: $color-meta-text;
+
+        &:hover {
+          color: $color-meta-text;
+        }
+      }
     }
   }
 }

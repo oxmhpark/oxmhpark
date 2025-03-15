@@ -145,11 +145,13 @@
     a {
       text-decoration: none;
       background-color: inherit;
+      border-radius: 0.1em;
       color: $color-quote-text;
     
       &:hover {
         text-decoration: none;
         background-color: $color-quote-text;
+        border-radius: 0.1em;
         color: inherit;
       }
     }

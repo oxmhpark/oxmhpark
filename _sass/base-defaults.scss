@@ -175,7 +175,9 @@ a {
       &:before {
         display: inline;
         font-size: 0.85em;
+        content: url('/assets/external-link.svg');
       }
+      /*
       &[href^="http://"],
       &[href^="https://"] {
         &:before { 
@@ -193,6 +195,7 @@ a {
           content: '✉️';
         }
       }
+      */
     }
   }
 }

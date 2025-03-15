@@ -91,7 +91,7 @@ defaults:
       meta:
         - address
       read_more:
-        label: "&rarr;"
+        label: "💬"
   -
     scope:
       path: "_archive_years"

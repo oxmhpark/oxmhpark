@@ -142,13 +142,16 @@
     margin: 1em 0;
     font-size: 15px;
 
-    /*
     a {
-      &:after {
-        display: inline;
-        content: " →";
+      text-decoration: none;
+      background-color: inherit;
+      color: $color-quote-text;
+    
+      &:hover {
+        text-decoration: none;
+        background-color: $color-quote-text;
+        color: inherit;
       }
     }
-    */
   }
 }

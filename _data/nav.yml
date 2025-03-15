@@ -19,7 +19,7 @@
   class: ""
   icon: ""
 -
-  name: "#도움말"
+  name: "#정보"
   url: "/about"
   class: ""
   icon: ""

@@ -1,5 +1,5 @@
 ---
-title: "#도움말"
+title: "#정보"
 slug: about
 layout: page
 meta: nil

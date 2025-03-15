@@ -6,10 +6,6 @@
     
     .read-more {
       display: inline;
-    }
-
-    .entry-meta {
-      display: none;
 
       a {
         color: $color-meta-text;
@@ -18,6 +14,10 @@
           color: $color-meta-text;
         }
       }
+    }
+
+    .entry-meta {
+      display: none;
     }
   }
 }

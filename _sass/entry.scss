@@ -141,19 +141,5 @@
     clear: both;
     margin: 1em 0;
     font-size: 15px;
-
-    a {
-      text-decoration: none;
-      background-color: inherit;
-      border-radius: 0.3em;
-      color: $color-meta-text;
-    
-      &:hover {
-        text-decoration: none;
-        background-color: $color-meta-text;
-        border-radius: 0.1em;
-        color: inherit;
-      }
-    }
   }
 }

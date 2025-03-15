@@ -179,7 +179,7 @@ a {
       &[href^="http://"],
       &[href^="https://"] {
         &:before { 
-          content: '🌐';
+          content: url('/assets/external-link.svg');
         }
       }
       &[href^="ftp:"],

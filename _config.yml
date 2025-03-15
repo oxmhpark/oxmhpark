@@ -90,8 +90,6 @@ defaults:
       layout: "page"
       meta:
         - address
-        - date
-        - lastmod
       read_more:
         label: "메모 읽기 &rarr;"
   -

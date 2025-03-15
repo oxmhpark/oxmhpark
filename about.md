@@ -2,6 +2,7 @@
 title: "#도움말"
 slug: about
 layout: page
+meta: nil
 ---
 
 # 웹사이트 소개

@@ -1,7 +1,6 @@
 ---
-title: "#정보"
-slug: about
-layout: page
+title: "#도움말"
+slug: help
 meta: nil
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: "#아카이브"
 slug: archives
-layout: page
 meta: nil
 ---
 <script async src="https://cse.google.com/cse.js?cx=b172018a73a4b4b15"></script>

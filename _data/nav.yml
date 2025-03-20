@@ -4,11 +4,6 @@
   class: "current"
   icon: "/assets/CIN_TIGHT@NEMORIUM.NET.png"
 -
-  name: "#프로젝트"
-  url: "/projects"
-  class: ""
-  icon: ""
--
   name: "#아카이브"
   url: "/archives"
   class: ""
@@ -19,7 +14,7 @@
   class: ""
   icon: ""
 -
-  name: "#정보"
-  url: "/about"
+  name: "#도움말"
+  url: "/help"
   class: ""
   icon: ""

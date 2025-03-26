@@ -1,0 +1,40 @@
+.archives-type-terms
+{
+  margin: 1.5em 0;
+
+  h2
+  {
+    margin: 0;
+  }
+  
+  ul.list-terms
+  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    li
+    {
+      display: inline;
+      word-wrap: normal;
+      word-break: keep-all;
+      white-space: nowrap;
+    }
+  }
+}
+
+body.body-archive {
+  #main > .entry {
+    & > .entry-title {
+      &:before {
+        display: inline;
+        content: '#';
+      }
+    }
+    & > .entry-body {
+      padding-left: 1em;
+      border-left: 10px solid #E0E0E0;
+      color: #555;
+    }
+  }
+}

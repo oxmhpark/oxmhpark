@@ -1,0 +1,17 @@
+footer {
+	cursor: default;
+
+	.footer-links {
+		display: block;
+		margin: 0;
+		padding: 20px 0;
+		text-align: center;
+
+		.footer-link {
+			display: inline-block;
+			margin: 0;
+			padding: 0;
+			vertical-align: absmiddle;
+		}
+	}
+}

@@ -1,0 +1,142 @@
+.share-box {
+  font-weight: bold;
+  color: #222;
+}
+
+.cd-container {
+  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+  width: 90%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.cd-container::after {
+  /* clearfix */
+  content: '';
+  display: table;
+  clear: both;
+}
+
+#cd-timeline {
+  position: relative;
+  padding: 2em 0;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#cd-timeline::before {
+  /* this is the vertical line */
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 18px;
+  height: 100%;
+  width: 4px;
+  background: #d7e4ed;
+}
+@media only screen and (min-width: 1170px) {
+  #cd-timeline {
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+
+  #cd-timeline::before {
+    left: 50%;
+    margin-left: -2px;
+  }
+}
+
+.cd-timeline-block {
+  position: relative;
+  margin: 2em 0;
+}
+
+.cd-timeline-block:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.cd-timeline-block:first-child {
+  margin-top: 0;
+}
+
+.cd-timeline-block:last-child {
+  margin-bottom: 0;
+}
+@media only screen and (min-width: 1170px) {
+  .cd-timeline-block {
+    margin: 4em 0;
+  }
+
+  .cd-timeline-block:first-child {
+    margin-top: 0;
+  }
+
+  .cd-timeline-block:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.cd-timeline-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+
+.cd-timeline-img img {
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin-left: -12px;
+  margin-top: -12px;
+  border-radius: 10px;
+}
+
+.cd-timeline-img.cd-picture {
+  background: #75ce66;
+}
+
+.cd-timeline-img.cd-movie {
+  background: #c03b44;
+}
+
+.cd-timeline-img.cd-location {
+  background: #f0ca45;
+}
+
+.chip {
+  display: inline-block;
+  height: 32px;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(0,0,0,.6);
+  line-height: 32px;
+  padding: 0 12px;
+  border-radius: 16px;
+  background-color: #e4e4e4;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+.yellow.lighten-2 {
+  background-color: #efd3f9 !important;
+}
+
+#gh-latest {
+  font-size: 16px;
+  text-align: center;
+}
+
+.text-link {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px dotted #000;
+}

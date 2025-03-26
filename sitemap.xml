@@ -1,0 +1,56 @@
+---
+layout: raw
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{% for nav in site.data.nav %}
+    <url>
+        <loc>{{ nav.url | prepend: site.url }}</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+{% endfor %}
+{% for post in site.entry_posts %}
+    <url>
+        <loc>{{ post.url | prepend: site.url }}</loc>
+		{% if post.updated == null %}
+		<lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+		{% else %}
+		<lastmod>{{ post.updated | date_to_xmlschema }}</lastmod>
+		{% endif %}
+		{% if post.sitemap.changefreq == null %}
+		<changefreq>daily</changefreq>
+		{% else %}
+		<changefreq>{{ post.sitemap.changefreq }}</changefreq>
+		{% endif %}
+
+		{% if post.sitemap.priority == null %}
+		<priority>0.5</priority>
+		{% else %}
+		<priority>{{ post.sitemap.priority }}</priority>
+		{% endif %}
+    </url>
+{% endfor %}
+{% for page in site.entry_pages %}
+    <url>
+        <loc>{{ page.url | prepend: site.url }}</loc>
+		{% if page.updated == null %}
+		<lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
+		{% else %}
+		<lastmod>{{ page.updated | date_to_xmlschema }}</lastmod>
+		{% endif %}
+
+		{% if page.sitemap.changefreq == null %}
+		<changefreq>daily</changefreq>
+		{% else %}
+		<changefreq>{{ page.sitemap.changefreq }}</changefreq>
+		{% endif %}
+
+		{% if page.sitemap.priority == null %}
+		<priority>0.5</priority>
+		{% else %}
+		<priority>{{ page.sitemap.priority }}</priority>
+		{% endif %}
+    </url>
+{% endfor %}
+</urlset>

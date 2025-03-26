@@ -1,0 +1,23 @@
+.entry {
+  &.entry-format-bookmark {
+    .entry-title {
+      display: inline;
+    }
+    
+    .read-more {
+      display: inline;
+
+      a {
+        color: $color-meta-text;
+
+        &:hover {
+          color: $color-meta-text;
+        }
+      }
+    }
+
+    .entry-meta {
+      display: none;
+    }
+  }
+}

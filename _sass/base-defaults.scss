@@ -1,0 +1,335 @@
+html {
+  font-size: 100%;
+  height: 100%;
+}
+
+body {
+  background: #fff;
+  font-family: $font-text;
+  color: $color-body-text;
+  line-height: 1.7;
+  font-weight: 400;
+  font-size: 18px;
+  height: 100%;
+  word-break: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-heading;
+  color: $color-heading-text;
+  font-weight: bold;
+  line-height: 1.7;
+  margin: 1em 0 15px;
+  padding: 0;
+  text-align: left;
+  @include mobile {
+    line-height: 1.4;
+  }
+}
+
+h1 {
+  font-size: 30px;
+
+  a {
+    color: inherit;
+  }
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+  color: #222;
+}
+
+p {
+  margin: 15px 0;
+}
+
+blockquote {
+  position: relative;
+  margin: 1.8em 0em;
+  padding: 0 0 0 36px;
+  color: $color-quote-text;
+  font-family: $font-quote;
+  font-style: italic;
+
+  &:before {
+    display: block;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 0;
+    top: -14px;
+    content: '“';
+    font-size: 48px;
+    font-family: Georgia, serif;
+    word-wrap: nowrap;
+    overflow: show;
+    color: $color-quote-background;
+    pointer: default;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+}
+
+table {
+  padding: 0;
+
+  tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+
+    &:nth-child(2n) {
+      background-color: #f8f8f8;
+    }
+    
+    th,
+    td {
+      white-space: nowrap;
+
+      &:first-child {
+        margin-top: 0;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      text-align: left;
+      margin: 0;
+      padding: 6px 13px;
+    }
+
+    td {
+      border: 1px solid #cccccc;
+      text-align: left;
+      margin: 0;
+      padding: 6px 13px;
+    }
+  }
+}
+
+hr {
+  @include hr;
+}
+
+span[data-pullquote] {
+  display: block;
+  @include mobile {
+    display: none;
+  }
+}
+
+span[data-pullquote]:before {
+  content: attr(data-pullquote);
+  float: right;
+  width: 200px;
+  margin: 0 0 0.5em 30px;
+  padding: 0 -5% 0 0;
+  font-size: 1.3em;
+  font-style: italic;
+  color: green;
+  text-align: center;
+}
+
+a {
+  &:link,
+  &:visited {
+    text-decoration: none;
+    color: $color-link-default;
+  }
+
+  &:active,
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: $color-link-hover;
+  }
+
+  &:not(:has(img)) {
+    &[href^="http://"],
+    &[href^="https://"],
+    &[href^="ftp:"],
+    &[href^="sftp:"],
+    &[href^="mailto:"] {
+      &:before {
+        display: inline;
+        font-size: 0.85em;
+        content: url('/assets/external-link.svg');
+      }
+      /*
+      &[href^="http://"],
+      &[href^="https://"] {
+        &:before { 
+          content: url('/assets/external-link.svg');
+        }
+      }
+      &[href^="ftp:"],
+      &[href^="sftp:"] {
+        &:before { 
+          content: '📁';
+        }
+      }
+      &[href^="mailto:"] {
+        &:before { 
+          content: '✉️';
+        }
+      }
+      */
+    }
+  }
+}
+
+ol,
+ul {
+  margin: 15px 0;
+  padding-left: 30px;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ol ol,
+ol ul,
+ul ol,
+ul ul {
+  margin: 0;
+}
+
+ol ul,
+ul ul {
+  list-style-type: circle;
+}
+
+em,
+i {
+  font-style: italic;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+code,
+kbd,
+pre,
+xmp {
+  font-family: $font-code;
+}
+
+code,
+kbd {
+  padding: 0.1em;
+  border-radius: 0.2em;
+  font-size: 0.8em;
+}
+
+code {
+  background-color: $color-code-background;
+  color: $color-code-text;
+}
+
+kbd {
+  border: 1px solid $color-code-text;
+  color: $color-code-text;
+}
+
+pre,
+xmp {
+  background-color: $color-code-background;
+  color: $color-code-text;
+  padding: 1em;
+  border-radius: 0.2em;
+  overflow: auto;
+}
+
+pre {
+  white-space: nowrap;
+  word-wrap: normal;
+  word-break: keep-all;
+}
+
+xmp {
+  white-space: normal;
+  word-wrap: break-word;
+  word-break: keep-all;
+}
+
+img {
+  max-width: 100%;
+}
+
+p > img {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+button,
+input,
+option {
+  font-family: $font-form;
+}
+
+textarea {
+  font-family: $font-text;
+}
+// Fixes images in popup boxes from Google Translate
+
+.gmnoprint img {
+  max-width: none;
+}
+
+.date {
+  font-style: italic;
+  color: $color-meta-text;
+}
+// Specify the color of the selection
+
+::-moz-selection {
+  color: $color-selected-text;
+  background: $color-selected-background;
+}
+
+::selection {
+  color: $color-selected-text;
+  background: $color-selected-background;
+}
+// Nicolas Gallagher's micro clearfix hack
+// http://nicolasgallagher.com/micro-clearfix-hack/
+
+.clearfix:after,
+.clearfix:before {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}

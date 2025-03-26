@@ -1,0 +1,1 @@
+{% if post.banner %}<img class="banner" src="{{ post.banner }}" alt="{{ post.title | strip_html }}" />{% endif %}<span class="title">{% if post.title %}{{post.title}}{% if post.subtitle %}<span class="subtitle">{{ post.subtitle }}</span>{% endif %}{% else %}{{ post.excerpt | strip_html }}{% endif %}</span>

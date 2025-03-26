@@ -1,0 +1,66 @@
+/* @import url(https://use.typekit.net/xri2bkj.css); */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+/* @import url('//cdn.jsdelivr.net/gh/neodgm/neodgm-webfont@1.600/neodgm_code/style.css'); */
+
+// Font Families
+$font-sans-serif: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+$font-serif: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+/* $font-monospace: "NeoDunggeunmo Code", "Bitstream Vera Sans Mono", "Courier", monospace; */
+
+// Typography
+$font-title: $font-sans-serif;
+$font-menu: $font-sans-serif;
+$font-heading: $font-sans-serif;
+$font-text: $font-serif;
+$font-quote: $font-serif;
+$font-meta: $font-sans-serif;
+$font-form: $font-sans-serif;
+$font-code: $font-serif; // Mobile breakpoints
+
+// Markup Colors
+$color-link-default: #4183C4;
+$color-link-hover: #224499;
+$color-quote-background: #669;
+$color-quote-text: #669;
+$color-selected-background: #eee;
+$color-selected-text: #000;
+$color-code-background: #E0E0E0;
+$color-code-text: #222222;
+
+// Layout Colors
+$color-background: #fff;
+$color-title-text: #000;
+$color-title-text-hover: #333;
+$color-subtitle-text: #333;
+$color-subtitle-text-hover: #666;
+$color-nav-text: #666;
+$color-nav-text-hover: #333;
+$color-heading-text: #000;
+$color-meta-text: #999;
+$color-body-text: #333;
+$color-pagination-background: $color-background;
+$color-pagination-text: $color-link-default;
+$color-pagination-background-hover: $color-selected-background;
+$color-pagination-text-hover: $color-selected-text;
+
+// Contents
+$decoration-hr-color: #999999;
+
+@mixin hr {
+  display: block !important;
+  width: 30% !important;
+  min-width: 300px !important;
+  margin: 2.5em auto 2.5em 0 !important;
+  border-top: 1px solid $decoration-hr-color !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: none !important;
+  outline: none !important;
+}
+
+// Responsives
+@mixin mobile {
+  @media screen and (max-width: 640px) {
+    @content;
+  }
+}

@@ -1,5 +1,5 @@
-{% if post.banner %}<img class="banner" src="{{ post.banner }}" alt="{{ post.title | strip_html }}" />{% endif %}
-<span class="title"><!--
+<!--{% if post.banner %}--><img class="banner" src="{{ post.banner }}" alt="{{ post.title | strip_html }}" /><!--{% endif %}
+--><span class="title"><!--
 {% if post.title %}
 	{% if post.ruby %}--><ruby><!--{% endif %}
 	{% if post.abbr %}--><abbr title="{{ post.title | strip_html }}"><!--{% endif %}

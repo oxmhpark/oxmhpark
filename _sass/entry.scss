@@ -29,8 +29,13 @@
       /*
       color: $color-title-text;
       */
+
+      .title-wrap {
+        display: inline-block;
+      }
     
       .subtitle {
+        display: inline-block;
         /*
         color: $color-subtitle-text;
         */

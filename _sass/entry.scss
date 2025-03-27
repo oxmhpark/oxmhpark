@@ -26,19 +26,15 @@
     }
 
     .title {
-      /*
-      color: $color-title-text;
-      */
-
-      .title-wrap {
-        display: inline-block;
+      .title-wrap,
+      rt,
+      abbr,
+      .subtitle
+      {
+        color: inherit;
       }
     
       .subtitle {
-        display: inline-block;
-        /*
-        color: $color-subtitle-text;
-        */
         font-size: 0.4em;
         font-weight: normal;
     

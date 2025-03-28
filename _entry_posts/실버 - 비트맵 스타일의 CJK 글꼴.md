@@ -1,6 +1,7 @@
 ---
 published: true
-slug: "실버: 비트맵 스타일의 CJK 글꼴"
+title: "실버: 비트맵 스타일의 CJK 글꼴"
+slug: "실버-비트맵-스타일의-CJK-글꼴"
 date: 2025-02-21 00:00:00 +0900
 years:
   - 2025

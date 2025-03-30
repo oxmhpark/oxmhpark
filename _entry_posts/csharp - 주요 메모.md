@@ -1,7 +1,7 @@
 ---
 published: true
-slug: "csharp-주요-타입"
-title: "C#: 주요 타입"
+slug: "csharp-주요-메모"
+title: "C#: 주요 메모"
 date: 2025-03-30 13:19:47 +0900
 years:
   - 2025
@@ -10,9 +10,10 @@ categories:
 tags:
   - CSharp
   - 치트시트
-excerpt: 정수 | 실수 | 플래그 | 문자 | 날짜와 시간 | 기타
+excerpt: 정수·실수·플래그·문자·날짜와 시간·기타 타입·논리 And 연산자 &·논리 Or 연산자 |·논리 베타적 Or 연산자 ^·비트 보수 연산자 ~·논리 Shift 연산자 <<,>>·논리 연산자 우선순위
 ---
-# 정수
+# 주요 타입
+## 정수
 
 | 타입 이름 | 최소값 | 최대값 | 특징 |
 |---|---|---|---|
@@ -36,7 +37,7 @@ excerpt: 정수 | 실수 | 플래그 | 문자 | 날짜와 시간 | 기타
 [ref-ulong]: https://learn.microsoft.com/en-us/dotnet/api/system.uint64
 [ref-biginteger]: https://learn.microsoft.com/en-us/dotnet/api/system.numerics.biginteger
 
-# 실수
+## 실수
 
 | 타입 이름 | 최소값 | 최대값 | 특징 |
 |---|---|---|---|
@@ -48,7 +49,7 @@ excerpt: 정수 | 실수 | 플래그 | 문자 | 날짜와 시간 | 기타
 [ref-double]: https://learn.microsoft.com/en-us/dotnet/api/system.double
 [ref-decimal]: https://learn.microsoft.com/en-us/dotnet/api/system.decimal
 
-# 플래그
+## 플래그
 
 | 타입 이름 | 최소값 | 최대값 | 특징 |
 |---|---|---|---|
@@ -58,7 +59,7 @@ excerpt: 정수 | 실수 | 플래그 | 문자 | 날짜와 시간 | 기타
 [ref-bool]: https://learn.microsoft.com/en-us/dotnet/api/system.boolean
 [ref-enum]: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/enum
 
-# 문자
+## 문자
 
 | 타입 이름 | 값 | 특징 |
 |---|---|---|
@@ -68,7 +69,7 @@ excerpt: 정수 | 실수 | 플래그 | 문자 | 날짜와 시간 | 기타
 [ref-char]: https://learn.microsoft.com/en-us/dotnet/api/system.char
 [ref-string]: https://learn.microsoft.com/en-us/dotnet/api/system.string
 
-# 날짜와 시간
+## 날짜와 시간
 
 | 타입 이름 | 특징 |
 |---|---|
@@ -82,7 +83,7 @@ excerpt: 정수 | 실수 | 플래그 | 문자 | 날짜와 시간 | 기타
 [ref-dateonly]: https://learn.microsoft.com/en-us/dotnet/api/system.dateonly
 [ref-timeonly]: https://learn.microsoft.com/en-us/dotnet/api/system.timeonly
 
-# 기타
+## 기타
 
 | 타입 이름 | 특징 |
 |---|---|
@@ -94,3 +95,24 @@ excerpt: 정수 | 실수 | 플래그 | 문자 | 날짜와 시간 | 기타
 [ref-nint]: https://learn.microsoft.com/en-us/dotnet/api/system.nint
 [ref-nuint]: https://learn.microsoft.com/en-us/dotnet/api/system.nuint
 
+# 비트 연산자
+
+||| B5 | B4 | B3 | B2 | B1 | B0 | D |
+|---|---|---|---|---|---|---|---|---|
+|| `x` | 0 | 0 | 0 | 1 | 1 | 0 | 6 |
+|| `y` | 0 | 0 | 1 | 1 | 0 | 0 | 12 |
+| [논리 And 연산자 `&`][ref-and] | `x & y` | 0 | 0 | 0 | 1 | 0 | 0 | 4 |
+| [논리 Or 연산자 `|`][ref-or] | `x | y` | 0 | 0 | 1 | 1 | 1 | 0 | 14 |
+| [논리 베타적 Or 연산자 `^`][ref-xor] | `x ^ y` | 0 | 0 | 1 | 0 | 1 | 0 | 10 |
+| [비트 보수 연산자 `~`][ref-not] | `~x` | 1 | 1 | 1 | 0 | 0 | 1 | 9 |
+| [비트 Shift 연산자 `<<`][ref-shift-left] | `x << 1` | 0 | 0 | 1 | 1 | 0 | 0 | 12 |
+| [비트 Shift 연산자 `<<`][ref-shift-left] | `x << 2` | 0 | 1 | 1 | 0 | 0 | 0 | 24 |
+| [비트 Shift 연산자 `>>`][ref-shift-right] | `x >> 1` | 0 | 0 | 0 | 0 | 1 | 1 | 3 |
+| [비트 Shift 연산자 `>>`][ref-shift-right] | `x >> 2` | 0 | 0 | 0 | 0 | 0 | 1 | 1 |
+
+[ref-and]: https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/operators/bitwise-and-shift-operators#logical-and-operator-
+[ref-or]: https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/operators/bitwise-and-shift-operators#logical-or-operator-
+[ref-xor]: https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/operators/bitwise-and-shift-operators#logical-exclusive-or-operator-
+[ref-not]: https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/operators/bitwise-and-shift-operators#bitwise-complement-operator-
+[ref-shift-left]: https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/operators/bitwise-and-shift-operators#left-shift-operator-
+[ref-shift-right]: https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/operators/bitwise-and-shift-operators#right-shift-operator-

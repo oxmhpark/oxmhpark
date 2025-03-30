@@ -10,7 +10,7 @@ categories:
 tags:
   - CSharp
   - 치트시트
-excerpt: 정수·실수·플래그·문자·날짜와 시간·기타 타입·논리 AND 연산자 &·논리 OR 연산자 |·논리 베타적 OR 연산자 ^·비트 보수 연산자 ~·논리 이동 연산자 <<,>>·논리 연산자 우선순위
+excerpt: 정수·실수·플래그·문자·날짜와 시간·기타 타입·논리 AND 연산자 &·논리 OR 연산자 |·논리 베타적 OR 연산자 ^·비트 보수 연산자 ~·논리 이동 연산자 <<,>>·논리 및 비트 연산자 우선순위
 ---
 # 주요 타입
 ## 정수
@@ -117,7 +117,7 @@ excerpt: 정수·실수·플래그·문자·날짜와 시간·기타 타입·논
 [ref-이동-left]: https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/operators/bitwise-and-이동-operators#left-이동-operator-
 [ref-이동-right]: https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/operators/bitwise-and-이동-operators#right-이동-operator-
 
-## 논리 및 비트 이동 연산자 우선순위
+## 논리 및 비트 연산자 우선순위
 
 1. 비트 보수 연산자 `~`
 2. 시프트 연산자 `<<`, `>>`, `>>>`

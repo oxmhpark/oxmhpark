@@ -10,7 +10,7 @@ categories:
 tags:
   - CSharp
   - 치트시트
-excerpt: 정수·실수·플래그·문자·날짜와 시간·기타 타입·논리 AND 연산자 &·논리 OR 연산자 |·논리 베타적 OR 연산자 ^·비트 보수 연산자 ~·논리 이동 연산자 <<,>>·논리 및 비트 연산자 우선순위
+excerpt: 정수 / 실수 / 플래그 / 문자 / 날짜·시간 / 기타 타입 / 논리 AND 연산자 & / 논리 OR 연산자 | / 논리 베타적 OR 연산자 ^ / 비트 보수 연산자 ~ / 논리 이동 연산자 <<, >> / 논리 및 비트 연산자 우선순위
 ---
 # 주요 타입
 ## 정수
@@ -69,7 +69,7 @@ excerpt: 정수·실수·플래그·문자·날짜와 시간·기타 타입·논
 [ref-char]: https://learn.microsoft.com/en-us/dotnet/api/system.char
 [ref-string]: https://learn.microsoft.com/en-us/dotnet/api/system.string
 
-## 날짜와 시간
+## 날짜·시간
 
 | 타입 이름 | 특징 |
 |---|---|

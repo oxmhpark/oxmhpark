@@ -80,7 +80,7 @@ excerpt: 정수 | 실수 | 플래그 | 문자 | 날짜와 시간 | 기타
 [ref-dateonly]: https://learn.microsoft.com/en-us/dotnet/api/system.dateonly
 [ref-timeonly]: https://learn.microsoft.com/en-us/dotnet/api/system.timeonly
 
-## 기타
+# 기타
 
 | 타입 이름 | 특징 |
 |---|---|

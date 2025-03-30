@@ -20,7 +20,7 @@ tags:
 | `[uint][ref-uint]` | 0 | 0 | |
 | `[long][ref-long]` | 0 | 0 | |
 | `[ulong][ref-ulong]` | 0 | 0 | |
-| `[BigInteger][ref-biginteger]` | 0 | 0 | `System.Numerics` |
+| `[BigInteger][ref-biginteger]` | 0 | 0 | `System.Numerics` 이름공간에 정의됨. |
 
 [ref-byte]: https://learn.microsoft.com/en-us/dotnet/api/system.byte
 [ref-sbyte]: https://learn.microsoft.com/en-us/dotnet/api/system.sbyte

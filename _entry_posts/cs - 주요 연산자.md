@@ -1,7 +1,7 @@
 ---
 published: true
-slug: "cs-비트-연산"
-title: "C#: 비트 연산"
+slug: "cs-주요-연산자"
+title: "C#: 주요 연산자"
 date: 2025-03-30 20:19:47 +0900
 years:
   - 2025

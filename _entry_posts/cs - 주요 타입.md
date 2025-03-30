@@ -16,14 +16,14 @@ excerpt: 정수 | 실수 | 플래그 | 문자 | 날짜와 시간 | 기타
 
 | 타입 이름 | 최소값 | 최대값 | 특징 |
 |---|---|---|---|
-| [`byte`][ref-byte] | 0 | 255 | 부호 없는 8비트 정수 |
-| [`sbyte`][ref-sbyte] | -128 | 127 | 부호 있는 8비트 정수 |
-| [`short`][ref-short] | -32,768 | 32,767 | 부호 있는 16비트 정수 |
-| [`ushort`][ref-ushort] | 0 | 65,535 | 부호 없는 16비트 정수 |
-| [`int`][ref-int] | -2,147,483,648 | 2,147,483,647 | 부호 있는 32비트 정수 |
-| [`uint`][ref-uint] | 0 | 4,294,967,295 | 부호 없는 32비트 정수 |
-| [`long`][ref-long] | -9,223,372,036,854,775,808 | 9,223,372,036,854,775,807 | 부호 있는 64비트 정수 |
-| [`ulong`][ref-ulong] | 0 | 18,446,744,073,709,551,615 | 부호 없는 64비트 정수 |
+| [`byte`][ref-byte] | `0` | `255` | 부호 없는 8비트 정수 |
+| [`sbyte`][ref-sbyte] | `-128` | `127` | 부호 있는 8비트 정수 |
+| [`short`][ref-short] | `-32768` | `32767` | 부호 있는 16비트 정수 |
+| [`ushort`][ref-ushort] | `0` | `65535` | 부호 없는 16비트 정수 |
+| [`int`][ref-int] | `-2147483648` | `2147483647` | 부호 있는 32비트 정수 |
+| [`uint`][ref-uint] | `0` | `4294967295` | 부호 없는 32비트 정수 |
+| [`long`][ref-long] | `-9223372036854775808` | `9223372036854775807` | 부호 있는 64비트 정수 |
+| [`ulong`][ref-ulong] | `0` | `18446744073709551615` | 부호 없는 64비트 정수 |
 | [`BigInteger`][ref-biginteger] | - | - | 최소·최대값이 없는 큰 정수<br />`System.Numerics` 이름공간에 정의됨. |
 
 [ref-byte]: https://learn.microsoft.com/en-us/dotnet/api/system.byte
@@ -40,9 +40,9 @@ excerpt: 정수 | 실수 | 플래그 | 문자 | 날짜와 시간 | 기타
 
 | 타입 이름 | 최소값 | 최대값 | 특징 |
 |---|---|---|---|
-| [`float`][ref-float] | -3.4028235E+38 | 3.4028235E+38 | |
-| [`double`][ref-double] | -1.7976931348623157E+308 | 1.7976931348623157E+308 | |
-| [`decimal`][ref-decimal] | -79,228,162,514,264,337,593,543,950,335 | 79,228,162,514,264,337,593,543,950,335 | |
+| [`float`][ref-float] | `-3.4028235E+38` | `3.4028235E+38` | |
+| [`double`][ref-double] | `-1.7976931348623157E+308` | `1.7976931348623157E+308` | |
+| [`decimal`][ref-decimal] | `-79228162514264337593543950335` | `79228162514264337593543950335` | |
 
 [ref-float]: https://learn.microsoft.com/en-us/dotnet/api/system.single
 [ref-double]: https://learn.microsoft.com/en-us/dotnet/api/system.double
@@ -52,7 +52,7 @@ excerpt: 정수 | 실수 | 플래그 | 문자 | 날짜와 시간 | 기타
 
 | 타입 이름 | 최소값 | 최대값 | 특징 |
 |---|---|---|---|
-| [`bool`][ref-bool] | false | true | 논리값 |
+| [`bool`][ref-bool] | `false` | `true` | 논리값 |
 | [`enum`][ref-enum] | - | - | 구체적인 타입으로 상속받아야 한다. |
 
 [ref-bool]: https://learn.microsoft.com/en-us/dotnet/api/system.boolean
@@ -86,9 +86,9 @@ excerpt: 정수 | 실수 | 플래그 | 문자 | 날짜와 시간 | 기타
 
 | 타입 이름 | 특징 |
 |---|---|
-| [`Guid`][ref-guid] | 전역적으로 고유한 식별자 |
-| [`nint`][ref-nint] | 플랫폼 종속적인 정수형 (C# 9 이상) |
-| [`nuint`][ref-nuint] | 플랫폼 종속적인 부호 없는 정수형 (C# 9 이상) |
+| [`Guid`][ref-guid] | 전역적 고유 식별자 |
+| [`nint`][ref-nint] | 플랫폼 종속 정수형 (C# 9 이상) |
+| [`nuint`][ref-nuint] | 부호 없는 플랫폼 종속 정수형 (C# 9 이상) |
 
 [ref-guid]: https://learn.microsoft.com/en-us/dotnet/api/system.guid
 [ref-nint]: https://learn.microsoft.com/en-us/dotnet/api/system.nint

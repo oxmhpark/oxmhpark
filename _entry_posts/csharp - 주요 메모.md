@@ -10,7 +10,7 @@ categories:
 tags:
   - CSharp
   - 치트시트
-excerpt: 정수·실수·플래그·문자·날짜와 시간·기타 타입·논리 And 연산자 &·논리 Or 연산자 |·논리 베타적 Or 연산자 ^·비트 보수 연산자 ~·논리 Shift 연산자 <<,>>·논리 연산자 우선순위
+excerpt: 정수·실수·플래그·문자·날짜와 시간·기타 타입·논리 AND 연산자 &·논리 OR 연산자 |·논리 베타적 OR 연산자 ^·비트 보수 연산자 ~·논리 이동 연산자 <<,>>·논리 연산자 우선순위
 ---
 # 주요 타입
 ## 정수
@@ -101,18 +101,26 @@ excerpt: 정수·실수·플래그·문자·날짜와 시간·기타 타입·논
 |---|---|---|---|---|---|---|---|---|
 | 예제 변수 | `x` | 0 | 0 | 0 | 1 | 1 | 0 | 6 |
 | 예제 변수 | `y` | 0 | 0 | 1 | 1 | 0 | 0 | 12 |
-| [논리 And 연산자 `&`][ref-and] | `x & y` | 0 | 0 | 0 | 1 | 0 | 0 | 4 |
-| [논리 Or 연산자 `|`][ref-or] | `x | y` | 0 | 0 | 1 | 1 | 1 | 0 | 14 |
-| [논리 베타적 Or 연산자 `^`][ref-xor] | `x ^ y` | 0 | 0 | 1 | 0 | 1 | 0 | 10 |
+| [논리 AND 연산자 `&`][ref-and] | `x & y` | 0 | 0 | 0 | 1 | 0 | 0 | 4 |
+| [논리 OR 연산자 `|`][ref-or] | `x | y` | 0 | 0 | 1 | 1 | 1 | 0 | 14 |
+| [논리 베타적 OR 연산자 `^`][ref-xor] | `x ^ y` | 0 | 0 | 1 | 0 | 1 | 0 | 10 |
 | [비트 보수 연산자 `~`][ref-not] | `~x` | 1 | 1 | 1 | 0 | 0 | 1 | 9 |
-| [비트 Shift 연산자 `<<`][ref-shift-left] | `x << 1` | 0 | 0 | 1 | 1 | 0 | 0 | 12 |
-| [비트 Shift 연산자 `<<`][ref-shift-left] | `x << 2` | 0 | 1 | 1 | 0 | 0 | 0 | 24 |
-| [비트 Shift 연산자 `>>`][ref-shift-right] | `x >> 1` | 0 | 0 | 0 | 0 | 1 | 1 | 3 |
-| [비트 Shift 연산자 `>>`][ref-shift-right] | `x >> 2` | 0 | 0 | 0 | 0 | 0 | 1 | 1 |
+| [비트 이동 연산자 `<<`][ref-이동-left] | `x << 1` | 0 | 0 | 1 | 1 | 0 | 0 | 12 |
+| | `x << 2` | 0 | 1 | 1 | 0 | 0 | 0 | 24 |
+| [비트 이동 연산자 `>>`][ref-이동-right] | `x >> 1` | 0 | 0 | 0 | 0 | 1 | 1 | 3 |
+|  | `x >> 2` | 0 | 0 | 0 | 0 | 0 | 1 | 1 |
 
-[ref-and]: https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/operators/bitwise-and-shift-operators#logical-and-operator-
-[ref-or]: https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/operators/bitwise-and-shift-operators#logical-or-operator-
-[ref-xor]: https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/operators/bitwise-and-shift-operators#logical-exclusive-or-operator-
-[ref-not]: https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/operators/bitwise-and-shift-operators#bitwise-complement-operator-
-[ref-shift-left]: https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/operators/bitwise-and-shift-operators#left-shift-operator-
-[ref-shift-right]: https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/operators/bitwise-and-shift-operators#right-shift-operator-
+[ref-and]: https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/operators/bitwise-and-이동-operators#logical-and-operator-
+[ref-or]: https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/operators/bitwise-and-이동-operators#logical-or-operator-
+[ref-xor]: https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/operators/bitwise-and-이동-operators#logical-exclusive-or-operator-
+[ref-not]: https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/operators/bitwise-and-이동-operators#bitwise-complement-operator-
+[ref-이동-left]: https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/operators/bitwise-and-이동-operators#left-이동-operator-
+[ref-이동-right]: https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/operators/bitwise-and-이동-operators#right-이동-operator-
+
+## 논리 및 비트 이동 연산자 우선순위
+
+1. 비트 보수 연산자 `~`
+2. 시프트 연산자 `<<`, `>>`, `>>>`
+3. 논리 AND 연산자 `&`
+4. 논리 배타적 OR 연산자 `^`
+5. 논리 OR 연산자 `|`

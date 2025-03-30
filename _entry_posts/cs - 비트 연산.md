@@ -2,7 +2,7 @@
 published: true
 slug: "cs-비트-연산"
 title: "C#: 비트 연산"
-date: 2025-03-30 23:19:47 +0900
+date: 2025-03-30 20:19:47 +0900
 years:
   - 2025
 categories:

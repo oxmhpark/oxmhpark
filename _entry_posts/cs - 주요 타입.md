@@ -39,7 +39,7 @@ tags:
 | [`float`][ref-float] | 0 | 0 | |
 | [`double`][ref-double] | 0 | 0 | |
 
-[ref-float]: https://learn.microsoft.com/en-us/dotnet/api/system.float
+[ref-float]: https://learn.microsoft.com/en-us/dotnet/api/system.single
 [ref-double]: https://learn.microsoft.com/en-us/dotnet/api/system.double
 
 # 플래그
@@ -49,8 +49,8 @@ tags:
 | [`bool`][ref-bool] | false | true | |
 | [`enum`][ref-enum] | 0 | 0 | 구체적인 타입으로 상속받아야 한다. |
 
-[ref-bool]: https://learn.microsoft.com/en-us/dotnet/api/system.bool
-[ref-enum]: https://learn.microsoft.com/en-us/dotnet/api/system.enum
+[ref-bool]: https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/builtin-types/bool
+[ref-enum]: https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/builtin-types/enum
 
 # 문자
 

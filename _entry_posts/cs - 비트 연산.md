@@ -23,7 +23,7 @@ excerpt: And | Or | Xor | Not | Shift
 | Or | `x | y` | 0 | 0 | 1 | 1 | 1 | 0 | 14 |
 | Xor | `x ^ y` | 0 | 0 | 1 | 0 | 1 | 0 | 10 |
 
-[^1]: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/boolean-logical-operators
+[^1]: <https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/boolean-logical-operators>
 
 # 비트 및 시프트 연산[^2]
 
@@ -36,4 +36,4 @@ excerpt: And | Or | Xor | Not | Shift
 | Shift (R) | `x >> 1` | 0 | 0 | 0 | 0 | 1 | 1 | 3 |
 | Shift (R) | `x >> 2` | 0 | 0 | 0 | 0 | 0 | 1 | 1 |
 
-[^2]: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/bitwise-and-shift-operators
+[^2]: <https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/bitwise-and-shift-operators>

@@ -3,6 +3,8 @@ published: true
 slug: "cs-주요-타입"
 title: "C#: 주요 타입"
 date: 2025-03-30 13:19:47 +0900
+years:
+  - 2025
 categories:
   - 개발 노트
 tags:

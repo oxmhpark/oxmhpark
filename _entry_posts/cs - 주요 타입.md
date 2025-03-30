@@ -24,12 +24,12 @@ tags:
 
 [ref-byte]: https://learn.microsoft.com/en-us/dotnet/api/system.byte
 [ref-sbyte]: https://learn.microsoft.com/en-us/dotnet/api/system.sbyte
-[ref-short]: https://learn.microsoft.com/en-us/dotnet/api/system.short
-[ref-ushort]: https://learn.microsoft.com/en-us/dotnet/api/system.ushort
-[ref-int]: https://learn.microsoft.com/en-us/dotnet/api/system.int
-[ref-uint]: https://learn.microsoft.com/en-us/dotnet/api/system.uint
-[ref-long]: https://learn.microsoft.com/en-us/dotnet/api/system.long
-[ref-ulong]: https://learn.microsoft.com/en-us/dotnet/api/system.ulong
+[ref-short]: https://learn.microsoft.com/en-us/dotnet/api/system.int16
+[ref-ushort]: https://learn.microsoft.com/en-us/dotnet/api/system.uint16
+[ref-int]: https://learn.microsoft.com/en-us/dotnet/api/system.int32
+[ref-uint]: https://learn.microsoft.com/en-us/dotnet/api/system.uint32
+[ref-long]: https://learn.microsoft.com/en-us/dotnet/api/system.int64
+[ref-ulong]: https://learn.microsoft.com/en-us/dotnet/api/system.uint64
 [ref-biginteger]: https://learn.microsoft.com/en-us/dotnet/api/system.numerics.biginteger
 
 # 실수

@@ -12,15 +12,15 @@ tags:
 
 | 타입 이름 | 최소값 | 최대값 | 특징 |
 |---|---|---|---|
-| [`byte`][ref-byte] | 0 | 0 | |
-| [`sbyte`][ref-sbyte] | 0 | 0 | |
-| [`short`][ref-short] | 0 | 0 | |
-| [`ushort`][ref-ushort] | 0 | 0 | |
-| [`int`][ref-int] | 0 | 0 | |
-| [`uint`][ref-uint] | 0 | 0 | |
-| [`long`][ref-long] | 0 | 0 | |
-| [`ulong`][ref-ulong] | 0 | 0 | |
-| [`BigInteger`][ref-biginteger] | 0 | 0 | `System.Numerics` 이름공간에 정의됨. |
+| [`byte`][ref-byte] | 0 | 255 | 부호 없는 8비트 정수 |
+| [`sbyte`][ref-sbyte] | -128 | 127 | 부호 있는 8비트 정수 |
+| [`short`][ref-short] | -32,768 | 32,767 | 부호 있는 16비트 정수 |
+| [`ushort`][ref-ushort] | 0 | 65,535 | 부호 없는 16비트 정수 |
+| [`int`][ref-int] | -2,147,483,648 | 2,147,483,647 | 부호 있는 32비트 정수 |
+| [`uint`][ref-uint] | 0 | 4,294,967,295 | 부호 없는 32비트 정수 |
+| [`long`][ref-long] | -9,223,372,036,854,775,808 | 9,223,372,036,854,775,807 | 부호 있는 64비트 정수 |
+| [`ulong`][ref-ulong] | 0 | 18,446,744,073,709,551,615 | 부호 없는 64비트 정수 |
+| [`BigInteger`][ref-biginteger] | - | - | 최소·최대값이 없는 큰 정수<br />`System.Numerics` 이름공간에 정의됨. |
 
 [ref-byte]: https://learn.microsoft.com/en-us/dotnet/api/system.byte
 [ref-sbyte]: https://learn.microsoft.com/en-us/dotnet/api/system.sbyte
@@ -36,21 +36,23 @@ tags:
 
 | 타입 이름 | 최소값 | 최대값 | 특징 |
 |---|---|---|---|
-| [`float`][ref-float] | 0 | 0 | |
-| [`double`][ref-double] | 0 | 0 | |
+| [`float`][ref-float] | -3.4028235E+38 | 3.4028235E+38 | |
+| [`double`][ref-double] | -1.7976931348623157E+308 | 1.7976931348623157E+308 | |
+| [`decimal`][ref-decimal] | -79,228,162,514,264,337,593,543,950,335 | 79,228,162,514,264,337,593,543,950,335 | |
 
 [ref-float]: https://learn.microsoft.com/en-us/dotnet/api/system.single
 [ref-double]: https://learn.microsoft.com/en-us/dotnet/api/system.double
+[ref-decimal]: https://learn.microsoft.com/en-us/dotnet/api/system.decimal
 
 # 플래그
 
 | 타입 이름 | 최소값 | 최대값 | 특징 |
 |---|---|---|---|
-| [`bool`][ref-bool] | false | true | |
-| [`enum`][ref-enum] | 0 | 0 | 구체적인 타입으로 상속받아야 한다. |
+| [`bool`][ref-bool] | false | true | 논리값 |
+| [`enum`][ref-enum] | - | - | 구체적인 타입으로 상속받아야 한다. |
 
-[ref-bool]: https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/builtin-types/bool
-[ref-enum]: https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/builtin-types/enum
+[ref-bool]: https://learn.microsoft.com/en-us/dotnet/api/system.boolean
+[ref-enum]: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/enum
 
 # 문자
 
@@ -68,6 +70,23 @@ tags:
 |---|---|
 | [`DateTime`][ref-DateTime] |  |
 | [`TimeSpan`][ref-TimeSpan] |  |
+| [`DateOnly`][ref-dateonly] | 날짜만 표현 (C# 10 이상) |
+| [`TimeOnly`][ref-timeonly] | 시간만 표현 (C# 10 이상) |
 
 [ref-datetime]: https://learn.microsoft.com/en-us/dotnet/api/system.datetime
 [ref-timespan]: https://learn.microsoft.com/en-us/dotnet/api/system.timespan
+[ref-dateonly]: https://learn.microsoft.com/en-us/dotnet/api/system.dateonly
+[ref-timeonly]: https://learn.microsoft.com/en-us/dotnet/api/system.timeonly
+
+## 기타
+
+| 타입 이름 | 특징 |
+|---|---|
+| [`Guid`][ref-guid] | 전역적으로 고유한 식별자 |
+| [`nint`][ref-nint] | 플랫폼 종속적인 정수형 (C# 9 이상) |
+| [`nuint`][ref-nuint] | 플랫폼 종속적인 부호 없는 정수형 (C# 9 이상) |
+
+[ref-guid]: https://learn.microsoft.com/en-us/dotnet/api/system.guid
+[ref-nint]: https://learn.microsoft.com/en-us/dotnet/api/system.nint
+[ref-nuint]: https://learn.microsoft.com/en-us/dotnet/api/system.nuint
+

@@ -1,6 +1,6 @@
 ---
 published: false
-slug: "cs-연산자"
+slug: "csharp-연산자"
 title: "C#: 연산자"
 date: 2025-03-30 20:19:47 +0900
 years:

@@ -1,7 +1,7 @@
 ---
-published: false
-slug: "csharp-연산자"
-title: "C#: 연산자"
+published: true
+slug: "csharp-비트-연산자"
+title: "C#: 비트 연산자"
 date: 2025-03-30 20:19:47 +0900
 years:
   - 2025

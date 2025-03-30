@@ -12,15 +12,15 @@ tags:
 
 | 타입 이름 | 최소값 | 최대값 | 특징 |
 |---|---|---|---|
-| `[byte][ref-byte]` | 0 | 0 | |
-| `[sbyte][ref-sbyte]` | 0 | 0 | |
-| `[short][ref-short]` | 0 | 0 | |
-| `[ushort][ref-ushort]` | 0 | 0 | |
-| `[int][ref-int]` | 0 | 0 | |
-| `[uint][ref-uint]` | 0 | 0 | |
-| `[long][ref-long]` | 0 | 0 | |
-| `[ulong][ref-ulong]` | 0 | 0 | |
-| `[BigInteger][ref-biginteger]` | 0 | 0 | `System.Numerics` 이름공간에 정의됨. |
+| [`byte`][ref-byte] | 0 | 0 | |
+| [`sbyte`][ref-sbyte] | 0 | 0 | |
+| [`short`][ref-short] | 0 | 0 | |
+| [`ushort`][ref-ushort] | 0 | 0 | |
+| [`int`][ref-int] | 0 | 0 | |
+| [`uint`][ref-uint] | 0 | 0 | |
+| [`long`][ref-long] | 0 | 0 | |
+| [`ulong`][ref-ulong] | 0 | 0 | |
+| [`BigInteger`][ref-biginteger] | 0 | 0 | `System.Numerics` 이름공간에 정의됨. |
 
 [ref-byte]: https://learn.microsoft.com/en-us/dotnet/api/system.byte
 [ref-sbyte]: https://learn.microsoft.com/en-us/dotnet/api/system.sbyte
@@ -36,8 +36,8 @@ tags:
 
 | 타입 이름 | 최소값 | 최대값 | 특징 |
 |---|---|---|---|
-| `[float][ref-float]` | 0 | 0 | |
-| `[double][ref-double]` | 0 | 0 | |
+| [`float`][ref-float] | 0 | 0 | |
+| [`double`][ref-double] | 0 | 0 | |
 
 [ref-float]: https://learn.microsoft.com/en-us/dotnet/api/system.float
 [ref-double]: https://learn.microsoft.com/en-us/dotnet/api/system.double
@@ -46,8 +46,8 @@ tags:
 
 | 타입 이름 | 최소값 | 최대값 | 특징 |
 |---|---|---|---|
-| `[bool][ref-bool]` | false | true | |
-| `[enum][ref-enum]` | 0 | 0 | 구체적인 타입으로 상속받아야 한다. |
+| [`bool`][ref-bool] | false | true | |
+| [`enum`][ref-enum] | 0 | 0 | 구체적인 타입으로 상속받아야 한다. |
 
 [ref-bool]: https://learn.microsoft.com/en-us/dotnet/api/system.bool
 [ref-enum]: https://learn.microsoft.com/en-us/dotnet/api/system.enum
@@ -56,8 +56,8 @@ tags:
 
 | 타입 이름 | 값 | 특징 |
 |---|---|---|
-| `[char][ref-char]` | 문자 | 작은 따옴표로 감싼다. |
-| `[string][ref-string]` | 문자열 | 큰 따옴표로 감싼다. |
+| [`char`][ref-char] | 문자 | 작은 따옴표로 감싼다. |
+| [`string`][ref-string] | 문자열 | 큰 따옴표로 감싼다. |
 
 [ref-char]: https://learn.microsoft.com/en-us/dotnet/api/system.char
 [ref-string]: https://learn.microsoft.com/en-us/dotnet/api/system.string
@@ -66,8 +66,8 @@ tags:
 
 | 타입 이름 | 특징 |
 |---|---|
-| `[DateTime][ref-DateTime]` |  |
-| `[TimeSpan][ref-TimeSpan]` |  |
+| [`DateTime`][ref-DateTime] |  |
+| [`TimeSpan`][ref-TimeSpan] |  |
 
 [ref-datetime]: https://learn.microsoft.com/en-us/dotnet/api/system.datetime
 [ref-timespan]: https://learn.microsoft.com/en-us/dotnet/api/system.timespan

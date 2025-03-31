@@ -1,6 +1,6 @@
 .gsc-control-cse {
-  background-color: inherit;
-  border: none;
+  background-color: inherit !important;
+  border: none !important;
 
   .gsc-control-wrapper-cse {
     
@@ -10,7 +10,7 @@
       border: 0;
       margin: 0;
       padding: 0;
-      color: inherit;
+      color: inherit !important;
     }
   }
 }

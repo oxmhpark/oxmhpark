@@ -30,31 +30,30 @@ $font-code: $font-serif; // Mobile breakpoints
 
   // Layout Colors
   --color-background: #fff;
-
+  --color-nav-text: #666;
+  --color-nav-text-hover: #333;
+  
+  // Entry Colors  
   --color-title-text: #000;
   --color-title-text-hover: #333;
   --color-subtitle-text: #333;
   --color-subtitle-text-hover: #666;
-
-  --color-nav-text: #666;
-  --color-nav-text-hover: #333;
-
   --color-heading-text: #000;
   --color-meta-text: #999;
   --color-excerpt-text: #555;
   --color-body-text: #333;
 
+  // Content Colors
   --color-table-border: #CCCCCC;
   --color-table-header: #f8f8f8;
   --color-table-row-even: #f8f8f8; 
+  --decoration-hr-color: #999999;
 
+  // Component Colors
   --color-pagination-background: var(--color-background);
   --color-pagination-text: var(--color-link-default);
   --color-pagination-background-hover: var(--color-selected-background);
   --color-pagination-text-hover: var(--color-selected-text);
-
-  // Contents
-  --decoration-hr-color: #999999;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -71,31 +70,30 @@ $font-code: $font-serif; // Mobile breakpoints
 
     // Layout Colors
     --color-background: #000;
+    --color-nav-text: #666;
+    --color-nav-text-hover: #333;
 
+    // Entry Colors
     --color-title-text: #FFF;
     --color-title-text-hover: #CCC;
     --color-subtitle-text: #CCC;
     --color-subtitle-text-hover: #999;
-
-    --color-nav-text: #666;
-    --color-nav-text-hover: #333;
-
     --color-heading-text: #FFF;
     --color-meta-text: #666;
     --color-excerpt-text: #555;
     --color-body-text: #CCC;
 
+    // Content Colors
     --color-table-border: #333;
     --color-table-header: #111;
     --color-table-row-even: #111; 
+    --decoration-hr-color: #666;
 
+    // Component Colors
     --color-pagination-background: var(--color-background);
     --color-pagination-text: var(--color-link-default);
     --color-pagination-background-hover: var(--color-selected-background);
     --color-pagination-text-hover: var(--color-selected-text);
-
-    // Contents
-    --decoration-hr-color: #666;
   }
 }
 

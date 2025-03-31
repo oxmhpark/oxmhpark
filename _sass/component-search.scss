@@ -1,5 +1,6 @@
 .gsc-control-cse {
   background-color: inherit !important;
+  border: none !important;
 
   table,
   tr,
@@ -7,5 +8,12 @@
     border: none !important;
     margin: 0 !important;
     padding: 0 !important;
+  }
+
+  input[type="text"] {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
   }
 }

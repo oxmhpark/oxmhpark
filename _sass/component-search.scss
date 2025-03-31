@@ -4,6 +4,10 @@
   background-color: inherit !important;
   border: none !important;
 
+  * {
+    border: none !important;
+  }
+
   table,
   tr,
   td {
@@ -11,6 +15,12 @@
     border: none !important;
     margin: 0 !important;
     padding: 0 !important;
+  }
+
+  td.gsc-input,
+  td.gsc-search-button
+  {
+    border: 1px solid var(--color-body-text) !important;
   }
 
   input[type="text"],

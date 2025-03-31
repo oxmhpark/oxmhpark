@@ -14,12 +14,6 @@
     }
   }
 
-  .gsib_a
-  {
-    width: 50% !important;
-    min-width: 400px !important;
-  }
-
   .gsc-input,
   .gsc-search-button {
     display: block !important;
@@ -29,7 +23,8 @@
   }
 
   .gsc-input {
-    width: 100% !important;
+    width: 50% !important;
+    min-width: 400px !important;
     background-color: inherit !important;
     color: inherit !important;
   }

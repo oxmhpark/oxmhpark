@@ -23,13 +23,13 @@ $font-code: $font-serif; // Mobile breakpoints
   --color-link-hover: #224499;
   --color-quote-background: #669;
   --color-quote-text: #669;
-  --color-selected-background: #eee;
+  --color-selected-background: #EEE;
   --color-selected-text: #000;
   --color-code-background: #E0E0E0;
   --color-code-text: #222222;
 
   // Layout Colors
-  --color-background: #fff;
+  --color-background: #FFF;
   --color-nav-text: #333;
   --color-nav-text-hover: #666;
   
@@ -44,10 +44,10 @@ $font-code: $font-serif; // Mobile breakpoints
   --color-body-text: #333;
 
   // Content Colors
-  --color-table-border: #CCCCCC;
-  --color-table-header: #f8f8f8;
-  --color-table-row-even: #f8f8f8; 
-  --decoration-hr-color: #999999;
+  --color-table-border: #CCC;
+  --color-table-header: #F8F8F8;
+  --color-table-row-even: #F8F8F8; 
+  --decoration-hr-color: #999;
 
   // Component Colors
   --color-pagination-background: var(--color-background);
@@ -64,7 +64,7 @@ $font-code: $font-serif; // Mobile breakpoints
     --color-quote-background: #669;
     --color-quote-text: #669;
     --color-selected-background: #111;
-    --color-selected-text: #FFF;
+    --color-selected-text: #EEE;
     --color-code-background: #333;
     --color-code-text: #DDD;
 
@@ -74,7 +74,7 @@ $font-code: $font-serif; // Mobile breakpoints
     --color-nav-text-hover: #999;
 
     // Entry Colors
-    --color-title-text: #FFF;
+    --color-title-text: #EEE;
     --color-title-text-hover: #CCC;
     --color-subtitle-text: #CCC;
     --color-subtitle-text-hover: #999;

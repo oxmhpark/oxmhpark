@@ -8,10 +8,10 @@
       display: inline;
 
       a {
-        color: $color-meta-text;
+        color: var(--color-meta-text);
 
         &:hover {
-          color: $color-meta-text;
+          color: var(--color-meta-text);
         }
       }
     }

@@ -5,7 +5,7 @@
 	font-family: $font-title;
 	font-weight: normal;
 	font-size: 14px;
-	color: $color-title-text;
+	color: var(--color-title-text);
 
 	&:after,
 	&:before {
@@ -50,7 +50,7 @@
 				&:active,
 				&:hover {
 					text-decoration: underline;
-					color: $color-title-text-hover;
+					color: var(--color-title-text-hover);
 				}
 			}
 		}
@@ -69,7 +69,7 @@
 		font-weight: inherit;
 		/* font-family: $font-menu; */
 		/* text-transform: uppercase; */
-		/* color: $color-nav-text; */
+		/* color: var(--color-nav-text); */
 		color: inherit;
 
 		ul {
@@ -104,7 +104,7 @@
 					&:active,
 					&:hover {
 						text-decoration: underline;
-						color: $color-nav-text-hover;
+						color: var(--color-nav-text-hover);
 					}
 					
 					&.current {

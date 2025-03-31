@@ -4,9 +4,9 @@ html {
 }
 
 body {
-  background: #fff;
+  background: var(--color-background);
   font-family: $font-text;
-  color: $color-body-text;
+  color: var(--color-body-text);
   line-height: 1.7;
   font-weight: 400;
   font-size: 18px;
@@ -21,7 +21,7 @@ h4,
 h5,
 h6 {
   font-family: $font-heading;
-  color: $color-heading-text;
+  color: var(--color-heading-text);
   font-weight: bold;
   line-height: 1.7;
   margin: 1em 0 15px;
@@ -34,10 +34,6 @@ h6 {
 
 h1 {
   font-size: 30px;
-
-  a {
-    color: inherit;
-  }
 }
 
 h2 {
@@ -50,7 +46,6 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: #222;
 }
 
 p {
@@ -61,7 +56,7 @@ blockquote {
   position: relative;
   margin: 1.8em 0em;
   padding: 0 0 0 36px;
-  color: $color-quote-text;
+  color: var(--color-quote-text);
   font-family: $font-quote;
   font-style: italic;
 
@@ -77,8 +72,7 @@ blockquote {
     font-family: Georgia, serif;
     word-wrap: nowrap;
     overflow: show;
-    color: $color-quote-background;
-    pointer: default;
+    color: var(--color-quote-background);
   }
   
   a {
@@ -90,8 +84,8 @@ table {
   padding: 0;
 
   tr {
-    border-top: 1px solid #cccccc;
-    background-color: white;
+    border-top: 1px solid var(--color-table-border);
+    background-color: var(--color-background);
     margin: 0;
     padding: 0;
     
@@ -110,14 +104,14 @@ table {
 
     th {
       font-weight: bold;
-      border: 1px solid #cccccc;
+      border: 1px solid var(--color-table-border);
       text-align: left;
       margin: 0;
       padding: 6px 13px;
     }
 
     td {
-      border: 1px solid #cccccc;
+      border: 1px solid var(--color-table-border);
       text-align: left;
       margin: 0;
       padding: 6px 13px;
@@ -126,13 +120,13 @@ table {
 
   thead {
     tr {
-      background-color: #f8f8f8;
+      background-color: var(--color-table-header);
     }
   }
 
   tbody {
     tr:nth-child(2n) {
-      background-color: #f8f8f8;
+      background-color: var(--color-table-row-even);
     }
   }
 }
@@ -141,37 +135,18 @@ hr {
   @include hr;
 }
 
-span[data-pullquote] {
-  display: block;
-  @include mobile {
-    display: none;
-  }
-}
-
-span[data-pullquote]:before {
-  content: attr(data-pullquote);
-  float: right;
-  width: 200px;
-  margin: 0 0 0.5em 30px;
-  padding: 0 -5% 0 0;
-  font-size: 1.3em;
-  font-style: italic;
-  color: green;
-  text-align: center;
-}
-
 a {
   &:link,
   &:visited {
     text-decoration: none;
-    color: $color-link-default;
+    color: var(--color-link-default);
   }
 
   &:active,
   &:hover {
     cursor: pointer;
     text-decoration: underline;
-    color: $color-link-hover;
+    color: var(--color-link-hover);
   }
 
   &:not(:has(img)) {
@@ -259,19 +234,19 @@ kbd {
 }
 
 code {
-  background-color: $color-code-background;
-  color: $color-code-text;
+  background-color: var(--color-code-background);
+  color: var(--color-code-text);
 }
 
 kbd {
-  border: 1px solid $color-code-text;
-  color: $color-code-text;
+  border: 1px solid var(--color-code-text);
+  color: var(--color-code-text);
 }
 
 pre,
 xmp {
-  background-color: $color-code-background;
-  color: $color-code-text;
+  background-color: var(--color-code-background);
+  color: var(--color-code-text);
   padding: 1em;
   border-radius: 0.2em;
   overflow: auto;
@@ -321,18 +296,18 @@ textarea {
 
 .date {
   font-style: italic;
-  color: $color-meta-text;
+  color: var(--color-meta-text);
 }
 // Specify the color of the selection
 
 ::-moz-selection {
-  color: $color-selected-text;
-  background: $color-selected-background;
+  color: var(--color-selected-text);
+  background: var(--color-selected-background);
 }
 
 ::selection {
-  color: $color-selected-text;
-  background: $color-selected-background;
+  color: var(--color-selected-text);
+  background: var(--color-selected-background);
 }
 // Nicolas Gallagher's micro clearfix hack
 // http://nicolasgallagher.com/micro-clearfix-hack/

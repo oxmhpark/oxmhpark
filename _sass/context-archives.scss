@@ -33,8 +33,8 @@ body.body-archive {
     }
     & > .entry-body {
       padding-left: 1em;
-      border-left: 10px solid #E0E0E0;
-      color: #555;
+      border-left: 10px solid var(--color-code-background);
+      color: var(--color-excerpt-text);
     }
   }
 }

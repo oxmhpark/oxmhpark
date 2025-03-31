@@ -52,7 +52,7 @@
 
   .entry-meta {
     cursor: default;
-    color: #999;
+    color: var(--color-meta-text);
     font-size: 0.85em;
     font-family: $font-meta;
 

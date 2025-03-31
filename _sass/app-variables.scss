@@ -48,10 +48,10 @@ $font-code: $font-serif; // Mobile breakpoints
   --color-table-header: #f8f8f8;
   --color-table-row-even: #f8f8f8; 
 
-  --color-pagination-background: --color-background;
-  --color-pagination-text: --color-link-default;
-  --color-pagination-background-hover: --color-selected-background;
-  --color-pagination-text-hover: --color-selected-text;
+  --color-pagination-background: var(--color-background);
+  --color-pagination-text: var(--color-link-default);
+  --color-pagination-background-hover: var(--color-selected-background);
+  --color-pagination-text-hover: var(--color-selected-text);
 
   // Contents
   --decoration-hr-color: #999999;
@@ -64,37 +64,38 @@ $font-code: $font-serif; // Mobile breakpoints
     --color-link-hover: #224499;
     --color-quote-background: #669;
     --color-quote-text: #669;
-    --color-selected-background: #eee;
-    --color-selected-text: #000;
-    --color-code-background: #E0E0E0;
+    --color-selected-background: #111;
+    --color-selected-text: #FFF;
+    --color-code-background: #333;
     --color-code-text: #222222;
-  
-    // Layout Colors
-    --color-background: #fff;
 
-    --color-title-text: #000;
-    --color-title-text-hover: #333;
-    --color-subtitle-text: #333;
-    --color-subtitle-text-hover: #666;
+    // Layout Colors
+    --color-background: #000;
+
+    --color-title-text: #FFF;
+    --color-title-text-hover: #CCC;
+    --color-subtitle-text: #CCC;
+    --color-subtitle-text-hover: #999;
 
     --color-nav-text: #666;
     --color-nav-text-hover: #333;
 
-    --color-heading-text: #000;
-    --color-meta-text: #999;
-    --color-body-text: #333;
+    --color-heading-text: #FFF;
+    --color-meta-text: #666;
+    --color-excerpt-text: #555;
+    --color-body-text: #CCC;
 
-    --color-table-border: #CCCCCC;
-    --color-table-header: #CCCCCC;
-    --color-table-row-even: #CCCCCC; 
+    --color-table-border: #333;
+    --color-table-header: #111;
+    --color-table-row-even: #111; 
 
-    --color-pagination-background: --color-background;
-    --color-pagination-text: --color-link-default;
-    --color-pagination-background-hover: --color-selected-background;
-    --color-pagination-text-hover: --color-selected-text;
-  
+    --color-pagination-background: var(--color-background);
+    --color-pagination-text: var(--color-link-default);
+    --color-pagination-background-hover: var(--color-selected-background);
+    --color-pagination-text-hover: var(--color-selected-text);
+
     // Contents
-    --decoration-hr-color: #999999;
+    --decoration-hr-color: #666;
   }
 }
 

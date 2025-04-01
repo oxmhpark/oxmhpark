@@ -2,7 +2,6 @@
 title: "Lorem Ipsum"
 slug: "lorem-ipsum"
 ---
-
 Lorem Ipsum 로렘 입숨은 출판 업계에서 디자인 영역을 채워넣는데 쓰이는 가짜 문장으로, 키케로의 최고 선악론(De finibus bonorum et malorum) 1권 32-33문단을 재구성한 것이라고 알려져 있다. 로렘 입숨의 기본 형태는 다음과 같다:
 
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

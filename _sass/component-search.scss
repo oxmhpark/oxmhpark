@@ -1,8 +1,5 @@
 .gsc-control-cse {
-  background-color: inherit !important;
-  border: none !important;
-  padding: 0 !important;
-
+  &,
   * {
     box-sizing: border-box !important;
     width: auto !important;
@@ -30,7 +27,7 @@
   td.gsc-input {
     width: 600px !important;
 
-    @mixin mobile {
+    @include mobile {
       width: 400px !important;
     }
   }
@@ -38,7 +35,7 @@
   td.gsc-search-button {
     width: 150px !important;
 
-    @mixin mobile {
+    @include mobile {
       width: 120px !important;
     }
   }

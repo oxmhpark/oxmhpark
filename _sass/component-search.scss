@@ -4,13 +4,8 @@
   padding: 0 !important;
 
   * {
-    border: none !important;
-  }
-
-  table,
-  tr,
-  td {
-    min-height: 35px !important;
+    width: auto !important;
+    height: auto !important;
     border: none !important;
     margin: 0 !important;
     padding: 0 !important;
@@ -19,23 +14,34 @@
   td.gsc-input,
   td.gsc-search-button
   {
+    height: 35px !important;
     border: 1px solid var(--color-body-text) !important;
   }
 
   td.gsc-input {
-    min-width: 600px;
+    width: 600px !important;
+
+    @mixin mobile {
+      width: 400px !important;
+    }
   }
 
   td.gsc-search-button {
-    min-width: 150px;
+    width: 150px !important;
+
+    @mixin mobile {
+      width: 120px !important;
+    }
   }
 
   input[type="text"],
   button {
+    box-sizing: border-box;
     display: block !important;
     width: 100% !important;
     height: 100% !important;
     margin: 0 !important;
+    padding: 0 !important;
   }
 
   input[type="text"] {

@@ -12,62 +12,64 @@
     padding: 0 !important;
   }
 
-  td.gsib_a {
-    width: 100% !important;
-  }
-
-  td.gsib_b {
-    display: none !important;
-  }
-
-  td.gsc-input,
-  td.gsc-search-button {
-    height: 35px !important;
-    border: 1px solid var(--color-body-text) !important;
-
-    * {
+  form {
+    td.gsib_a {
+      width: 100% !important;
+    }
+  
+    td.gsib_b {
+      display: none !important;
+    }
+  
+    td.gsc-input,
+    td.gsc-search-button {
+      height: 35px !important;
+      border: 1px solid var(--color-body-text) !important;
+  
+      * {
+        width: 100% !important;
+        height: 100% !important;
+      }
+    }
+  
+    td.gsc-clear-button {
+      display: none !important;
+    }
+  
+    td.gsc-input {
+      width: 600px !important;
+  
+      @include mobile {
+        width: 400px !important;
+      }
+    }
+  
+    td.gsc-search-button {
+      width: 150px !important;
+  
+      @include mobile {
+        width: 120px !important;
+      }
+  
+      svg {
+        width: 13px !important;
+        height: 13px !important;
+      }
+    }
+  
+    input[type="text"],
+    button {
+      display: block !important;
       width: 100% !important;
       height: 100% !important;
+      margin: 0 !important;
+      padding: 0 !important;
     }
-  }
-
-  td.gsc-clear-button {
-    display: none !important;
-  }
-
-  td.gsc-input {
-    width: 600px !important;
-
-    @include mobile {
-      width: 400px !important;
-    }
-  }
-
-  td.gsc-search-button {
-    width: 150px !important;
-
-    @include mobile {
-      width: 120px !important;
-    }
-
-    svg {
-      width: 13px !important;
-      height: 13px !important;
-    }
-  }
-
-  input[type="text"],
-  button {
-    display: block !important;
-    width: 100% !important;
-    height: 100% !important;
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-
-  input[type="text"] {
-    background: none !important;
-    padding: 0.2em !important;
-    color: var(--color-body-text) !important;
+  
+    input[type="text"] {
+      background: none !important;
+      padding: 0.2em !important;
+      color: var(--color-body-text) !important;
+    }  
   }
 }

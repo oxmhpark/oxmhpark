@@ -18,10 +18,13 @@
   }
 
   td.gsc-input,
-  td.gsc-search-button
-  {
+  td.gsc-search-button {
     height: 35px !important;
     border: 1px solid var(--color-body-text) !important;
+  }
+  
+  td.gsc-clear-button {
+    display: none !important;
   }
 
   td.gsc-input {

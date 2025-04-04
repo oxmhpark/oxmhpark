@@ -239,6 +239,7 @@ code {
 }
 
 kbd {
+  min-width: 1em;
   border: 1px solid var(--color-code-text);
   color: var(--color-code-text);
 }

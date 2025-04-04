@@ -241,7 +241,9 @@ code {
 kbd {
   min-width: 1em;
   border: 1px solid var(--color-code-text);
+  border-bottom-width: 3px;
   color: var(--color-code-text);
+  font-size: smaller;
 }
 
 pre,

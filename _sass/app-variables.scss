@@ -4,8 +4,8 @@
 
 // Font Families
 $font-sans-serif: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-$font-serif: monospace;
-/* $font-monospace: "NeoDunggeunmo Code", "Bitstream Vera Sans Mono", "Courier", monospace; */
+$font-serif: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+$font-monospace: "NeoDunggeunmo Code", "Bitstream Vera Sans Mono", "Courier", monospace;
 
 // Typography
 $font-title: $font-sans-serif;
@@ -15,7 +15,7 @@ $font-text: $font-serif;
 $font-quote: $font-serif;
 $font-meta: $font-sans-serif;
 $font-form: $font-sans-serif;
-$font-code: $font-serif; // Mobile breakpoints
+$font-code: $font-monospace;
 
 :root {
   // Markup Colors

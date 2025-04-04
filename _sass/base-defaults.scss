@@ -239,11 +239,16 @@ code {
 }
 
 kbd {
+  display: inline-block;
+  box-sizing: border-box;
   min-width: 1em;
+  height: 1.6em;
   border: 1px solid var(--color-code-text);
   border-bottom-width: 3px;
+  padding: 0.15em;
   color: var(--color-code-text);
-  font-size: smaller;
+  font-size: 0.6em;
+  line-height: 100%;
 }
 
 pre,

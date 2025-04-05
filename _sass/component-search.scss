@@ -117,16 +117,19 @@ table.gsc-above-wrapper-area-container {
 
       .gsc-option-menu-container {
         .gsc-selected-option-container {
+          background-color: var(--color-background) !important;
+
           .gsc-selected-option {
             color: var(--color-body-text) !important;
           }
 
           .gsc-option-selector {
-            display: none !important;
           }
         }
 
         .gsc-option-menu {
+          background-color: var(--color-background) !important;
+
           .gsc-option-menu-item {
             .gsc-option {
               color: var(--color-body-text) !important;

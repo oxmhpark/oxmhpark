@@ -107,25 +107,38 @@ table.gsc-above-wrapper-area-container {
     }
   }
 
-  .gsc-result-info {
-    color: var(--color-body-text) !important;
+  .gsc-result-info-container {
+    .gsc-result-info {
+      color: var(--color-body-text) !important;
+    }  
   }
 
-  .gsc-orderby-label {
-    color: var(--color-body-text) !important;
-  }
+  .gsc-orderby-container {
+    .gsc-orderby {
+      .gsc-orderby-label {
+        color: var(--color-body-text) !important;
+      }
 
-  .gsc-option-menu-container {
-    padding-right: 2em !important;
+      .gsc-option-menu-container {
+        .gsc-selected-option-container {
+          .gsc-selected-option {
+            padding-right: 2em !important;
+            color: var(--color-body-text) !important;
+          }
 
-    * {
-      color: var(--color-meta-text) !important;
+          .gsc-option-selector {
+
+          }
+        }
+
+        .gsc-option-menu {
+          .gsc-option-menu-item {
+            .gsc-option {
+
+            }            
+          }
+        }
+      }
     }
-  }
-}
-
-.gsc-wrapper {  
-  a:before {
-    display: none !important;
   }
 }

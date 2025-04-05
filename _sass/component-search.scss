@@ -85,7 +85,8 @@ form.gsc-search-box {
 }
 
 .gsc-tabsArea {
-  margin-top: 1em !important;
+  margin-top: 2em !important;
+  border: 0 none !important;
 
   .gsc-tabhActive {
     color: var(--color-body-text) !important;
@@ -103,6 +104,7 @@ table.gsc-above-wrapper-area-container {
 
   .gsc-result-info-container {
     .gsc-result-info {
+      padding: 0 m !important;
       color: var(--color-body-text) !important;
     }  
   }

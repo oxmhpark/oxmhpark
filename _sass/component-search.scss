@@ -108,16 +108,18 @@ table.gsc-above-wrapper-area-container {
   }
 
   .gsc-result-info {
-    color: var(--color-body-text);
+    color: var(--color-body-text) !important;
   }
 
   .gsc-orderby-label {
-    color: var(--color-body-text);
+    color: var(--color-body-text) !important;
   }
 
   .gsc-option-menu-container {
+    padding-right: 2em !important;
+
     * {
-      color: var(--color-meta-text);
+      color: var(--color-meta-text) !important;
     }
   }
 }

@@ -103,17 +103,21 @@ table.gsc-above-wrapper-area-container {
     background-color: var(--color-background-alt) !important;
 
     td {
-      padding: 0.5em !important;
+      padding: 0 !important;
     }
   }
 
   .gsc-result-info-container {
+    margin: 0.5em !important;
+
     .gsc-result-info {
       color: var(--color-body-text) !important;
     }  
   }
 
   .gsc-orderby-container {
+    margin: 0.5em !important;
+
     .gsc-orderby {
       .gsc-orderby-label {
         margin-right: 1em !important;

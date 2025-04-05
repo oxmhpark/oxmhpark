@@ -131,6 +131,11 @@ table.gsc-above-wrapper-area-container {
           background-color: var(--color-background) !important;
 
           .gsc-option-menu-item {
+
+            &.gsc-option-menu-item-highlighted {
+              background-color: inherit !important;
+            }
+
             .gsc-option {
               color: var(--color-body-text) !important;
             }            

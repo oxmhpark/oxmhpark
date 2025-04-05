@@ -151,8 +151,20 @@ table.gsc-above-wrapper-area-container {
   background-color: inherit !important;
 
   .gsc-result {
-    a:before {
-      display: none !important;
+    border: 0 none !important;
+
+    a {
+      color: var(--color-link-text) !important;
+
+      &:before {
+        display: none !important;
+      }
     }
+
+    .gs-visibleUrl {
+      color: var(--color-meta-text) !important;
+    }
+
+
   }
 }

@@ -9,6 +9,10 @@
   }
 }
 
+.gsc-adBlockNoHeight {
+  display: none !important;
+}
+
 form.gsc-search-box {
   display: block !important;
 
@@ -82,14 +86,34 @@ form.gsc-search-box {
   }  
 }
 
-.gsc-above-wrapper-area {
+.gsc-tabsArea {
+  margin-top: 1em;
 
-}
-
-.gsc-adBlockNoHeight {
-  display: none !important;
-}
-
-.gsc-gsc-wrapper {
+  .gsc-tabActive {
+    color: var(--color-body-text);
+  }
   
+  .gsc-tabInactive {
+    color: var(--color-meta-text);  
+  }
+}
+
+table.gsc-above-wrapper-area-container {
+  tr {
+    background-color: var(--color-background-alt);
+  }
+
+  td.gsc-result-info-container {
+    color: var(--color-meta-text);
+  }
+
+  td.gsc-orderby-container {
+    color: var(--color-meta-text);
+  }
+}
+
+.gsc-wrapper {  
+  a:before {
+    display: none !important;
+  }
 }

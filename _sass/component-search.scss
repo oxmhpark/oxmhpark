@@ -87,14 +87,14 @@ form.gsc-search-box {
 }
 
 .gsc-tabsArea {
-  margin-top: 1em;
+  margin-top: 1em !important;
 
   .gsc-tabActive {
-    color: var(--color-body-text);
+    color: var(--color-body-text) !important;
   }
   
   .gsc-tabInactive {
-    color: var(--color-meta-text);  
+    color: var(--color-meta-text) !important;
   }
 }
 

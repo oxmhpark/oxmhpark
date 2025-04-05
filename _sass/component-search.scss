@@ -4,6 +4,12 @@
   &,
   * {
     background-color: inherit !important;
+  }
+}
+
+form.gsc-search-box {
+  &,
+  * {
     box-sizing: border-box !important;
     width: auto !important;
     height: auto !important;
@@ -11,9 +17,7 @@
     margin: 0 !important;
     padding: 0 !important;
   }
-}
 
-form.gsc-search-box {
   td.gsib_a {
     width: 100% !important;
   }
@@ -72,4 +76,16 @@ form.gsc-search-box {
     padding: 0.2em !important;
     color: var(--color-body-text) !important;
   }  
+}
+
+.gsc-above-wrapper-area {
+
+}
+
+.gsc-adBlockNoHeight {
+  display: none !important;
+}
+
+.gsc-gsc-wrapper {
+  
 }

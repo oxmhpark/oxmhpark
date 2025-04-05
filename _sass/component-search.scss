@@ -102,51 +102,53 @@ form.gsc-search-box {
   }
 }
 
-table.gsc-above-wrapper-area-container {
+.gsc-above-wrapper-area {
   border: 0 none !important;
 
-  tr {
-    background-color: var(--color-background-alt) !important;
-  }
-
-  .gsc-result-info-container {
-    .gsc-result-info {
-      padding: 0 !important;
-      color: var(--color-body-text) !important;
-    }  
-  }
-
-  .gsc-orderby-container {
-    .gsc-orderby {
-      .gsc-orderby-label {
+  table.gsc-above-wrapper-area-container {
+    tr {
+      background-color: var(--color-background-alt) !important;
+    }
+  
+    .gsc-result-info-container {
+      .gsc-result-info {
+        padding: 0 !important;
         color: var(--color-body-text) !important;
-      }
-
-      .gsc-option-menu-container {
-        .gsc-selected-option-container {
-          background-color: var(--color-background) !important;
-
-          .gsc-selected-option {
-            color: var(--color-body-text) !important;
-          }
-
-          .gsc-option-selector {
-          }
+      }  
+    }
+  
+    .gsc-orderby-container {
+      .gsc-orderby {
+        .gsc-orderby-label {
+          color: var(--color-body-text) !important;
         }
-
-        .gsc-option-menu {
-          background-color: var(--color-background) !important;
-          border: 1px solid var(--color-background-alt) !important;
-
-          .gsc-option-menu-item {
-
-            &.gsc-option-menu-item-highlighted {
-              background-color: inherit !important;
-            }
-
-            .gsc-option {
+  
+        .gsc-option-menu-container {
+          .gsc-selected-option-container {
+            background-color: var(--color-background) !important;
+  
+            .gsc-selected-option {
               color: var(--color-body-text) !important;
-            }            
+            }
+  
+            .gsc-option-selector {
+            }
+          }
+  
+          .gsc-option-menu {
+            background-color: var(--color-background) !important;
+            border: 1px solid var(--color-background-alt) !important;
+  
+            .gsc-option-menu-item {
+  
+              &.gsc-option-menu-item-highlighted {
+                background-color: inherit !important;
+              }
+  
+              .gsc-option {
+                color: var(--color-body-text) !important;
+              }            
+            }
           }
         }
       }

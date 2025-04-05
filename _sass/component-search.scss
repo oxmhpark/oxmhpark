@@ -86,14 +86,14 @@ form.gsc-search-box {
   }  
 }
 
-div.gsc-tabsArea {
+.gsc-tabsArea {
   margin-top: 1em !important;
 
-  div.gsc-tabActive {
+  .gsc-tabhActive {
     color: var(--color-body-text) !important;
   }
   
-  div.gsc-tabInactive {
+  .gsc-tabhInactive {
     color: var(--color-meta-text) !important;
   }
 }

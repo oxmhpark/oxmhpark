@@ -103,12 +103,18 @@ table.gsc-above-wrapper-area-container {
     background-color: var(--color-background-alt);
   }
 
-  td.gsc-result-info-container {
+  .gsc-result-info {
     color: var(--color-meta-text);
   }
 
-  td.gsc-orderby-container {
+  .gsc-orderby-label {
     color: var(--color-meta-text);
+  }
+
+  .gsc-option-menu-container {
+    * {
+      color: var(--color-meta-text);
+    }
   }
 }
 

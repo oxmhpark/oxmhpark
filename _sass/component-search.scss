@@ -153,6 +153,10 @@ table.gsc-above-wrapper-area-container {
   .gsc-result {
     border: 0 none !important;
 
+    b {
+      color: inherit !important;
+    }
+
     a {
       color: var(--color-link-default) !important;
 

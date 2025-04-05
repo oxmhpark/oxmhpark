@@ -72,4 +72,20 @@
       color: var(--color-body-text) !important;
     }  
   }
+
+  .gsc-modal-background-image {
+    opacity: 0.2;
+  }
+
+  .gsc-results-wrapper-overlay {
+    background-color: var(--color-background-alt);
+
+    * {
+      background-color: inherit;
+    }
+
+    .gsc-orderby-label {
+      color: var(--color-body-text);
+    }
+  }
 }

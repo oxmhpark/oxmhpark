@@ -160,7 +160,6 @@ form.gsc-search-box {
   margin: 2em 0 0 0 !important;
   background-color: inherit !important;
 
-  .gs-no-results-result,
   .gsc-result {
     background-color: inherit !important;
     border: 0 none !important;
@@ -186,6 +185,8 @@ form.gsc-search-box {
     }
 
     .gs-snippet {
+      background-color: inherit !important;
+      border: 0 none !important;
       color: var(--color-body-text) !important;
     }
   }

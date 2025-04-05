@@ -122,19 +122,20 @@ table.gsc-above-wrapper-area-container {
       .gsc-option-menu-container {
         .gsc-selected-option-container {
           .gsc-selected-option {
-            padding-right: 2em !important;
             color: var(--color-body-text) !important;
           }
 
           .gsc-option-selector {
-
+            display: inline-block !important;
+            margin-left: 1em !important;
+            position: relative !important;
           }
         }
 
         .gsc-option-menu {
           .gsc-option-menu-item {
             .gsc-option {
-
+              color: var(--color-body-text) !important;
             }            
           }
         }

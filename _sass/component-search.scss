@@ -100,15 +100,19 @@ form.gsc-search-box {
 
 table.gsc-above-wrapper-area-container {
   tr {
-    background-color: var(--color-background-alt);
+    background-color: var(--color-background-alt) !important;
+
+    td {
+      padding: 0.5em !important;
+    }
   }
 
   .gsc-result-info {
-    color: var(--color-meta-text);
+    color: var(--color-body-text);
   }
 
   .gsc-orderby-label {
-    color: var(--color-meta-text);
+    color: var(--color-body-text);
   }
 
   .gsc-option-menu-container {

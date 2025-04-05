@@ -145,4 +145,14 @@ table.gsc-above-wrapper-area-container {
       }
     }
   }
+
+  .gsc-results {
+    background-color: inherit !important;
+
+    .gsc-result {
+      a:before {
+        display: none !important;
+      }
+    }
+  }
 }
